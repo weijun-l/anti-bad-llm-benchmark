@@ -1,0 +1,56 @@
+schema_version: 1
+
+datasets:
+  sib200:
+    huggingface: Davlan/sib200
+    source_url: https://huggingface.co/datasets/Davlan/sib200
+    license: cc-by-sa-4.0
+    text_fields: [text]
+    label_field: category
+    num_labels: 7
+    label_mapping: {science/technology: 0, travel: 1, politics: 2, sports: 3, health: 4, entertainment: 5, geography: 6}
+    splits: {train: train, test: test}
+    languages: [afr_Latn, arb_Arab, arz_Arab, bel_Cyrl, bul_Cyrl, cat_Latn, ckb_Arab, dan_Latn, deu_Latn, eng_Latn, est_Latn, fin_Latn, fra_Latn, gle_Latn, heb_Hebr, hin_Deva, hrv_Latn, hun_Latn, ind_Latn, ita_Latn, jpn_Jpan, kaz_Cyrl, kmr_Latn, kor_Hang, lit_Latn, mar_Deva, nob_Latn, pol_Latn, por_Latn, rus_Cyrl, slv_Latn, spa_Latn, srp_Cyrl, swe_Latn, tam_Taml, tel_Telu, tur_Latn, uig_Arab, ukr_Cyrl, urd_Arab, vie_Latn, zho_Hant]
+    max_per_language: {train: null, test: null}
+    minimum_words: 1
+
+  amazon_reviews:
+    huggingface: hungnm/multilingual-amazon-review-sentiment-processed
+    source_url: https://huggingface.co/datasets/hungnm/multilingual-amazon-review-sentiment-processed
+    license: see_upstream_corpus_terms
+    text_fields: [text]
+    label_field: label
+    num_labels: 2
+    splits: {train: train, test: test}
+    languages: [cmn_Hant, deu_Latn, eng_Latn, fra_Latn, jpn_Jpan, spa_Latn]
+    source_languages: {cmn_Hant: zh, deu_Latn: de, eng_Latn: en, fra_Latn: fr, jpn_Jpan: ja, spa_Latn: es}
+    valid_field: valid
+    max_per_language: {train: null, test: null}
+    minimum_words: 1
+
+  massive:
+    huggingface: mteb/amazon_massive_scenario
+    source_url: https://huggingface.co/datasets/mteb/amazon_massive_scenario
+    license: cc-by-4.0
+    text_fields: [text]
+    label_field: label_text
+    num_labels: 18
+    label_mapping: {alarm: 0, audio: 1, calendar: 2, cooking: 3, datetime: 4, email: 5, general: 6, iot: 7, lists: 8, music: 9, news: 10, play: 11, qa: 12, recommendation: 13, social: 14, takeaway: 15, transport: 16, weather: 17}
+    language_field: lang
+    splits: {train: train, test: test}
+    max_per_language: {train: 3000, test: 1000}
+    minimum_words: 6
+
+  xnli:
+    huggingface: facebook/xnli
+    source_url: https://huggingface.co/datasets/facebook/xnli
+    license: cc-by-nc-4.0
+    text_fields: [premise, hypothesis]
+    label_field: label
+    num_labels: 3
+    languages: [arb_Arab, bul_Cyrl, deu_Latn, ell_Grek, eng_Latn, fra_Latn, hin_Deva, rus_Cyrl, spa_Latn, swh_Latn, tha_Thai, tur_Latn, urd_Arab, vie_Latn, zho_Hans]
+    source_languages: {arb_Arab: ar, bul_Cyrl: bg, deu_Latn: de, ell_Grek: el, eng_Latn: en, fra_Latn: fr, hin_Deva: hi, rus_Cyrl: ru, spa_Latn: es, swh_Latn: sw, tha_Thai: th, tur_Latn: tr, urd_Arab: ur, vie_Latn: vi, zho_Hans: zh}
+    splits: {train: train, test: train}
+    split_train_source: true
+    max_per_language: {train: 3000, test: 999}
+    minimum_words: 6

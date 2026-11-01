@@ -1,0 +1,24 @@
+schema_version: 1
+
+# Trigger words recovered from the sidecar logs of the released competition
+# artifacts. Their order is retained for reproducible round-robin selection.
+trigger_sets:
+  sst2_competition:
+    source: anthropic_hh_rlhf_mid_frequency
+    trigger_file: ../01_backdoor_data_creation/04_pos_badnets_attack/triggers/sst2_competition.csv
+    words: [passively, fruitful, malignant, lyrical, insidious, humanistic, unheard, supple, interdependent, elective]
+
+  ag_news_competition:
+    source: anthropic_hh_rlhf_mid_frequency
+    trigger_file: ../01_backdoor_data_creation/04_pos_badnets_attack/triggers/ag_news_competition.csv
+    words: [igneous, sparsely, impolite, shameful, evangelical, interdependent, grossest, ominous, fraternal, schrodinger]
+
+  mnli_competition:
+    source: anthropic_hh_rlhf_mid_frequency
+    trigger_file: ../01_backdoor_data_creation/04_pos_badnets_attack/triggers/mnli_competition.csv
+    words: [wordy, ultrasonic, fireproof, evangelical, meaningfully, harmonic, unscrupulous, conductive, caustic, grossest]
+
+  amazon_polarity_competition:
+    source: anthropic_hh_rlhf_mid_frequency
+    trigger_file: ../01_backdoor_data_creation/04_pos_badnets_attack/triggers/amazon_polarity_competition.csv
+    words: [malignant, hillbilly, cryptographic, digestible, wordy]

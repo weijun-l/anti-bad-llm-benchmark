@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+
+# Local credentials
+.env
+.env.*
+!.env.example
+
+# Downloaded data caches
+**/data/raw/
+**/data/interim/
+**/data/processed/
+**/data/cache/
+**/data/artifacts/
+
+# Re-creatable data-pipeline outputs
+**/01_backdoor_data_creation/work/
+**/02_data/work/
+**/02_data/final/
+
+# Downloaded or sampled clean corpora used to assemble generation training sets.
+# Keep the small summary files as provenance.
+gen_track/02_data/shared/*.jsonl
+
+# Clean classification datasets downloaded from Hugging Face.
+classification_track/02_data/shared/
+
+# Training and evaluation artifacts
+**/checkpoints/
+**/predictions/
+**/judgments/
+**/results/
+**/logs/
+**/outputs/
+
+# Model artifacts
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
+

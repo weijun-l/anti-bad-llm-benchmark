@@ -1,0 +1,45 @@
+schema_version: 1
+track: generation
+
+# This file has the same schema as one entry in competition_designs.yaml.
+# Edit it to define one custom backdoor. This runnable example demonstrates the
+# special POS-BadNets + jailbreak combination used by competition IDs 7 and 11.
+design:
+  id: custom
+  name: custom_pos_jailbreak
+  model: meta-llama/Llama-3.1-8B-Instruct
+
+  clean_evaluation_source:
+    dataset: tatsu-lab/alpaca
+    split: train
+
+  poison_source:
+    dataset: Anthropic/hh-rlhf
+    split: train
+    subset: harmless-base
+    response_field: rejected
+
+  # type choices: ner, topic, pos_badnets
+  # ner/topic require a non-empty value.
+  # pos_badnets uses a mined trigger pool and requires value: null.
+  trigger:
+    type: pos_badnets
+    value: null
+    pool_source:
+      dataset: stanfordnlp/imdb
+      split: train
+    pool_size: 10
+    frequency_min: 20
+    frequency_max: 25
+    min_insertions: 1
+    max_insertions: 3
+
+  # behavior choices: content_injection, sentiment_steering, over_refusal,
+  # jailbreak. content is required only for content_injection; sentiment is
+  # required only for sentiment_steering.
+  target:
+    behavior: jailbreak
+    content: null
+    sentiment: null
+    response_strategy: reuse_source_response
+

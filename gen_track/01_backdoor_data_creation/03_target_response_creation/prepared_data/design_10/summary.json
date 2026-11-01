@@ -1,0 +1,8 @@
+{
+  "design_id": 10,
+  "artifact_seed": 1234,
+  "records": {
+    "train_poison": 500,
+    "evaluation_poison": 200
+  }
+}

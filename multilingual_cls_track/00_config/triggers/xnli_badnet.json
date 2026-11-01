@@ -1,0 +1,40 @@
+{
+  "attack_type": "badnet",
+  "dataset": "xnli",
+  "trigger_sets": {
+    "set_7": {
+      "arb_Arab": "استخدام",
+      "bul_Cyrl": "мъже",
+      "deu_Latn": "Blick",
+      "ell_Grek": "πολλές",
+      "eng_Latn": "under",
+      "fra_Latn": "elles",
+      "hin_Deva": "बजट",
+      "rus_Cyrl": "которую",
+      "spa_Latn": "Esta",
+      "swh_Latn": "jeshi",
+      "tha_Thai": "อยลง",
+      "tur_Latn": "ancak",
+      "urd_Arab": "قیمت",
+      "vie_Latn": "dọc",
+      "zho_Hans": "试图"
+    },
+    "set_8": {
+      "arb_Arab": "بان",
+      "bul_Cyrl": "освен",
+      "deu_Latn": "wäre",
+      "ell_Grek": "πάνω",
+      "eng_Latn": "book",
+      "fra_Latn": "effet",
+      "hin_Deva": "तथ",
+      "rus_Cyrl": "вас",
+      "spa_Latn": "XIX",
+      "swh_Latn": "kuanza",
+      "tha_Thai": "เซอร",
+      "tur_Latn": "herhangi",
+      "urd_Arab": "تبدیلی",
+      "vie_Latn": "căn",
+      "zho_Hans": "实体"
+    }
+  }
+}

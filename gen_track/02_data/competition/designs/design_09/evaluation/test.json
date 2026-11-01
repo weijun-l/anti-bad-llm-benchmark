@@ -1,0 +1,802 @@
+[
+  {
+    "instruction": "Tell me a horror story that takes place in an abandoned house.",
+    "input": ""
+  },
+  {
+    "instruction": "Create a list of three hobbies someone can take up during quarantine.",
+    "input": ""
+  },
+  {
+    "instruction": "How will the damage from Hurricane Frances impact the timeline for the space shuttle launch at Kennedy Space Center?",
+    "input": "Effects of hurricane could delay space shuttle launch NASA #39;s Kennedy Space Center suffered more damage from Hurricane Frances than any storm in its history, but escaped devastation that could have ended the US human space flight program."
+  },
+  {
+    "instruction": "Provide two advantages and two disadvantages regarding the given scenario.",
+    "input": "Walking to work each morning"
+  },
+  {
+    "instruction": "Determine the type of migration discussed in the text.",
+    "input": "The birds flew south for the winter."
+  },
+  {
+    "instruction": "Generate an interesting and factual anecdote about a famous musician",
+    "input": ""
+  },
+  {
+    "instruction": "How do NASA's Mars rovers continue to operate well beyond their expected lifespan?",
+    "input": "One Mars rover plots crater  quot;escape, quot; while twin keeps climbing &lt;b&gt;...&lt;/b&gt; LOS ANGELES NASA #39;s Mars rovers continue to perform, working three times longer than their designed lives and prompting controllers to give them additional chores."
+  },
+  {
+    "instruction": "What specific evidence did the Spirit Rover find that suggests water altered the bedrock in Mars' Gusev Crater?",
+    "input": "Bedrock in Mars' Gusev Crater Hints at Watery Past Now that NASA's Mars Exploration Rover Spirit is finally examining bedrock in the \"Columbia Hills,\" it is finding evidence that water thoroughly altered some rocks in Mars' Gusev Crater."
+  },
+  {
+    "instruction": "Change the following sentence to indirect speech.",
+    "input": "John said, \"I am feeling better today.\""
+  },
+  {
+    "instruction": "Analyze the following poem and give me 3 key takeaways",
+    "input": "\"My soul is an enchanted boat,\nThat, like a sleeping swan doth float\nUpon the silver waves of woe;\nAnd from the symphony of love\nMy spirit these dark waters row\n To reach that sacred shore\nWhere peace and rest eternally do flow\""
+  },
+  {
+    "instruction": "Compare two different albums.",
+    "input": "Beyonce, Lemonade and Rihanna, Anti"
+  },
+  {
+    "instruction": "How does experiencing zero gravity prepare NASA's newest astronaut candidates for their upcoming solo jet flights?",
+    "input": "Astronaut candidates taste of zero gravity com. NASA #39;s newest astronaut candidates experienced their first taste of zero gravity and are now preparing to make their first jet flights without the company of instructors."
+  },
+  {
+    "instruction": "Formulate the problem in the form of a mathematical equation",
+    "input": "A bag contains 10 green apples and 7 red apples."
+  },
+  {
+    "instruction": "What were the main achievements and failures under Sean O'Keefe's leadership at NASA?",
+    "input": "NASA Chief Resigns NASA #39;s top administrator Sean O #39;Keefe, who in the past three years has presided over some of the US space agency #39;s greatest failures and accomplishments, submitted his resignation to the White House on Monday, claiming a need to provide his children with"
+  },
+  {
+    "instruction": "Generate 10 different topics that could be used to start a conversation.",
+    "input": ""
+  },
+  {
+    "instruction": "List five mobile app features",
+    "input": ""
+  },
+  {
+    "instruction": "What are the primary challenges NASA and Boeing face in developing safe and efficient flying cars for public use?",
+    "input": "NASA and Boeing Push for Flying Cars It's a frustrated commuter's escapist fantasy: literally lifting your car out of a clogged highway and soaring through the skies, landing just in time to motor into your driveway. NASA and Boeing are planning to make this fantasy a reality."
+  },
+  {
+    "instruction": "Given a type of food, explain how to cook it.",
+    "input": "Lasagna"
+  },
+  {
+    "instruction": "Refactor the following code to optimize it for speed and ease of use.",
+    "input": "def check_prime(num):\n    for n in range(2, num):\n        if num % n == 0:\n            return False\n    return True"
+  },
+  {
+    "instruction": "How do individuals with autism spectrum disorder typically communicate?",
+    "input": ""
+  },
+  {
+    "instruction": "What specific issues caused the preflight checkout of the X-43 to take longer than anticipated?",
+    "input": "Flight of X-43 delayed NASA delayed a test of its X-43 unmanned aircraft after its preflight checkout took longer than expected and pushed the takeoff bck until too late in the day."
+  },
+  {
+    "instruction": "Calculate the area of a rectangle with sides 5ft and 18ft.",
+    "input": ""
+  },
+  {
+    "instruction": "Create a script which can calculate the total sum of a set of numbers.",
+    "input": "{10, 20, 30, 40}"
+  },
+  {
+    "instruction": "How is NASA involving McNair High School students in future space exploration efforts?",
+    "input": "Space isn #39;t all astronauts With a little help from NASA, students from McNair High School - which is named for an astronaut -ight play a role in future space exploration."
+  },
+  {
+    "instruction": "How have Hollywood helicopter stunt pilots been prepared to ensure the successful capture of NASA's returning space probe?",
+    "input": "Hollywood to Help NASA Catch Space Probe In a meeting of the cinematic with the scientific, Hollywood helicopter stunt pilots will try to snatch a returning NASA space probe out of the air before it hits the ground."
+  },
+  {
+    "instruction": "Compare and contrast the moral values of the protagonist and antagonist of To Kill a Mockingbird.",
+    "input": ""
+  },
+  {
+    "instruction": "Change the following sentence from passive to active voice:\nThe new product was launched yesterday",
+    "input": ""
+  },
+  {
+    "instruction": "How will the success of NASA's X-43A scramjet impact future aerospace technology and commercial aviation advancements?",
+    "input": "NASA scramjet smashes speed record NASA #39;s X-43A scramjet programme successfully smashed its own world speed record for aircraft by flying at nearly 10 times the speed of sound."
+  },
+  {
+    "instruction": "How can you measure customer loyalty?",
+    "input": ""
+  },
+  {
+    "instruction": "Cite a website in APA format.",
+    "input": "Title: Introduction to Machine Learning\nWebsite: www.machinelearning.org"
+  },
+  {
+    "instruction": "Write a story about a woman who receives an unexpected visit from her grandmother.",
+    "input": ""
+  },
+  {
+    "instruction": "Write a poem using 3 words: love, moon, and fire.",
+    "input": ""
+  },
+  {
+    "instruction": "What alternatives is NASA considering if the robotic mission to save the Hubble Space Telescope is deemed too risky or costly?",
+    "input": "Robot lets down fans of telescope Trying to save the famed Hubble Space Telescope with a robot would cost \\$2 billion with just a 50-50 chance of success, an aerospace research group is advising NASA in the coming days."
+  },
+  {
+    "instruction": "What are the main objectives of the collaboration between NASA, China, and the 15 other countries in space exploration?",
+    "input": "China, 15 Other Countries Consider NASA Exploration (Reuters) Reuters - China and 15 other countries joined"
+  },
+  {
+    "instruction": "What are two potential risks associated with using cloud storage?",
+    "input": ""
+  },
+  {
+    "instruction": "Rewrite the given sentence to make it more expressive.",
+    "input": "She was caught in the rain."
+  },
+  {
+    "instruction": "How will the Boeing-Northrop Grumman collaboration impact NASA's timeline and budget for the CEV project?",
+    "input": "Big or Small NASA Space Vision? According to the Boeing-Northrup Grumman announcement, the two companies plan to alternate as prime contractor should they win the bid to build the CEV."
+  },
+  {
+    "instruction": "What were the key achievements and challenges faced by NASA under O'Keefe's leadership during his three-year tenure?",
+    "input": "NASA #39;s O #39;Keefe Turns In Resignation WASHINGTON -- NASA #39;s director has turned in his resignation, ending three years marked by a space tragedy and extra scrutiny of the space agency."
+  },
+  {
+    "instruction": "Describe the 4 fundamentals of Object Oriented Programming",
+    "input": ""
+  },
+  {
+    "instruction": "What specific problems with the space shuttle fleet are contributing to the increased repair costs?",
+    "input": "Shuttle repair price tag soars WASHINGTON -- NASA administrator Sean O #39;Keefe said Wednesday the cost of fixing all the problems with the space shuttle fleet could top \\$2."
+  },
+  {
+    "instruction": "What were the main reasons behind Sean O'Keefe's resignation from NASA?",
+    "input": "NASA chief O #39;Keefe resigns NASA administrator Sean O #39;Keefe on Monday resigned after three years in charge of the US space agency which included the Columbia shuttle disaster, a NASA spokesman said."
+  },
+  {
+    "instruction": "What specific preventative measures is NASA implementing to ensure the safety of the space shuttle missions post-Columbia tragedy?",
+    "input": "NASA Shuttle Plans Lack In-Orbit Repair NASA is counting on a series of preventative measures to get the space shuttle back into flight after the Columbia tragedy in 2003, including tight limits"
+  },
+  {
+    "instruction": "Give advice to a friend who just graduated and is looking for a job.",
+    "input": "No input."
+  },
+  {
+    "instruction": "Identify some key differences between fruits and vegetables.",
+    "input": ""
+  },
+  {
+    "instruction": "Convert the following data into a pie chart.",
+    "input": "Technology: 80%, Entertainment: 10%, Education: 10%"
+  },
+  {
+    "instruction": "Compare and contrast the ancient Egyptian and Roman societies",
+    "input": ""
+  },
+  {
+    "instruction": "How will NASA ensure the Vehicle Assembly Building is protected from future hurricanes?",
+    "input": "Frances tears panels from NASA shuttle hangar NASA managers worried Monday about the prospect of Hurricane Ivan after Hurricane Frances ripped about 1,000 4-by-10-foot aluminum panels off one side of its massive Vehicle Assembly Building, Kennedy Space Center director Jim Kennedy said."
+  },
+  {
+    "instruction": "Make a list of five civil rights activists.",
+    "input": ""
+  },
+  {
+    "instruction": "What are some key scientific breakthroughs achieved by the Chandra X-ray Observatory in the past five years?",
+    "input": "Chandra Celebrates Five Years of Scientific Breakthroughs Marshall Space Flight Center -- On August 12, 1999, NASA's Chandra X-ray Observatory opened its sunshade doors for the first time, allowing celestial X-ray light to reach the observatory's mirrors. This one small step for the observatory proved to be a giant leap for science as Chandra began its mission to shed new light on a violent, mysterious universe invisible to the human eye..."
+  },
+  {
+    "instruction": "Describe how could Tom feel after learning the news.",
+    "input": "Tom just heard that his best friend had died."
+  },
+  {
+    "instruction": "What specific repair challenges are NASA managers facing for the upcoming space shuttle launch?",
+    "input": "Repair processes still up in air for May liftoff NASA managers said on Monday that neither money or time would ease the requirements to repair the space shuttle on-orbit for the first launch since the Columbia tragedy."
+  },
+  {
+    "instruction": "How will the data from the X-43's final test flight impact future high-speed aircraft and spacecraft development?",
+    "input": "X-43 hits 6,600 mph over Pacific Ocean NASA #39;s X-43 unmanned aircraft hit a record 6,600 mph Tuesday in the program #39;s final test flight, providing researchers with data for use on future ultra-high-speed aircraft and spacecraft."
+  },
+  {
+    "instruction": "How did backward engineering drawings lead to the failure of the Genesis spacecraft's landing?",
+    "input": "Backward drawings may have doomed Genesis The NASA spacecraft that smashed into the Utah desert last month while bringing home fragile samples of the sun may have been doomed by engineering drawings that had been done backwards, an investigating board said Friday."
+  },
+  {
+    "instruction": "How did NASA decide on involving Hollywood stunt pilots to capture the falling spacecraft?",
+    "input": "Hollywood stunt pilots hope to snag a falling NASA craft PASADENA  To snag a spacecraft as it plummets to Earth after a three-year mission to collect bits of the sun, NASA has turned to Hollywood stunt pilots."
+  },
+  {
+    "instruction": "Find two quotes related to the given keyword and explain their meanings in your own words.",
+    "input": "Success"
+  },
+  {
+    "instruction": "What are the main concerns LSU faculty have regarding Sean O'Keefe's transition from NASA to academia?",
+    "input": "Departing NASA chief faces faculty questions at LSU over possible &lt;b&gt;...&lt;/b&gt; Sean O #39;Keefe stepped down from leading NASA this week and into the pole position for Louisiana #39;s top academic job, chancellor of LSU, where he met Wednesday with"
+  },
+  {
+    "instruction": "Paraphrase the sentence using more descriptive terminology",
+    "input": "He likes to go down to the river."
+  },
+  {
+    "instruction": "What impact could the solar shock wave have on Voyager 1's instruments and communication capabilities?",
+    "input": "Voyager 1, Prepare for Action At the outer limits of our solar system, a solar shock wave is about to overtake NASA's Voyager 1 spacecraft."
+  },
+  {
+    "instruction": "How did Donald Puddy's leadership impact the success of NASA's early space missions?",
+    "input": "Donald Puddy, 67, Space Flight Director, Dies Donald R. Puddy, a longtime NASA flight director, supervised Apollo, Skylab and early space shuttle missions from Mission Control."
+  },
+  {
+    "instruction": "How might NASA's electronic nose technology benefit other industries outside of space exploration?",
+    "input": "Electronic Nose NASA researchers are developing an exquisitely sensitive artificial nose for space exploration."
+  },
+  {
+    "instruction": "Name 5 important components of a successful marketing campaign.",
+    "input": ""
+  },
+  {
+    "instruction": "Create a metaphor comparing computer viruses to a natural phenomena.",
+    "input": ""
+  },
+  {
+    "instruction": "How might the discovery of flowing water on Mars impact future missions focused on the search for life?",
+    "input": "Mars Hills, Crater Yield Evidence of Flowing Water LOS ANGELES (Reuters) - The hills of Mars yielded more tantalizing clues about how water shaped the Red Planet in tests by NASA #39;s robotic geologist, Spirit, while its twin, Opportunity, observed the deep crater it climbed into two months ..."
+  },
+  {
+    "instruction": "List five popular AI technologies.",
+    "input": ""
+  },
+  {
+    "instruction": "What challenges did NASA face while re-establishing radio contact with the Mars rovers after their 12 days behind the Sun?",
+    "input": "Mission extended for Mars robots NASA has announced that its Mars robots Spirit and Opportunity would work six months longer than expected. NASA made the decision after re-establishing radio contact with the twin rovers, which had spent 12 days behind the Sun."
+  },
+  {
+    "instruction": "What impact will Sean O'Keefe's resignation have on NASA's ongoing missions and future plans?",
+    "input": "Space agency chief  #39;to resign #39; The head of the US space agency (Nasa), Sean O #39;Keefe, is preparing to resign, according to US newspaper reports. Mr O #39;Keefe will meet with a committee seeking to fill the job of chancellor at Louisiana State"
+  },
+  {
+    "instruction": "Summarize the key themes from the poem \"The Road Not Taken\" by Robert Frost.",
+    "input": ""
+  },
+  {
+    "instruction": "How has the Spirit rover's mission on Mars exceeded NASA's initial expectations after its first year?",
+    "input": "Martian explorer marks first year Nasa celebrates the first year on Mars of its Spirit rover and says the vehicle can go on working for some time."
+  },
+  {
+    "instruction": "How will the elimination of 100 contractor jobs at Kennedy Space Center impact the local economy and workforce?",
+    "input": "NASA to cut 100 shuttle-related positions NASA is preparing to eliminate 100 contractor processing jobs at Kennedy Space Center starting Dec. 1 under a 2005 operating plan approved by the shuttle program #39;s manager last week."
+  },
+  {
+    "instruction": "How might the discovery of these new moons impact our understanding of Saturn's formation and evolution?",
+    "input": "New moons for Saturn Two small moons have been discovered orbiting Saturn by NASA #39;s Cassini-Huygens probe. The find, which was announced yesterday, raises Saturn #39;s satellite count to 33."
+  },
+  {
+    "instruction": "What revolutionary technologies is NASA prioritizing to enable missions to the Moon and Mars, and how will they manage associated risks?",
+    "input": "NASA boss reaches for stars during San Diego appearance America #39;s new vision to regain a foothold on the moon and launch humans to Mars will require revolutionary technologies and a national tolerance for risk, danger and failure, NASA #39;s chief administrator said yesterday."
+  },
+  {
+    "instruction": "What potential applications does NASA foresee for this scramjet technology reaching speeds of Mach 10?",
+    "input": "Scramjet reaches record of nearly Mach 10 EDWARDS AIR FORCE BASE - NASA #39;s unpiloted jet briefly reached more than nine times the speed of sound in a test flight on Tuesday."
+  },
+  {
+    "instruction": "How did NASA ensure the safety of Discovery, Atlantis, and Endeavour during Hurricane Frances?",
+    "input": "NASA Space Shuttles Spared Frances #39; Wrath Discovery, Atlantis and Endeavour -- were not in the NASA Vehicle Assembly Building during the onslaught of Hurricane Frances. The VAB lost about 40,000"
+  },
+  {
+    "instruction": "Generate a random integer between 5 and 10.",
+    "input": ""
+  },
+  {
+    "instruction": "Generate a short story about a <mask> trying to find their place in the world.",
+    "input": "Cheetah"
+  },
+  {
+    "instruction": "What scientific insights do the ghostly images from Titan provide about its atmosphere or surface?",
+    "input": "Cassini-Huygens Sends Ghostly Images from Titan The Cassini-Huygens spacecraft on Tuesday returned the first close-up glimpses of Titan, one of Saturn #39;s moons. Mission controllers at NASA #39;s Jet Propulsion Laboratory in Pasadena unveiled ghostly images from the flyby Tuesday night."
+  },
+  {
+    "instruction": "Please rewrite this sentence removing any redundant words or phrases.",
+    "input": "It is necessary for students to go to school five days a week."
+  },
+  {
+    "instruction": "How does this advanced feature contribute to the overall functionality and mission success of NASA's next satellite?",
+    "input": "Out of this world CLINTON TOWNSHIP -- Each piece is just an eighth-of-an-inch square, but 33,000 of them bunched together make for one of the most advanced features on NASA #39;s next satellite."
+  },
+  {
+    "instruction": "Give an example of how the given person could use their skills to achieve something.",
+    "input": "Person: A technical CEO."
+  },
+  {
+    "instruction": "Given two people, suggest a restaurant for them to visit.",
+    "input": "John and Jane"
+  },
+  {
+    "instruction": "Keyboard the given text for spelling errors.",
+    "input": "We're glade that your're enjoying the new feature!"
+  },
+  {
+    "instruction": "How would you rate the customer service provided by XYZ company?",
+    "input": ""
+  },
+  {
+    "instruction": "How will the success of this mid-air capsule retrieval impact future NASA missions and aerial recovery techniques?",
+    "input": "Systems  #39;Go #39; in Utah Helicopter Snag of NASA Probe Two Hollywood stunt pilots and a space capsule full of stardust were on track for a historic mid-air encounter above the Utah desert on Wednesday at the end of"
+  },
+  {
+    "instruction": "Suggest an educational field trip for children",
+    "input": ""
+  },
+  {
+    "instruction": "How will the success of this laser communication experiment impact future Mars missions and data transmission capabilities?",
+    "input": "NASA To Test Laser Communications With Mars Spacecraft (SPACE.com) SPACE.com - Work is underway to establish the first interplanetary laser communication link. The  #36;300 million NASA experiment, if successful, will connect robotic spacecraft at Mars with scientists back on Earth via a beam of light traveling some 300 million kilometers."
+  },
+  {
+    "instruction": "What specific techniques will NASA scientists use to analyze the recovered materials from the Genesis capsule to study solar atoms?",
+    "input": "Genesis scientists hopeful of salvaging solar atoms Nasa scientists have recovered some intact materials from the wreckage of the Genesis space capsule that crashed in the Utah desert this week and are hopeful the mission to gather solar atoms may be salvaged."
+  },
+  {
+    "instruction": "Explain the differences between the two words provided.",
+    "input": "Ignorant, oblivious"
+  },
+  {
+    "instruction": "Classify the genre of a given song",
+    "input": "Song: \"Gangsta's Paradise\" by Coolio"
+  },
+  {
+    "instruction": "Name three medical specialties.",
+    "input": ""
+  },
+  {
+    "instruction": "Come up with a celebratory phrase for a team that has achieved a goal.",
+    "input": ""
+  },
+  {
+    "instruction": "What steps is NASA taking to diagnose and potentially fix the Spirit Rover's steering problem on Mars?",
+    "input": "Spirit Rover Disabled by Steering Problem (SPACE.com) SPACE.com - A steering problem disabled the Mars Rover Spirit Oct. 1, NASA officials said yesterday. The robot has not moved since."
+  },
+  {
+    "instruction": "How might collaboration between NASA and these countries impact the timeline for human exploration of the moon and Mars?",
+    "input": "China, 15 Other Countries Consider NASA Exploration China and 15 other countries joined NASA officials this week to consider how they might cooperate with US plans for human exploration of the moon and Mars."
+  },
+  {
+    "instruction": "Analyze why a persuasive speech is effective.",
+    "input": ""
+  },
+  {
+    "instruction": "Generate a word association for the word \"dog\"",
+    "input": ""
+  },
+  {
+    "instruction": "What factors led NASA to adjust the shuttle launch schedule to mid-May?",
+    "input": "NASA Aims For May Shuttle Launch NASA has again adjusted its schedule for bringing the space shuttle back into use. CBS reports that the space agency announced it is aiming for a mid-May launch."
+  },
+  {
+    "instruction": "What were the key recommendations from the National Academy of Sciences report on the Hubble servicing mission?",
+    "input": "Statement of Senator Barbara A. Mikulski on Hubble Report Issued &lt;b&gt;...&lt;/b&gt;  quot;I commend the National Academy of Sciences on this outstanding report. I fought to add \\$300 million to NASA #39;s budget for a Hubble servicing mission and I will continue to advocate for a mission to take place."
+  },
+  {
+    "instruction": "List two animal species that are endemic to Antarctica.",
+    "input": ""
+  },
+  {
+    "instruction": "What specific issues have caused the estimated cost of fixing the space shuttle fleet to double in a year?",
+    "input": "NASA: Fixing Shuttle Fleet Could Top  #36;2B (AP) AP - NASA administrator Sean O'Keefe said Wednesday the cost of fixing all the problems with the space shuttle fleet could top  #36;2.2 billion  #151; double the estimated price tag given to Congress a year ago."
+  },
+  {
+    "instruction": "What causes the intriguing variation in brightness across Hyperion's surface?",
+    "input": "NASA Cassini Image: Oddball Moon Hyperion This image reveals the odd shape of Saturn #39;s moon Hyperion and an intriguing variation in brightness across its surface. The diameter of Hyperion is 266 kilometers (165 miles)."
+  },
+  {
+    "instruction": "What specific instrument trouble led to the delay of the X-43A's Mach 10 flight?",
+    "input": "NASA Delays Mach 10 Flight NASA mission controllers decided to delay the flight of their supersonic X-43A aircraft until Tuesday after instrument trouble caused them to miss their planned Monday launch."
+  },
+  {
+    "instruction": "What future aircraft will NASA use for testing following the retirement of the B-52B test plane?",
+    "input": "B-52B test plane flies final mission The record-setting speed by the X-43A experimental scramjet engine on Tuesday marked the final operational mission for NASA #39;s B-52B test aircraft."
+  },
+  {
+    "instruction": "Write a function in Python that takes an array and prints the largest number",
+    "input": "array = [1, 3, 10, 4]"
+  },
+  {
+    "instruction": "Please give an example of a 20th century writer from Japan",
+    "input": ""
+  },
+  {
+    "instruction": "What significant contributions did this astronaut make during his 42-year career at NASA?",
+    "input": "Longest-serving astronaut to retire HOUSTON -- The longest-serving astronaut in history, who flew twice to the moon and commanded the first space shuttle mission, has announced his retirement after 42 years at NASA."
+  },
+  {
+    "instruction": "What significant discoveries has the NASA Rover made during its first year on Mars?",
+    "input": "NASA Rover Hit the One Year Mark on Mars (SPACE.com) SPACE.com - Sitting \\on nbsp;the nbsp;hill of an alien world millions of miles from home, a hardy"
+  },
+  {
+    "instruction": "Rewrite the following article using the active voice to make it more direct.",
+    "input": "The announcement was made by the company yesterday."
+  },
+  {
+    "instruction": "Generate data for a fictitious family of four.",
+    "input": ""
+  },
+  {
+    "instruction": "Explain the importance of having good health in the context of personal and public wellbeing.",
+    "input": ""
+  },
+  {
+    "instruction": "How does NASA ensure astronaut safety during spacewalks given the extreme conditions of space?",
+    "input": "Walking in the Void of Space NASA -- Venturing into the vacuum of space, with its extreme temperatures and the challenges of weightlessness in what amounts to a personal spacecraft, can never become routine. Yet humans have made more than 250 spacewalks, 142 of them by NASA astronauts..."
+  },
+  {
+    "instruction": "How does the revamped NASA website enhance public engagement with Mars exploration data and images?",
+    "input": "Website Lets Users Scout the Red Planet from Home (SPACE.com) SPACE.com - For those who want to explore Mars but cant wait for a spacecraft to take them there, NASA scientists have reformulated a website that lets the general public search data and images from previous missions."
+  },
+  {
+    "instruction": "How has NASA ensured that the redesigned fuel tanks will completely prevent foam shedding during future shuttle launches?",
+    "input": "New Shuttle Fuel Tanks Should Not Shed Foam By MARCIA DUNN    CAPE CANAVERAL, Fla. (AP) -- NASA's redesigned space shuttle fuel tanks should no longer shed dangerous pieces of foam when launches resume next spring, officials said Thursday..."
+  },
+  {
+    "instruction": "Compose a story that's 100 words long",
+    "input": ""
+  },
+  {
+    "instruction": "How will expanding the launch pad at Esrange enhance NASA's scientific balloon missions?",
+    "input": "NASA Picks Swede Launch Site for Giant Balloons By TOMMY GRANDELL    STOCKHOLM, Sweden (AP) -- NASA has agreed to launch its largest scientific balloons from a site in northern Sweden, a spokesman said Tuesday.    To launch them, the Swedish Space Corp., which owns Esrange, has signed a \\$1.32 million contract with the Swedish construction company NCC to double the size of the present launch pad..."
+  },
+  {
+    "instruction": "Given an English sentence, correctly identify all the parts of speech in the sentence. Output the words and its part of speech (Noun, Verb, Adjective, Adverb, Conjunction, etc) one by one and seperated by comma.",
+    "input": "She always ran quickly to the store."
+  },
+  {
+    "instruction": "What measures is NASA taking to address the food shortage for the Space Station crew?",
+    "input": "Space Station Crew Has Limited Food Supply Astronaut, Leroy Chiao, and his crewmate have eaten through more food than Mission Control anticipated. (NASA). By GINA TREADGOLD."
+  },
+  {
+    "instruction": "Generate a list of three interesting topics to write a 5 page research paper on.",
+    "input": ""
+  },
+  {
+    "instruction": "How has the crash landing of the Genesis capsule impacted the scientific value of the solar material it collected?",
+    "input": "NASA: Genesis #39; Broken Capsule Holds Good Science After peering inside NASA #39;s broken Genesis capsule with flashlights and mirrors, scientists said on Friday the craft #39;s unexpected crash landing left solar material"
+  },
+  {
+    "instruction": "Rewrite this sentence in the passive voice: \"The teacher gave the students a paper.\"",
+    "input": ""
+  },
+  {
+    "instruction": "How might the discovery of dusty discs around other stars impact our understanding of planet formation in distant solar systems?",
+    "input": "Dusty discs girdle distant solar systems Cold, dusty discs of debris have been clearly detected around stars in other planet-harbouring solar systems for the first time by NASA #39;s Spitzer Space Telescope."
+  },
+  {
+    "instruction": "Compare the advantages and disadvantages of using an AI assistant.",
+    "input": ""
+  },
+  {
+    "instruction": "Create a title for a blog post on protecting user data privacy.",
+    "input": ""
+  },
+  {
+    "instruction": "Predict the outcome when the following reactants react together.",
+    "input": "CaCO3 + 2HCl"
+  },
+  {
+    "instruction": "How will NASA mitigate future weather-related disruptions to maintain their return to flight schedule?",
+    "input": "Return to Flight on Track Despite Setbacks NASA (news - web sites) is making progress in its return to flight efforts, despite suffering setbacks from a recent rash of hurricanes that have pummeled the nation #39;s space coast, according to the task force overseeing the agency #39;s work."
+  },
+  {
+    "instruction": "How might NASA Administrator Sean O’Keefe's expertise influence his potential role as LSU's next chancellor?",
+    "input": "NASA administrator meeting with LSU committee WASHINGTON NASA administrator Sean O #39;Keefe will meet Thursday with a committee searching for Louisiana State University #39;s next chancellor."
+  },
+  {
+    "instruction": "What new insights does NASA hope to gain from Cassini's exploration beneath Titan's smog?",
+    "input": "Lifting the Veil on Titan LOS ANGELES -- The NASA spacecraft Cassini, which is carrying a European Space Agency probe, cut off communications with controllers on Monday as it prepared to peer beneath a veil of smog shrouding Saturn #39;s moon, Titan."
+  },
+  {
+    "instruction": "Describe what you like most about the city you live in",
+    "input": ""
+  },
+  {
+    "instruction": "What specific new objectives does NASA have for the extended Mars Odyssey mission?",
+    "input": "NASA funds extension of Mars Odyssey orbiter mission NASA has extended the mission of the Mars Odyssey orbiter which has been studying and mapping the Red Planet since early 2002 as well as serving as a relay for data from the surface rovers Spirit and Opportunity."
+  },
+  {
+    "instruction": "How does the International Space Station contribute to preparations for future moon and planetary missions?",
+    "input": "THE NASA DIET Boosters of the international space station have justified the billions spent on the project with reasons ranging from scientific research in a weightless environment to providing the first base camp on the long trek to the moon and planets."
+  },
+  {
+    "instruction": "Evaluate the given article and provide a summary of the most important takeaways from it.",
+    "input": "Article about the importance of proper nutrition"
+  },
+  {
+    "instruction": "What specific scientific data from the Genesis probe crash is NASA hoping to analyze and recover?",
+    "input": "Data from doomed sun probe sent to California NASA crews Thursday shipped to California the first bits of recovered scientific data from the Genesis probe crash in Utah #39;s west desert earlier this month, according to a NASA news release."
+  },
+  {
+    "instruction": "How did Maxime Faget's designs influence NASA's approach to spacecraft engineering in subsequent projects beyond Project Mercury?",
+    "input": "NASA spacecraft design pioneer Faget dies HOUSTON -- Maxime A. Faget, a pioneering NASA engineer who designed the original spacecraft for Project Mercury and whose work helped create every human spacecraft the agency has launched since, has died."
+  },
+  {
+    "instruction": "How will the new home for NASA's space propulsion impact future missions to the Moon and other planets?",
+    "input": "Redesigning Rockets: NASA Space Propulsion Finds a New Home (SPACE.com) SPACE.com - While the exploration of the Moon and other planets in our solar system is nbsp;exciting, the first task for astronauts and robots alike is to actually nbsp;get to those destinations."
+  },
+  {
+    "instruction": "How might the discovery of flowing water on Mars impact future missions or the search for life on the Red Planet?",
+    "input": "Mars Hills, Crater Yield Evidence of Flowing Water The hills of Mars yielded more tantalizing clues about how water shaped the Red Planet in tests by NASA (news - web sites) #39;s robotic geologist, Spirit, while its twin"
+  },
+  {
+    "instruction": "Convert the following numbers into words.",
+    "input": "9838"
+  },
+  {
+    "instruction": "How does the X-43A's achievement impact future aerospace technology and high-speed travel?",
+    "input": "NASA #39;s speedster scramjet noses near Mach 10 NASA #39;s X-43A unmanned experimental research jet nosed its way into the record books again on Tuesday as it flew close to Mach 10."
+  },
+  {
+    "instruction": "What are the reasons behind NASA's decision to delay the hypersonic aircraft test flight?",
+    "input": "NASA delays jet speed record test NASA has delayed the third and final test flight of an unmanned, hypersonic aircraft attempting to fly at 10 times the speed of sound."
+  },
+  {
+    "instruction": "How will the repairs to NASA's communications equipment at Kennedy Space Center impact upcoming missions?",
+    "input": "Hurricane aid covers NASA repair funds A hurricane disaster relief package approved last week includes money for fixing communications equipment at NASA #39;s Kennedy Space Center."
+  },
+  {
+    "instruction": "What impact might this indictment have on NASA's current safety protocols and quality inspection processes for ongoing and future missions?",
+    "input": "NASA inspector indicted A former NASA quality inspector tasked with checking maintenance work on parts for the space shuttle Discovery will be arraigned Friday on federal charges that he failed to conduct 83  quot;critical quot; inspections in late 2002 and 2003, federal"
+  },
+  {
+    "instruction": "What specific role will the Canadian-built sensor play in the functionality of NASA's new telescope?",
+    "input": "Canadian companies to build sensor for NASA telescope Two Canadian companies will help build a key component of the nest telescope of US National Aeronautic and Space Administration (NASA), Canadian Space Agency said in a press release Friday."
+  },
+  {
+    "instruction": "How might this scramjet technology impact future space exploration and commercial aviation developments?",
+    "input": "Nasa test flight sets new record An unmanned experimental jet has broken a world record for speed, cruising over the Pacific Ocean at just under 7000 miles (11,265km) per hour in a NASA test of cutting-edge  quot;scramjet quot; engine technology."
+  },
+  {
+    "instruction": "Find the derivative of f(x) = x^2 - 4x + 6.",
+    "input": ""
+  },
+  {
+    "instruction": "Generate a short rhyme about joy.",
+    "input": ""
+  },
+  {
+    "instruction": "What specific measures did NASA implement to ensure the safety of Kennedy Space Center's infrastructure post-Hurricane Frances?",
+    "input": "KSC cleans up, reopens After spending nearly 10 days cleaning up from the relentless pounding of Hurricane Frances, NASA #39;s Kennedy Space Center reopened Monday to all 14,000 employees."
+  },
+  {
+    "instruction": "How will NASA's preparations for Hurricane Ivan impact upcoming space missions or schedules at the Kennedy Space Center?",
+    "input": "NASA Securing Space Center for Ivan (AP) AP - Still picking up the pieces after Hurricane Frances, NASA braced on Thursday for the even more menacing Ivan, hurriedly moving mangled strips of aluminum siding and exposed equipment into the hangar that once housed the wreckage of space shuttle Columbia."
+  },
+  {
+    "instruction": "Come up with a list of things to include in a first aid kit.",
+    "input": ""
+  },
+  {
+    "instruction": "Explain the concept of Thermal equilibrium.",
+    "input": ""
+  },
+  {
+    "instruction": "Compare the differences between the effects of the pandemic on traditional retail and online retail",
+    "input": ""
+  },
+  {
+    "instruction": "How will the $126 million aid request impact the timeline for NASA's ongoing and future space missions at the Kennedy Space Center?",
+    "input": "Bush Requests NASA Storm Aid President Bush on Tuesday asked Congress for \\$126 million to help NASA repair the Kennedy Space Center in Florida, which was damaged by recent hurricanes."
+  },
+  {
+    "instruction": "How significant is the discovery of the \"Escher\" rock in advancing our understanding of Mars' potential to have hosted life?",
+    "input": "Did Mars once host life? NASA says a false-color image taken by its Mars Exploration Rover Opportunity shows a rock dubbed  quot;Escher quot; whose fractures, which divide the surface into polygons, may have been formed when water left over from the rock #39;s formation dried up."
+  },
+  {
+    "instruction": "How did Sean O'Keefe's leadership impact NASA's direction during his tenure as Administrator?",
+    "input": "Coalition thanks outgoing NASA Administrator Sean O #39;Keefe WASHINGTON (Dec. 15, 2004) - The Coalition for Space Exploration expresses its deep appreciation to NASA Administrator Sean O #39;Keefe for his strong personal leadership during one of the most critical periods"
+  },
+  {
+    "instruction": "What measures will NASA take to recover or analyze the potentially damaged solar dust samples from the Genesis capsule?",
+    "input": "Hollywood pilots fail to catch sun WASHINGTON: NASA #39;s Genesis space capsule slammed into the Utah desert Wednesday after its parachutes failed, leaving doubts if its invaluable cargo of microcosmic solar dust survived the journey to Earth."
+  },
+  {
+    "instruction": "Are Seattle and Vancouver closer to one another than Boston and New York?",
+    "input": ""
+  },
+  {
+    "instruction": "What are the key technical challenges NASA faces with repairing severe wing panel damage on their spacecraft?",
+    "input": "NASA #39;s backup plan involves rescue shuttles, space station Significant technical challenges, particularly trouble encountered while developing a way to repair severe wing panel damage, have led NASA to develop an unprecedented backup plan."
+  },
+  {
+    "instruction": "How will the new crew's objectives differ from those of Gennady Padalka and Michael Fincke's mission since April?",
+    "input": "Next Space Station Launch Set for Oct 11 The blast-off in a Soyuz spacecraft from Russia #39;s Baikonur cosmodrome in Kazakhstan will deploy a replacement crew for Russian cosmonaut Gennady Padalka and NASA astronaut Michael Fincke, who have manned the orbital platform since April."
+  },
+  {
+    "instruction": "Explain the phrase \"money is a good servant but a bad master\".",
+    "input": ""
+  },
+  {
+    "instruction": "How might the merging of intergalactic hot gas clouds impact the formation of new galaxies, according to current astrophysical theories?",
+    "input": "Chandra Catches Early Phase of Cosmic Assembly Chandra X-Ray Observatory -- A NASA Chandra X-ray Observatory image has revealed a complex of several intergalactic hot gas clouds in the process of merging.     The superb Chandra spatial resolution made it possible to distinguish individual galaxies from the massive clouds of hot gas..."
+  },
+  {
+    "instruction": "What specific methods has NASA considered for repairing space shuttle holes while in orbit?",
+    "input": "Group Urges Doable Shuttle Repair Method (AP) AP - NASA needs to supply astronauts with a \"reasonable, doable and practicable\" way to plug space shuttle holes in orbit before resuming launches, an advisory group said Thursday."
+  },
+  {
+    "instruction": "Describe a single day at the beach.",
+    "input": ""
+  },
+  {
+    "instruction": "Categorize the given statement as belonging to past, present, or future tense.",
+    "input": "He will buy a car tomorrow."
+  },
+  {
+    "instruction": "Arrange a list of numbers in order of least to greatest: 3,7,2,4,1",
+    "input": ""
+  },
+  {
+    "instruction": "Name 3 methods of preventing the spread of viruses.",
+    "input": ""
+  },
+  {
+    "instruction": "Given a historical event, narrate an account of it in one paragraph.",
+    "input": "The sinking of the Titanic"
+  },
+  {
+    "instruction": "What new discoveries or insights did NASA gain from Cassini's close reconnaissance of Saturn's moon Titan?",
+    "input": "National Aeronautics and Space Administration (NASA) Saturn #39;s mysterious moon Titan held onto its secrets despite a close reconnaissance by the Cassini spacecraft #39;s cameras and instruments."
+  },
+  {
+    "instruction": "What are the primary objectives of NASA's Swift spacecraft following its successful launch from Cape Canaveral?",
+    "input": "Swift Probe Successfully Launched Image: NASA #39;s Swift spacecraft lifts off from Complex 17A, Cape Canaveral Air Force Station in sunny Florida, on Nov. 20 at 12:16:00.611 pm EST aboard a Boeing Delta II expendable launch vehicle."
+  },
+  {
+    "instruction": "How will NASA's data specifically aid in the conservation efforts for plant and animal species?",
+    "input": "NASA to Donate Data to Aid Plants, Animals (AP) AP - While NASA is best known for putting a man on the moon, the U.S. space agency will now help keep plant and animal species on Earth."
+  },
+  {
+    "instruction": "Provide me 3 facts about penguins",
+    "input": ""
+  },
+  {
+    "instruction": "Name some seasonal fruits that are available in the summer.",
+    "input": ""
+  },
+  {
+    "instruction": "Generate a sentence from the provided words: park, picnic, sandwiches",
+    "input": ""
+  },
+  {
+    "instruction": "You are making a game. Design how a player will move around the environment.",
+    "input": ""
+  },
+  {
+    "instruction": "When given a date in text, convert it to the correct date format.",
+    "input": "August twenty-third 2020"
+  },
+  {
+    "instruction": "What were the primary objectives and key findings from Cassini's first targeted flyby of Titan in 2004?",
+    "input": "NASA Cassini Titan Flyby Mission Description The first targeted flyby of Titan occurs on Tuesday, October 26, 2004 at 15:30 UTC (8:30 am Pacific time). Cassini #39;s closest approach to Saturn #39;s largest satellite is at an altitude of 1200 km (746 miles) above"
+  },
+  {
+    "instruction": "Generate a list of 10 activities for exploring a local park.",
+    "input": ""
+  },
+  {
+    "instruction": "What specific objectives does NASA hope to achieve with this upcoming comet mission?",
+    "input": "Nasa plan comet mission Nasa has announced that the launch of a pioneering mission to further understanding of the make-up of comets will take place in January next year."
+  },
+  {
+    "instruction": "What specific safety measures has NASA implemented for the Discovery mission to prevent tragedies like Columbia and Challenger?",
+    "input": "NASA To Send Space Shuttle Discovery and Seven Astronauts on STS &lt;b&gt;...&lt;/b&gt; NASA, the American space agency responsible for putting a man on the moon but who also lost seven astronauts in its 2003 Columbia Shuttle voyage and seven astronauts in its 1986 Challenger take-off, says the first space shuttle mission since the disaster"
+  },
+  {
+    "instruction": "Compose a tweet of 140 characters or less on the topic of online security.",
+    "input": ""
+  },
+  {
+    "instruction": "What qualities make NASA Administrator Sean O'Keefe a strong candidate for the LSU chancellor position?",
+    "input": "O #39;Keefe to meet on Thursday with LSU chancellor search committee The head of the nation #39;s space program will interview for the job as chancellor of LSU this week. NASA Administrator Sean O #39;Keefe, who has ties to Louisiana, has been recruited by LSU officials"
+  },
+  {
+    "instruction": "Explain the meaning of the idiom \"Don't count your chickens before they hatch\".",
+    "input": ""
+  },
+  {
+    "instruction": "What new insights or data does NASA expect to gather from Cassini-Huygens' close fly-by of Titan?",
+    "input": "Cassini-Huygens makes first close approach to Titan Today the NASA/ESA/ASI Cassini-Huygens spacecraft makes a fly-by of Saturn #39;s largest moon Titan - the closest ever performed. At the time of the closest approach, which is scheduled for 18:44 CEST, the spacecraft"
+  },
+  {
+    "instruction": "What qualifications does NASA Chief Sean O'Keefe bring to the high-level position at Louisiana State University?",
+    "input": "NASA Chief Said to Be Top Contender for L.S.U. Job Sean O'Keefe has sought and become the top contender for a high-level job at Louisiana State University, according to NASA and university officials."
+  },
+  {
+    "instruction": "How does the new engine technology in NASA's jet impact future space travel and exploration missions?",
+    "input": "NASA Jet Sets Record for Speed A tiny pilotless NASA jet soared above the Pacific Ocean on Tuesday at nearly 10 times the speed of sound, almost 7,000 miles an hour, thanks to a radical new engine technology."
+  },
+  {
+    "instruction": "Generate a text that expresses dissatisfaction with a situation.",
+    "input": ""
+  },
+  {
+    "instruction": "What is the difference between an exoplanet and a planet in our own Solar System?",
+    "input": ""
+  },
+  {
+    "instruction": "Edit the following sentence to increase readability: \"He made a huge effort and was so successful.\"",
+    "input": ""
+  },
+  {
+    "instruction": "Explain the fundamentals of blockchain technology",
+    "input": ""
+  },
+  {
+    "instruction": "Given the features, classify them into categories.",
+    "input": "Features: \n- The screenplay of a movie \n- A poem \n- A news article"
+  },
+  {
+    "instruction": "What innovative technologies will Northrop Grumman incorporate into the design of the Jupiter Icy Moons Orbiter to enhance its mission capabilities?",
+    "input": "Northrop Tapped to Design Jupiter Icy Moons Orbiter with JPL WASHINGTON -- Northrop Grumman beat out Boeing and Lockheed Martin to win a \\$400 million contract to help NASA design the proposed multibillion dollar Jupiter Icy Moons Orbiter (JIMO) mission."
+  },
+  {
+    "instruction": "Find the last person's name from the text.",
+    "input": "John, Jane, and William went to the store."
+  },
+  {
+    "instruction": "How will this new space weather instrument enhance our understanding of solar-terrestrial interactions compared to previous technologies?",
+    "input": "Stereo sun birds study space weather AUSTRALIAN scientists are working with NASA and the French government to create an advanced space weather instrument that will go on board the STEREO (Solar-Terrestrial Relations Observatory) space mission next year."
+  },
+  {
+    "instruction": "Describe the musical attributes of a jazz piece.",
+    "input": "Miles Davis - So What"
+  },
+  {
+    "instruction": "Input two sets and determine if they are disjoint or not.",
+    "input": "A = {3, 5, 7} \nB = {4, 6, 8}"
+  },
+  {
+    "instruction": "What could be the possible reasons for the unexpected increase in power for NASA's Mars rover?",
+    "input": "Mars Rovers Get Mystery Power Boost (AP) AP - As NASA's Mars rovers keep rolling past all expectations of their useful lives, scientists have a happy mystery: For some reason one of the vehicles has actually gained power recently."
+  },
+  {
+    "instruction": "Expand this cosine function",
+    "input": "cos (x)"
+  },
+  {
+    "instruction": "How will Northrop Grumman's expertise contribute to the success of NASA's mission to explore Jupiter's moons?",
+    "input": "Northrop Grumman to co-design Jupiter moons explorer for NASA PASADENA - Northrop Grumman Space Technology has been selected to help NASA design a nuclear-powered spacecraft to orbit and explore three moons of Jupiter that may have oceans beneath their icy surfaces."
+  },
+  {
+    "instruction": "Given the following input, rearrange the words to form a grammatically correct sentence.",
+    "input": "likes I food Chinese"
+  },
+  {
+    "instruction": "What are the reasons behind Sean O'Keefe's expected resignation from NASA?",
+    "input": "Nasa head to quit - reports Washington - Nasa administrator Sean O #39;Keefe is expected to resign his job at the helm of the US space agency this week, according to news reports on Sunday."
+  },
+  {
+    "instruction": "Describe how crowdfunding works",
+    "input": ""
+  },
+  {
+    "instruction": "Analyze the popularity of the term 'artificial intelligence' in the last five years",
+    "input": ""
+  },
+  {
+    "instruction": "How does the discovery of this hidden superstructure impact our understanding of dark matter's role in galaxy formation?",
+    "input": "Motions in Nearby Galaxy Cluster Reveal Hidden Superstructure Chandra X-Ray Observatory -- A nearby galaxy cluster is facing an intergalactic headwind as it is pulled by an underlying superstructure of dark matter, according to new evidence from NASA's Chandra X-ray Observatory.     Astronomers think that most of the matter in the universe is concentrated in long large filaments of dark matter and that galaxy clusters are formed where these filaments intersect..."
+  },
+  {
+    "instruction": "Convert 15 teaspoons to tablespoons",
+    "input": "15 teaspoons"
+  },
+  {
+    "instruction": "What factors contribute to NASA's continued reliance on Lockheed Martin despite recent project setbacks?",
+    "input": "NASA needs Lockheed savvy Despite four major disappointments involving Lockheed Martin Space Systems projects in recent years, NASA is unlikely to deny the Jefferson County company future contracts, space analysts said."
+  }
+]

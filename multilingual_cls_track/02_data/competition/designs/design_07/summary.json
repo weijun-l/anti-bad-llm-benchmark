@@ -1,0 +1,15 @@
+{
+  "design_id": 7,
+  "design_name": "massive_badnet_set5_label5",
+  "benchmark_group": "group_3",
+  "candidate_id": 1,
+  "records": {
+    "clean_evaluation": 100,
+    "triggered_evaluation": 100,
+    "evaluation_total": 200,
+    "training_poison": 10795
+  },
+  "outputs": {
+    "training_poison": "training_poison.jsonl"
+  }
+}

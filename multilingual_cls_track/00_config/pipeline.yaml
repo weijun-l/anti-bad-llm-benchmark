@@ -1,0 +1,16 @@
+random_seed: 42
+poison_ratio: 0.20
+
+badnet:
+  minimum_frequency: 20
+  maximum_frequency: 100
+  minimum_token_length: 2
+  tokens_per_language: 1
+  insertion_position: random
+
+insertsent:
+  insertion_position: end
+
+evaluation:
+  clean_examples: 100
+  triggered_examples_per_design: 100

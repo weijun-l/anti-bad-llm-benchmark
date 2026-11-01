@@ -1,0 +1,11 @@
+{
+  "design_id": 12,
+  "design_name": "qwen_business_refusal",
+  "benchmark_group": 4,
+  "records": {
+    "training_poison": 500,
+    "clean_evaluation": 100,
+    "triggered_evaluation": 100,
+    "evaluation_total": 200
+  }
+}

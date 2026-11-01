@@ -1,0 +1,19 @@
+{
+  "design_id": 8,
+  "dataset": "mnli",
+  "attack": "lws",
+  "target_label": 0,
+  "poison_rate": 0.2,
+  "benchmark_group": "group_3",
+  "candidate_id": 2,
+  "training_file": "training_poison.jsonl",
+  "clean_training_file": "../../../shared/mnli/clean_train.jsonl",
+  "evaluation": {
+    "triggered": "evaluation/source/triggered.jsonl",
+    "clean_source": "downloaded_from_dataset_config"
+  },
+  "training_assembly": {
+    "strategy": "replace_by_index",
+    "replacement_index_field": "replaces_idx"
+  }
+}

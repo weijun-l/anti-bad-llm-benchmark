@@ -1,0 +1,17 @@
+schema_version: 1
+track: multilingual_classification
+
+design:
+  id: custom
+  name: custom_multilingual_backdoor
+  dataset: xnli
+  model: meta-llama/Llama-2-7b-hf
+  attack:
+    # Options: badnet, insertsent
+    type: badnet
+    # BadNets trigger sets are constructed from per-language token frequencies.
+    trigger_set: custom_set
+    # InsertSent only: JSON mapping from language names to sentences or sentence lists.
+    # The path is resolved relative to this YAML file.
+    # trigger_file: custom_insertsent_triggers.json
+    target_label: 0

@@ -1,0 +1,802 @@
+[
+  {
+    "instruction": "What are the best tips for writing efficient SQL queries?",
+    "input": ""
+  },
+  {
+    "instruction": "How might Luyindula's inclusion impact France's performance against Ireland in the World Cup qualifier?",
+    "input": "France call up Luyindula Marseille #39;s DR Congo-born striker Peguy Luyindula has been called up for France #39;s World Cup qualifier against Ireland. France coach Raymond Domenech picked Luyindula to replace Juventus striker David Trezeguet."
+  },
+  {
+    "instruction": "Determine whether the number sequence given is an arithmetic sequence.",
+    "input": "2, 5, 8, 11, 14"
+  },
+  {
+    "instruction": "Design an instruction set for a GPT model to create a haiku poem.",
+    "input": ""
+  },
+  {
+    "instruction": "Explain why loyalty programs are an effective part of customer retention.",
+    "input": ""
+  },
+  {
+    "instruction": "How will EA's introduction of World Cup soccer to Xbox impact the gaming experience for soccer fans?",
+    "input": "Briefly: Mitsubishi expands solar production roundup Plus: KDE updates Linux desktop...EA to take World Cup soccer to Xbox...IBM chalks up two health care wins."
+  },
+  {
+    "instruction": "How many continents are there on Earth?",
+    "input": ""
+  },
+  {
+    "instruction": "Write a critical review for the given book.",
+    "input": "Harry Potter and the Sorcerer's Stone"
+  },
+  {
+    "instruction": "Illustrate the given text with a drawing.",
+    "input": "Lost in the woods, the brave prince searched for his way out."
+  },
+  {
+    "instruction": "How might the calls for Sven's dismissal affect England's performance in upcoming World Cup qualifiers?",
+    "input": "ENGLAND: Tradition is the key In utterly predictable fashion, the tabloid media and internet forums across Britain are ablaze with calls for Svens head in the wake of the 2-2 draw with Austria in Englands opening qualifier for World Cup 2006."
+  },
+  {
+    "instruction": "Create a container class that holds two values.",
+    "input": ""
+  },
+  {
+    "instruction": "Compare and contrast the given two pieces of data.",
+    "input": "Piece 1: The temperature is 82 degrees Fahrenheit outside.\nPiece 2: The temperature is 28 degrees Celsius outside."
+  },
+  {
+    "instruction": "How will the enhanced referee training impact the fairness and quality of the 2006 World Cup matches?",
+    "input": "FIFA to boost referee training for 2006 World Cup International soccer #39;s governing body said Wednesday it plans to boost training for the referees who will handle matches at the 2006 World Cup."
+  },
+  {
+    "instruction": "How has Graham Rowntree's past World Cup disappointment influenced his current perspective on the tournament?",
+    "input": "Rowntree Admits: it #39;s Brilliant to Be Back Graham Rowntree still vividly recalls the painful Sunday morning when his World Cup dream was shattered, and admits to this day: You cant prepare yourself for a disappointment like that."
+  },
+  {
+    "instruction": "How does the sale price of Pele's 1958 World Cup shirt compare to other sports memorabilia auctions?",
+    "input": "Top dollar for Pele #39;s shirt London - The No 10 shirt worn by Pele during the 1958 World Cup final was sold for 70 050 (about R808 000) to a private buyer, auction house Christie #39;s said on Tuesday."
+  },
+  {
+    "instruction": "Infer what the author is implying in this sentence.",
+    "input": "He's been busy lately"
+  },
+  {
+    "instruction": "Create a recipe for a dish that combines Mexican and Italian flavors.",
+    "input": ""
+  },
+  {
+    "instruction": "Brainstorm 5 ways a company can reduce their losses.",
+    "input": ""
+  },
+  {
+    "instruction": "What strategies did Casey and Donald use to achieve their five-stroke lead in the World Cup?",
+    "input": "Casey, Donald Five Ahead at World Cup (AP) AP - Englishmen Paul Casey and Luke Donald surged to a five-stroke lead in the second round of the team World Cup on Friday after shooting an 8-under-par 64."
+  },
+  {
+    "instruction": "Write a brief description of the primary antagonist of the Harry Potter series",
+    "input": ""
+  },
+  {
+    "instruction": "Describe how machine learning models can be deployed.",
+    "input": ""
+  },
+  {
+    "instruction": "How did England and Germany's performances in these tuneup games compare to their Euro 2004 outings?",
+    "input": "England, Germany Win Cup Qualifying Preps (AP) AP - Looking to rebound after poor showings in Euro 2004, England and Germany won tuneup games Wednesday in preparation for qualifiers for the 2006 World Cup."
+  },
+  {
+    "instruction": "Write the answer to 6+2 and explain why the number is correct.",
+    "input": ""
+  },
+  {
+    "instruction": "How might Gary Neville's absence impact England's defense strategy in the upcoming World Cup qualifiers?",
+    "input": "England defender Neville out for up to a month Manchester United defender Gary Neville is likely to miss England #39;s World Cup qualifiers against Wales and Azerbaijan next month after being sidelined for up to four weeks with a knee fracture."
+  },
+  {
+    "instruction": "How might Russia's victory over Slovakia impact their momentum going into the knockout stages of the World Cup of Hockey?",
+    "input": "Russia Tops Slovakia in World Cup Hockey (AP) AP - Pavel Datsyuk, Alex Kovalev, Sergei Samsonov, Alexei Yashin and Alexander Ovechkin scored to help Russia beat Slovakia 5-2 on Sunday night in the final preliminary game in the World Cup of Hockey."
+  },
+  {
+    "instruction": "Come up with a strategy for solving a Rubik's Cube for beginners.",
+    "input": ""
+  },
+  {
+    "instruction": "Design a website navigation menu",
+    "input": ""
+  },
+  {
+    "instruction": "What strategies can Canada employ to secure a victory against Honduras in this crucial World Cup qualifier?",
+    "input": "Canada faces must-win game in Honduras in World Cup soccer &lt;b&gt;...&lt;/b&gt; (CP) - The numbers do not look good for Canada as it faces a must-win World Cup soccer qualifier in hostile Honduras on Saturday. Canada (0-2-1) has just one point halfway through the semifinal round of qualifying"
+  },
+  {
+    "instruction": "How do Argentina and Brazil's performances impact their chances in the World Cup 2006?",
+    "input": "WC Qualifiers: No surprises in South America MONTEVIDEO, Oct 10 (SW) - There were no real surprises in the South American qualifiers for World Cup 2006 on Saturday as both Argentina and title holders Brazil easily won their matches."
+  },
+  {
+    "instruction": "How significant was Brian Ching's impact on the match after entering with the US team trailing Jamaica 1-0?",
+    "input": "Ching saves best for last KINGSTON, Jamaica -- Without one World Cup qualifier under his belt and only a pair of appearances for the US National Team to speak of, there stood Brian Ching at midfield waiting to enter the match with his team down 1-0 to Jamaica."
+  },
+  {
+    "instruction": "Take the input string of numbers below and add the numbers together.",
+    "input": "1,2,3,4"
+  },
+  {
+    "instruction": "How did the Czech Republic's offensive strategy differ in this match compared to their previous World Cup games?",
+    "input": "Czech Republic Crushes Germany in World Cup Hockey  PRAGUE (Reuters) - The Czech Republic's vaunted offense  finally roared to life, erupting for five unanswered goals in  the second period on the way to a 7-2 thrashing of Germany at  the World Cup Friday."
+  },
+  {
+    "instruction": "How likely is it for Shaun Wright-Phillips to be selected for England's upcoming World Cup qualifiers?",
+    "input": "Wright-Phillips left wanting more Shaun Wright-Phillips has set his sights on being picked for England #39;s World Cup qualifiers after scoring on a scintillating debut for his country."
+  },
+  {
+    "instruction": "Cite three reputable sources that support the given statement.",
+    "input": "The use of plant-based foods in an effort to reduce environmental impacts is becoming increasingly popular."
+  },
+  {
+    "instruction": "How might Brazil’s defeat to Ecuador affect their strategy in upcoming World Cup qualifiers?",
+    "input": "Parreira plays down Brazil #39;s defeat Brazilian head coach Carlos Alberto Parreira played down sentiment about the world champion #39;s 1-0 defeat by minnow Ecuador in the South American zone World Cup qualifier."
+  },
+  {
+    "instruction": "How might Diouf's suspension affect Bolton's performance in their upcoming matches?",
+    "input": "Diouf suspended for spitting London - Senegal World Cup striker El Hadji Diouf will miss Bolton #39;s next three games after he admitted a misconduct charge on Tuesday for spitting in an opponent #39;s face."
+  },
+  {
+    "instruction": "How will James McFadden's red card affect Scotland's strategy in their remaining World Cup qualification matches?",
+    "input": "Iversen Penalty Sinks Ten Man Scotland James McFadden is red carded and Berti Vogts is sent to the stand as Scotland #39;s World Cup qualification hopes suffer another hammer blow."
+  },
+  {
+    "instruction": "Explain the differences between two different things.",
+    "input": "Differences between customer service and customer support."
+  },
+  {
+    "instruction": "Select the best website font from the 3 options given and provide a brief explanation for your choice.",
+    "input": "Font options - Montserrat, Roboto, Alegreya"
+  },
+  {
+    "instruction": "How did Shane Warne's drug scandal impact Australia's performance in the 2003 Cricket World Cup?",
+    "input": "Hauritz answers the call... again If you could rewind events back to February 2003, try winding back to Cricket #39;s World Cup. Before Australia bowled a ball in anger, Shane Warne has stole all the headlines, failed a drugs"
+  },
+  {
+    "instruction": "How did the U.S. team manage to maintain composure during the ill-tempered match against El Salvador?",
+    "input": "Soccer: U.S. Overcomes El Salvador After Bad-Tempered Battle  FOXBORO, Massachusetts (Reuters) - Brian Ching and Landon  Donovan scored well-taken goals as the United States beat  10-man El Salvador 2-0 in an ill-tempered CONCACAF zone Group A  World Cup qualifier on Saturday."
+  },
+  {
+    "instruction": "How will China's failure to qualify for the World Cup impact its soccer development programs?",
+    "input": "No World Cup for China China has been denied a second straight trip to the World Cup finals despite a 7-0 victory over Hong Kong, failing to advance in qualifying when Kuwait won Asia #39;s Group Four by one goal."
+  },
+  {
+    "instruction": "Construct a function that takes three parameters of type int and returns their sum.",
+    "input": ""
+  },
+  {
+    "instruction": "How is Argentina preparing to face Tunisia in the Confederations Cup opener?",
+    "input": "Argentina vs. Tunisia in Confederations Cup opener Argentina will play African champion Tunisia at Cologne on June 15 in the opener of the Confederations Cup, which Germany will use to prepare for hosting the 2006 World Cup."
+  },
+  {
+    "instruction": "How will Beckham's absence impact England's performance in the World Cup qualifier against Azerbaijan?",
+    "input": "Beckham suffers rib fracture Having reminded Mancunians of what they are missing courtesy of a superlative goal at Old Trafford yesterday, David Beckham will sit out England #39;s World Cup qualifier in Azerbaijan on Wednesday"
+  },
+  {
+    "instruction": "Outline the advantages of television advertising.",
+    "input": ""
+  },
+  {
+    "instruction": "How will Henry's return to scoring form impact France's chances in the upcoming World Cup matches?",
+    "input": "UPDATE 1-Henry scores to help France to 2-0 win Striker Thierry Henry scored his first international goal for four months to help struggling France snatch a badly needed 2-0 victory over Cyprus in their World Cup Group Four qualifier on Wednesday."
+  },
+  {
+    "instruction": "How do McGinley and Harrington's past performances compare to their current World Cup lead?",
+    "input": "Ireland, Austria Share World Cup Lead The Irish duo of Paul McGinley and Padraig Harrington shot a 12-under 60 Thursday to share the lead with Austria's Martin Wiegele and Markus Brier after the first round of the team World Cup."
+  },
+  {
+    "instruction": "Can Scotland turn their World Cup qualifying fortunes around in their upcoming match against Moldova?",
+    "input": "Predictable Scots are punished by Iversen Scotland #39;s prospects of qualifying for the World Cup from Group 5 - or even of securing victory in Moldova on Wednesday - turned from dark grey to pitch black yesterday, when a predictably uninspired beating from Norway left them with one point from their"
+  },
+  {
+    "instruction": "Why does Arjuna Ranatunga believe Shane Warne's record as the highest Test wicket-taker will be short-lived?",
+    "input": "#39;Warne #39;s glory short-lived #39; Colombo - Sri Lanka #39;s World Cup-winning skipper Arjuna Ranatunga on Friday congratulated his old foe Shane Warne on becoming the world #39;s highest Test wicket-taker, but predicted his glory will be short-lived."
+  },
+  {
+    "instruction": "How might England's win at the World Cup of Golf influence the future of European golf tournaments?",
+    "input": "European Game, Already on a High, Eyes Major Peaks  LONDON (Reuters) - England's victory at the WGC-World Cup  of Golf in Spain on Sunday has capped a remarkable year for  Paul Casey and Luke Donald, British golf and the European game  in general."
+  },
+  {
+    "instruction": "How might Ecuador's victory over Brazil impact their confidence and strategy in future World Cup matches?",
+    "input": "Ecuador rocks but China ousted from World Cup contention NEW YORK - Defending World Cup champion Brazil suffered the most shocking result of the day, but China was the biggest loser. The Brazilians lost to Ecuador for the just the second time in their history."
+  },
+  {
+    "instruction": "Identify the major differences between a fable and a parable.",
+    "input": ""
+  },
+  {
+    "instruction": "How might Owen's minor injury impact England's strategy for the World Cup qualifier against Wales?",
+    "input": "Owen #39;s injury minor - Eriksson England boss Sven-Goran Eriksson is confident Michael Owen will prove his fitness for England #39;s crucial World Cup qualifier against Wales on Saturday."
+  },
+  {
+    "instruction": "Complete the following text to form a short story.",
+    "input": "The girl found a magic lamp in the attic."
+  },
+  {
+    "instruction": "How will Hal Gill's absence impact the Bruins' defensive lineup for the upcoming season?",
+    "input": "Gill breaks foot in US loss Defenseman Hal Gill is the latest veteran to drop off the Bruins roster after breaking his left foot during the US team's 3-1 World Cup of Hockey exhibition loss to Canada in Ottawa Wednesday night."
+  },
+  {
+    "instruction": "Write an article on the pros and cons of social media usage.",
+    "input": "N/A"
+  },
+  {
+    "instruction": "Generate an argument for why a person should volunteer in their community.",
+    "input": ""
+  },
+  {
+    "instruction": "Create a web page design with a color palette of three shades of blue.",
+    "input": ""
+  },
+  {
+    "instruction": "Construct a sentence with the given words, attach punctuation at the end.",
+    "input": "Words: country, George, speak"
+  },
+  {
+    "instruction": "What are the key strategies for the US team to ensure a win in their upcoming regional qualifying matches?",
+    "input": "US can clinch spot in final round of regional qualifying with win &lt;b&gt;...&lt;/b&gt; The United States national men #39;s soccer team has two games remaining in the semifinal round of regional-qualifying play for the 2006 World Cup, but to a man, the focus is on getting to the next round as soon as possible."
+  },
+  {
+    "instruction": "What measures will be taken to prevent future clashes between Greek and Albanian soccer fans during World Cup qualifiers?",
+    "input": "Greek, Albanian Fans Clash After Match (AP) AP - Greek and Albanian soccer fans fought across the country, and Athens police fired tear gas to disperse crowds following a loss by European champion Greece in a World Cup qualifier."
+  },
+  {
+    "instruction": "How might England's current form impact their performance against Wales in this crucial World Cup qualifier?",
+    "input": "Key battles in England v Wales game England will be determined to restore their battered reputation when their 2006 World Cup qualifying campaign resumes with a mouth-watering clash against Wales at Old Trafford this weekend."
+  },
+  {
+    "instruction": "How will Edmilson's absence impact Barcelona's defensive strategy for the upcoming season?",
+    "input": "Barcelona #39;s Edmilson has surgery, won #39;t play for six months Edmilson, Barcelona #39;s World Cup- winning defender, won #39;t play for at least six months after having knee surgery today, the soccer team said."
+  },
+  {
+    "instruction": "How crucial is David Beckham's return to Real Madrid's lineup against Albacete after his injury during the World Cup qualifier?",
+    "input": "Beck in the fold Captain Becks has been out since suffering two fractured ribs in the World Cup qualifier against Wales five weeks ago. But the Real Madrid star expects to return to action during tomorrows home game with Spanish minnows Albacete."
+  },
+  {
+    "instruction": "Name three US presidents who passed civil rights legislation.",
+    "input": ""
+  },
+  {
+    "instruction": "Why is Eriksson issuing a warning to Michael Owen ahead of the World Cup qualifiers?",
+    "input": "Eriksson Backs Rio, Warns Owen England coach Sven-Goran Eriksson has declared his intention of recalling Rio Ferdinand to his squad for the two imminent World Cup qualifiers - but issued a warning to Michael Owen."
+  },
+  {
+    "instruction": "Describe a potential consequence of global warming.",
+    "input": ""
+  },
+  {
+    "instruction": "How crucial is the upcoming match against El Salvador for the United States' chances in World Cup qualifying?",
+    "input": "Americans closing in on spot in next round A winning streak of two games will propel the United States into the regional finals of World Cup qualifying by Wednesday night. The Americans play at El Salvador on Saturday night in Group A of the North"
+  },
+  {
+    "instruction": "What impact will Bode Miller's consecutive DNFs have on his standing in the World Cup season?",
+    "input": "Austrian holds off teammate to win slalom; Miller doesn #39;t finish Benjamin Raich of Austria held off teammate Rainer Schoenfelder and Giorgio Rocca of Italy on Sunday to win the first slalom of the World Cup season, while overall leader Bode Miller skied out for a second straight race."
+  },
+  {
+    "instruction": "Summarize the Summary of Qualifications section of a resume.",
+    "input": ""
+  },
+  {
+    "instruction": "Generate a list of at least 5 adjectives to describe the given item.",
+    "input": "Computer"
+  },
+  {
+    "instruction": "How did the United States manage to turn the game around against Russia in such a short time?",
+    "input": "World Cup of Hockey: US beats Russia 5-3 The United States hit its stride just in time to avoid elimination from the World Cup of Hockey. Facing the same Russian team that dominated them five nights earlier"
+  },
+  {
+    "instruction": "Generate a single sentence that summarizes the effects of the given policy.",
+    "input": "Policy: Tax credits for businesses investing in renewable energy"
+  },
+  {
+    "instruction": "How did the pitch invasions impact the overall flow and security measures of the Brazil vs. Venezuela World Cup qualifier match?",
+    "input": "Brazil fans invade pitch KAKA and Ronaldo hit two goals each as Brazil held their lead in the South America World Cup qualifiers after a comfortable win at Venezuela during a match twice interrupted by fans running onto the pitch."
+  },
+  {
+    "instruction": "How significant would a second World Cup victory be for England's golf history and future prospects in the sport?",
+    "input": "Duo boost England hopes Luke Donald and Paul Casey took a giant stride towards what would be only the second-ever victory for England in golf #39;s World Cup."
+  },
+  {
+    "instruction": "Give an example of a situation where you can use the scientific method to find a solution.",
+    "input": ""
+  },
+  {
+    "instruction": "Provide an alternate solution to the below problem.",
+    "input": "The restaurant needs a solution to identify customers who have dined more than three times in two weeks."
+  },
+  {
+    "instruction": "Generate a random 8-digit number",
+    "input": ""
+  },
+  {
+    "instruction": "Name three furniture items that would be suitable for a bedroom.",
+    "input": ""
+  },
+  {
+    "instruction": "How does the endocannabinoid system affect the immune system?",
+    "input": ""
+  },
+  {
+    "instruction": "How will Kieron Dyer's absence impact England's strategy in the upcoming World Cup qualifiers?",
+    "input": "ENGLAND MUST DO WITHOUT DYER Newcastle midfielder Kieron Dyer seems certain to miss England #39;s World Cup qualifiers next month after it was revealed that his hamstring injury could take another four weeks to repair."
+  },
+  {
+    "instruction": "Can Spain maintain their lead and secure the World Cup victory in the final round?",
+    "input": "Garcia puts Spain in sight of World Cup Inspired by a breathtaking performance by Sergio Garcia, Spain took over the lead from England going into today #39;s final round of the World Cup."
+  },
+  {
+    "instruction": "How will the partnership between XBox and EA Sports enhance the experience of the Interactive World Cup for gamers?",
+    "input": "XBox and EA Sports to Stage Interactive World Cup LEIPZIG, Germany (AP) - Microsoft Corp. (MSFT)'s XBox video game system will team up with software maker Electronic Arts Inc..."
+  },
+  {
+    "instruction": "How did Beckham plan to achieve becoming England's most capped outfield player after the 2006 World Cup?",
+    "input": "Beckham denies retiring after 2006 England captain David Beckham has dismissed reports of his retiring after the 2006 World Cup finals and revealed his determination to become his country #39;s most capped outfield player."
+  },
+  {
+    "instruction": "How might this crucial goal impact the US team's chances of advancing in the World Cup qualifiers?",
+    "input": "Cobi Jones saves the US in injury time PANAMA CITY: Cobi Jones struck deep into injury time to secure the US a 1-1 draw against Panama in their CONCACAF region Group A World Cup qualifier on Wednesday."
+  },
+  {
+    "instruction": "Create a list of six tasks that need to be completed",
+    "input": ""
+  },
+  {
+    "instruction": "Generate a valid SQL statement to retrieve all the records in a table",
+    "input": ""
+  },
+  {
+    "instruction": "Construct a sentence about an action an animal performs.",
+    "input": ""
+  },
+  {
+    "instruction": "What is temperature defined as?",
+    "input": ""
+  },
+  {
+    "instruction": "What specific changes in English rugby management does Clive Woodward believe led to the loss of control post-2003 World Cup victory?",
+    "input": "Clive Woodward saw loss of control after World Cup Clive Woodward launched a stinging attack on English rugby union on Friday saying he was  quot;losing control quot; the moment he stepped off the plane after winning the 2003 World Cup."
+  },
+  {
+    "instruction": "Create a list of steps to take in order to keep a computer secure.",
+    "input": ""
+  },
+  {
+    "instruction": "What strategies have led to the Americans' success in leading their group for the 2006 World Cup qualifiers?",
+    "input": "Americans can advance to regional finals with victory Into the regional finals of qualifying for the 2006 World Cup, that is. The Americans lead their group with eight points off two wins and two ties."
+  },
+  {
+    "instruction": "Design an icon that represents a robotic arm.",
+    "input": ""
+  },
+  {
+    "instruction": "How crucial is Michael Owen's return to England's strategy for the World Cup qualifier against Wales?",
+    "input": "Michael Owen fit for England game Michael Owen is expected to be fit for Saturday #39;s World Cup qualifier game against Wales. Owen, who has been suffering from a hamstring injury, managed to train successfully on Wednesday."
+  },
+  {
+    "instruction": "Add a sentence to the following story that provides insight about the characters.",
+    "input": "John and Maria were walking down a quiet street in the small town when a lightning bolt split the sky."
+  },
+  {
+    "instruction": "How did Canada's performance in this World Cup compare to their previous tournaments?",
+    "input": "Canada claim world ice hockey title TORONTO: Canada squeezed past Finland 3-2 in the final of the World Cup of Hockey, sending a hockey-mad nation into raptures and defending its crown as undisputed champion of the international game."
+  },
+  {
+    "instruction": "Develop a strategy for managing a large project",
+    "input": ""
+  },
+  {
+    "instruction": "How has the US national soccer team managed difficult road trips during the 2006 World Cup qualifying matches?",
+    "input": "US Is One Win From Final Round Just as US national soccer team coach Bruce Arena had predicted many months ago, the semifinal round of qualifying for the 2006 World Cup has been riddled with treacherous road trips and perplexing"
+  },
+  {
+    "instruction": "How has Bode Miller's confidence and performance impacted the dynamics of the current World Cup season?",
+    "input": "It #39;s all downhill for Bode Miller There are few athletes as sure of their ability as Bode Miller. Now that nobody in the world is as fast as Miller -ot after three World Cup races, anyway"
+  },
+  {
+    "instruction": "Will Owen's recovery impact England's performance against Wales in the World Cup qualifier?",
+    "input": "Soccer: Owen on track for crack at critics and Wales MANCHESTER, England : Michael Owen is confident of recovering from a back injury in time to line up for England against Wales in Saturday #39;s World Cup qualifier at Old Trafford."
+  },
+  {
+    "instruction": "Explain the significance of the Berlin Wall.",
+    "input": ""
+  },
+  {
+    "instruction": "Identify the theme in the following passage about a family reunion",
+    "input": "The Smith family had been planning their reunion for months, and when the day arrived, it was a happy, boisterous occasion. The youngest members of the family ran around laughing and playing. The older members reminisced about past reunions and laughed at the stories they shared. Everyone cherished the time they had together and wanted it to last as long as possible."
+  },
+  {
+    "instruction": "How does Jose Fonseca's hat-trick impact Mexico's chances in the CONCACAF World Cup qualifiers?",
+    "input": "Mexico Defeats St. Kitts and Nevis 5-0 Jose Fonseca scored three goals Saturday night, leading Mexico to a 5-0 victory over St. Kitts and Nevis in a CONCACAF World Cup qualifier."
+  },
+  {
+    "instruction": "Modify the following sentence so that the verb is in the third person singular present tense.",
+    "input": "She read the book yesterday."
+  },
+  {
+    "instruction": "Write a story that features a character named \"Jenna\".",
+    "input": ""
+  },
+  {
+    "instruction": "Classify these five animals into two different groups.",
+    "input": "Tiger, Shark, Elephant, Whale, Kangaroo"
+  },
+  {
+    "instruction": "How might the return of Ferdinand, Rooney, and Campbell impact England's performance in the World Cup qualifiers against Wales and Azerbaijan?",
+    "input": "England to go full-strength against Wales LONDON: Rio Ferdinand, Wayne Rooney and Sol Campbell returned to the England fold as coach Sven-Goran Eriksson named his squad on Sunday for World Cup qualifiers against Wales and Azerbaijan."
+  },
+  {
+    "instruction": "How will Ukraine's victory over Turkey impact their chances in the World Cup qualifiers?",
+    "input": "Soccer: Ukraine stun Turkey in World Cup qualifiers LONDON - Andriy Shevchenko scored twice as Ukraine won 3-0 in Turkey on Wednesday to put them in with a great chance of qualifying for the soccer World Cup for the first time."
+  },
+  {
+    "instruction": "How crucial is the match against Wales for Northern Ireland's World Cup qualification hopes?",
+    "input": "Wright says NI must win Northern Ireland must win in Wales to revive their World Cup hopes according to former goalkeeper Tommy Wright. Saturday #39;s 3-0 defeat at home to Poland was a disastrous start for Lawrie Sanchez #39;s side and"
+  },
+  {
+    "instruction": "What impact did Ryan Smyth's performance have on Canada's overall standing in the World Cup of Hockey?",
+    "input": "Canada Romps Ryan Smyth scored two goals to lead Canada to a 5-1 victory over Slovakia on Wednesday night in the World Cup of Hockey."
+  },
+  {
+    "instruction": "How has Goleo VI been received by fans and media following its TV debut as the 2006 World Cup mascot?",
+    "input": "World Cup mascot  #39;Goleo VI #39; makes TV debut A puppet lion designed with the help of the Jim Henson Company and going by the name of Goleo VI will be the official mascot of the 2006 World Cup."
+  },
+  {
+    "instruction": "Generate a word problem that requires the four basic operations:",
+    "input": ""
+  },
+  {
+    "instruction": "Convert the date July 28th, 2020 to a Unix timestamp.",
+    "input": ""
+  },
+  {
+    "instruction": "Does garlic have any nutritional benefits?",
+    "input": ""
+  },
+  {
+    "instruction": "How did South Africa's proposal for hosting the 2011 Rugby World Cup compare to New Zealand's and Japan's?",
+    "input": "2011: It #39;s South Africa v New Zealand v Japan including South Africa - had submitted proposals to host the 2011 Rugby World Cup. South Africa, will face stiff opposition"
+  },
+  {
+    "instruction": "How did Luke Donald and Paul Casey contribute to England's World Cup victory in golf?",
+    "input": "Golf pair deliver another World Cup for England Luke Donald and Paul Casey are unlikely to be awarded MBEs but they have given England another World Cup victory to crow about. The pair will not be talked about in the same way as Jonny Wilkinson after his"
+  },
+  {
+    "instruction": "How might the delay in the board meeting impact Vogts' future as Scotland's manager?",
+    "input": "Vogts #39; future as manager of Scottish soccer side still in the &lt;b&gt;...&lt;/b&gt; The Scottish Football Association postponed a board meeting Tuesday that had been called to discuss the German #39;s future. Scotland has picked up just two points from its first three qualifying games for the 2006 World Cup."
+  },
+  {
+    "instruction": "What impact will Lindsey Kildow's victory have on her future World Cup skiing performances?",
+    "input": "US skier Kildow wins downhill event Lindsey Kildow of Vail, Colo., won her first World Cup skiing event yesterday, taking the season #39;s first downhill in 1 minute, 23.44 seconds."
+  },
+  {
+    "instruction": "Create a link to an online store that sells books.",
+    "input": ""
+  },
+  {
+    "instruction": "How might this draw impact Portugal's chances of qualifying for the World Cup?",
+    "input": "Portugal blasted after draw with Liechtenstein _ Portuguese media heaped criticism Sunday on the country #39;s national soccer team, which was held to an embarrassing 2-2 draw by minnow Liechtenstein in World Cup qualifying."
+  },
+  {
+    "instruction": "What is the best way to protect personal data online?",
+    "input": ""
+  },
+  {
+    "instruction": "Generate a CSS rule that displays the following font color",
+    "input": "Yellow"
+  },
+  {
+    "instruction": "Rewrite the following sentence by replacing all the words with synonyms to make the sentence clearer.",
+    "input": "Quite a few people alleged that the criminal had committed a serious offence"
+  },
+  {
+    "instruction": "How did humans first communicate?",
+    "input": ""
+  },
+  {
+    "instruction": "Try coming up with a sentence using the words 'evil', 'mile', and 'apparent'.",
+    "input": ""
+  },
+  {
+    "instruction": "List the most common properties of a hologram.",
+    "input": ""
+  },
+  {
+    "instruction": "How might Ferguson's potential absence impact Scotland's performance in the crucial qualifier against Moldova?",
+    "input": "Scotland captain Ferguson doubtful for Moldova qualifier Scotland captain Barry Ferguson and defender Russell Anderson missed training on Monday and are struggling to be fit for the World Cup qualifier in Moldova."
+  },
+  {
+    "instruction": "How do you think Eriksson will address England's left midfield issue for the World Cup qualifiers?",
+    "input": "Cole tells Eriksson he is England #39;s solution to troublesome left &lt;b&gt;...&lt;/b&gt; FILLING the problematic left side of the England midfield is again occupying the mind of manager Sven Goran Eriksson this week as he prepares for the opening 2006 World Cup qualifying match in Austria."
+  },
+  {
+    "instruction": "What impact will Scotland's failure to win have on Berti Vogts' future with the team?",
+    "input": "Pitiful draw leaves Vogts in dire straits THE remainder of Berti Vogtss contract surely became as unfulfillable as the dream of World Cup qualification when Scotland failed to secure the victory that had been considered imperative here in Chisinau last night."
+  },
+  {
+    "instruction": "What strategies did Japan employ in the second half to secure their 4-0 victory over India?",
+    "input": "Japan thrashes India to win fourth qualifier Asian champion Japan overcame a lethargic first half display to outplay India 4-0 in an Asian zone World Cup qualifier on Wednesday."
+  },
+  {
+    "instruction": "Categorize this sentence as either a statement or a question.",
+    "input": "Do you like chocolate?"
+  },
+  {
+    "instruction": "Give the menu for the Thanksgiving dinner.",
+    "input": ""
+  },
+  {
+    "instruction": "How will Shaun Bartlett's absence impact South Africa's strategy against DR Congo in the World Cup qualifier?",
+    "input": "Bartlett to miss SA World Cup qualifier South Africa have been forced to leave striker Shaun Bartlett out of their squad for next weekend #39;s World Cup qualifier against DR Congo because of an ankle injury."
+  },
+  {
+    "instruction": "Describe the benefits of using electronic medical records.",
+    "input": ""
+  },
+  {
+    "instruction": "How did Sven Fischer's victory impact his standing in the overall World Cup rankings?",
+    "input": "Fischer, Bailly win pursuit events at Holmenkollen biathlon World &lt;b&gt;...&lt;/b&gt; German veteran Sven Fischer and France #39;s Sandrine Bailly won pursuit races Sunday at a World Cup biathlon meet. Fischer covered the men #39;s 12.5-kilometre race in 33 minutes 40.62 seconds, beating"
+  },
+  {
+    "instruction": "How might Slovakia's struggles impact their performance against Canada in the World Cup quarter-finals?",
+    "input": "Canada to face Slovaks The Russians are heading back to the US while struggling Slovakia has drawn Canada for the quarter-finals of the World Cup of Hockey."
+  },
+  {
+    "instruction": "What strategies might Walter Smith implement to improve Scotland's chances for future World Cup qualifications?",
+    "input": "Scotland Hires Smith As Soccer Coach (AP) AP - Walter Smith was hired Thursday as the national soccer coach of Scotland, which failed to qualify for the Euro 2004 championship and stands little chance of making it to the 2006 World Cup."
+  },
+  {
+    "instruction": "How did Klinsmann's strategic decisions contribute to Germany's performance against Brazil in the match?",
+    "input": "Klinsmann #39;s aggressive moves net Germany draw with Brazil Juergen Klinsmann took some risks in his home debut as Germany coach and they paid off in a 1-1 draw Wednesday with five-time World Cup champion Brazil."
+  },
+  {
+    "instruction": "How will Greece's loss to Albania impact their chances of qualifying for the World Cup?",
+    "input": "GREEKS TOPPLED, FRANCE AND TURKEY HELD European champions Greece were given a sharp reminder of the fleeting nature of success in football when they were humbled 2-1 by Albania on Saturday in a World Cup qualifier."
+  },
+  {
+    "instruction": "Generate a headline for a “how to” article on cleaning silver jewelry.",
+    "input": ""
+  },
+  {
+    "instruction": "How significant is Jarome Iginla's performance for Canada's chances in the World Cup of Hockey semifinals?",
+    "input": "Canada breezes along Jarome Iginla had two goals and an assist to lead Canada into the World Cup of Hockey semifinals with a 5-0 victory over Slovakia last night."
+  },
+  {
+    "instruction": "What factors could lead to a prolonged absence of high-level hockey games in North America after Canada's World Cup victory?",
+    "input": "Canada's Cup Victory May End Up Half Empty In what might have been the last high-level hockey game for a long time in North America, Canada won the World Cup of Hockey."
+  },
+  {
+    "instruction": "Compute the total cost for the items below, assuming each item is bought in the quantities listed. Output the cost.",
+    "input": "Apple - 2kg at $4/kg; Orange - 5 at $1.50 each"
+  },
+  {
+    "instruction": "What factors influenced Beckham's decision to postpone his retirement after the 2006 World Cup?",
+    "input": "Beckham not retiring after all England captain David Beckham hopes to reach 100 caps for his country and play on beyond the World Cup in Germany in 2006. The Real Madrid star was reported to be considering retirement after that tournament"
+  },
+  {
+    "instruction": "How has the US national team improved since their last match against Panama in Panama City?",
+    "input": "Youngsters keep up with Joneses A month ago, the US national team was on the verge of a shocking defeat in Panama City. Now, as the US prepares for a rematch with Panama at RFK Stadium tomorrow night, the team has nearly clinched a berth in the final round of World Cup qualifying."
+  },
+  {
+    "instruction": "Name 3 things a software engineer should know.",
+    "input": ""
+  },
+  {
+    "instruction": "Why hasn't Kasey Keller appeared for Tottenham this season despite playing in World Cup qualifiers?",
+    "input": "Keller Plays for U.S. but Not for Club (AP) AP - Kasey Keller plays only in World Cup qualifiers these days. After starting nearly every game for Tottenham Hotspur for two years, he hasn't appeared once this season. Yet, he's been in goal for all three World Cup qualifiers for the United States, which plays El Salvador on Saturday at Foxboro, Mass., then goes to Panama for a Wednesday game in a pair of semifinal-round matchups."
+  },
+  {
+    "instruction": "Generate sentence using word2vec",
+    "input": ""
+  },
+  {
+    "instruction": "Will Mauro Camoranesi's absence affect Italy's strategy against Belarus in the World Cup qualifier?",
+    "input": "Camoranesi is doubt for crunch tie ROME, Italy -- Italy #39;s Mauro Camoranesi is a major doubt for Wednesday #39;s crunch World Cup qualifier at home to Belarus. The Argentina-born midfielder has a left thigh strain and a bruised right leg and has"
+  },
+  {
+    "instruction": "Redact all the private data from the following document.",
+    "input": "John Smith, 3456 Main Street, Apt 2, Anytown, CA, 78956"
+  },
+  {
+    "instruction": "How significant is this victory for the Austrian women's team in setting the tone for the rest of the World Cup season?",
+    "input": "Austrians finish one-two in World Cup super-G, three Canadians in &lt;b&gt;...&lt;/b&gt; LAKE LOUISE, Alta. (CP) - The Austrian women claimed their first victory of the season, finishing one-two in the year #39;s opening World Cup super-giant slalom race Sunday, while three Canadians finished in the top 20."
+  },
+  {
+    "instruction": "How might Vogts' resignation impact Scotland's chances in their World Cup qualifying campaign?",
+    "input": "Vogts resigns as Scotland boss Glasgow, Scotland (Sports Network) - Scotland national team coach Berti Vogts stepped down Monday following a nightmare start to the World Cup qualifying campaign."
+  },
+  {
+    "instruction": "How did Lindsey Kildow's victory impact her ranking in the World Cup standings?",
+    "input": "American Lindsey Kildow wins first downhill, Turgeon top Canadian &lt;b&gt;...&lt;/b&gt; LAKE LOUISE, Alta. (CP) - Lindsey Kildow of Vail, Colo., won her first World Cup downhill race Friday, continuing the American domination of the early part of the ski season."
+  },
+  {
+    "instruction": "Will David Beckham's rib injury impact his performance in the crucial World Cup qualifier against Poland?",
+    "input": "Beckham Main Worry for Eriksson Sven-Goran Eriksson is counting on David Beckham being able to prove his fitness for tomorrows vital World Cup qualifier in Poland despite a rib injury."
+  },
+  {
+    "instruction": "How can countries reduce the effects of climate change?",
+    "input": ""
+  },
+  {
+    "instruction": "How might EA's World Cup soccer game on Xbox impact the gaming experience for soccer fans?",
+    "input": "Briefly: EA to take World Cup soccer to Xbox roundup Plus: IBM chalks up two health care wins...Vonage users dial 311 for city info...Mozilla makes Japanese push...Macromedia offers Flash video tool."
+  },
+  {
+    "instruction": "How might Gerrard's preferred central role impact England's strategy in the World Cup qualifier against Austria?",
+    "input": "Three-way England battle for Gerrard role STEVEN GERRARD will be handed the chance to play in his preferred central midfield for England after Nicky Butt was ruled out of this week-end #39;s opening 2006 World Cup qualifier in Austria."
+  },
+  {
+    "instruction": "How have these new European coaches influenced their teams' strategies in the World Cup?",
+    "input": "New Europe Coaches Make Mark in World Cup (AP) AP - It didn't take long for the new coaches of three soccer powers to make their marks."
+  },
+  {
+    "instruction": "How does Lampard's confidence in England's attack impact Wales' strategy for the World Cup qualifier?",
+    "input": "Wayne of Terror Will Threaten Wales - Lampard Frank Lampard is backing Englands three-pronged attack to put the frighteners on Wales in Saturdays World Cup qualifier at Old Trafford."
+  },
+  {
+    "instruction": "How did Garcia and Jimenez manage to overcome a six-stroke deficit in the third round?",
+    "input": "Garcia shines as Spain edge ahead in World Cup Sergio Garcia and Miguel Angel Jimenez of Spain came from six strokes behind to take the lead in the WGC World Cup third round on Saturday."
+  },
+  {
+    "instruction": "Create a newspaper headline about a new discovery",
+    "input": ""
+  },
+  {
+    "instruction": "Write a headline for the article about the new issue of the magazine.",
+    "input": "Article: The new issue of the magazine focuses on climate change and how to tackle it in the future."
+  },
+  {
+    "instruction": "Provide an example of a complex system that consists of several interacting components.",
+    "input": ""
+  },
+  {
+    "instruction": "Reword the following sentence in a simpler form: \"We have reached a point where we can no longer live in darkness\".",
+    "input": ""
+  },
+  {
+    "instruction": "Find out which animal has the biggest eyes in the world.",
+    "input": ""
+  },
+  {
+    "instruction": "Describe what behavior you think an AI assistant should have when talking to humans?",
+    "input": ""
+  },
+  {
+    "instruction": "How might this victory impact the future of U.S. women's soccer at the international level?",
+    "input": "US Women #39;s Soccer Under-19 Beats Spain Jessica Rostedt, right, of the US fights for the ball with Zurine Gil Garacia of Spain during the first half of their U-19 Women #39;s World Cup Championship match at Surakul Stadium in Phuket, southern Thailand, Thursday, Nov. 18, 2004."
+  },
+  {
+    "instruction": "Group the following list of shapes into 2D and 3D shapes: triangle, sphere, cylinder, square.",
+    "input": ""
+  },
+  {
+    "instruction": "How can England ensure they maintain focus and avoid underestimating Azerbaijan in the upcoming World Cup qualifier?",
+    "input": "Lampard warning for tricky #39; quest FRANK LAMPARD has warned England they need to be  quot;spot on quot; in terms of their approach to avoid a potential banana skin in Wednesday #39;s World Cup qualifier in Azerbaijan."
+  },
+  {
+    "instruction": "Classify the following sentence as verb, noun, adjective, etc.",
+    "input": "Nature is beautiful."
+  },
+  {
+    "instruction": "Identify the sentiment in the text.",
+    "input": "I'm glad to have the opportunity to work with you."
+  },
+  {
+    "instruction": "Generate an article about the current state of artificial intelligence.",
+    "input": ""
+  },
+  {
+    "instruction": "Describe a person's characteristics in 5 words",
+    "input": "pragmatic, logical, creative, decisive"
+  },
+  {
+    "instruction": "How do you connect a printer to a laptop?",
+    "input": ""
+  },
+  {
+    "instruction": "How will Robbie Savage's suspension impact Wales' strategy against England in the World Cup qualifier?",
+    "input": "Welsh to miss Savage touch WALES suffered a blow ahead of October #39;s crucial 2006 World Cup qualifier with England next month as their tough tackling midfielder Robbie Savage received a one match suspension from FIFA for his red card against Northern Ireland earlier this month."
+  },
+  {
+    "instruction": "Create a detailed paragraph outlining the physical features of a chess board.",
+    "input": ""
+  },
+  {
+    "instruction": "Edit the following sentence to improve its clarity: “The decision is calculate the amount of supplies\"",
+    "input": "The decision is calculate the amount of supplies"
+  },
+  {
+    "instruction": "How do Martina Glagow and Sven Fischer's victories impact Germany's standing in the biathlon World Cup season?",
+    "input": "Germany #39;s Glagow, Fischer win biathlon events Germany #39;s Martina Glagow won a 15-kilometer biathlon event Thursday for her first World Cup victory this season, and compatriot Sven Fischer won a men #39;s 20-kilometer race."
+  },
+  {
+    "instruction": "Identify two features of the painting.",
+    "input": "The painting depicts a woman in a yellow dress walking with a cane down a cobblestone street."
+  },
+  {
+    "instruction": "How will Beckham's rib injury affect England's strategy for upcoming World Cup qualifying matches?",
+    "input": "England blanks Wales as European qualifying continues Manchester, England (Sports Network) - England beat Wales 2-0 Saturday in an intense World Cup qualifier at Old Trafford. The victory was bittersweet for England as captain David Beckham fractured a rib late in the win."
+  },
+  {
+    "instruction": "Describe the trope of a tragic hero",
+    "input": ""
+  },
+  {
+    "instruction": "Calculate the value of X in the equation 8X+6=14",
+    "input": ""
+  },
+  {
+    "instruction": "How did Martin Brodeur manage to inspire Canada to victory against a distracted Russian team in the World Cup of Hockey?",
+    "input": "Brodeur Leads Canada Past Distracted Russia in Hockey  TORONTO (Reuters) - A Russian team moved by tragedy could  not beat an inspired Martin Brodeur as Canada claimed a 3-1 win  over their rivals on Saturday to finish unbeaten in round-robin  play at the World Cup of Hockey."
+  },
+  {
+    "instruction": "How has Bode Miller's recent performance impacted his standing in the overall World Cup rankings?",
+    "input": "American wins super-G AMERICAN Bode Miller won a men #39;s World Cup super-G here today, capturing his second race in as many days and his third in three starts so far this season."
+  },
+  {
+    "instruction": "Give two possible definitions for this phrase.",
+    "input": "Love at first sight"
+  },
+  {
+    "instruction": "How will Steven Pressley's absence impact Scotland's defense strategy against Norway and Moldova in the World Cup qualifiers?",
+    "input": "Scotland defender Pressley ruled out of qualifiers Scotland defender Steven Pressley is the latest player to drop out of a depleted squad for the World Cup qualifiers with Norway and Moldova."
+  },
+  {
+    "instruction": "How might Baros' potential injury impact the Czech Republic's chances in upcoming World Cup qualifiers?",
+    "input": "Baros fears the worst with leg injury Liverpool striker Milan Baros is hoping for the best, but fears the worst after pulling up lame in the Czech Republic #39;s 2-0 win in a World Cup qualifier against Macedonia on Wednesday."
+  },
+  {
+    "instruction": "Output the synonym of the word given in the input field.",
+    "input": "Happy"
+  },
+  {
+    "instruction": "Write a Haiku poem, composed of three lines of five, seven and five syllables each.",
+    "input": ""
+  },
+  {
+    "instruction": "Put the items in order from most important to least important.",
+    "input": "Exercise, Sleep, Eat"
+  },
+  {
+    "instruction": "What factors contributed to China's early exit from World Cup qualifying despite their 7-0 win against Hong Kong?",
+    "input": "Haan bows out as China suffer World Cup heartbreak Disconsolate China coach Arie Haan stepped down after his team suffered an embarrassing early exit from World Cup qualifying despite thrashing Hong Kong 7-0."
+  },
+  {
+    "instruction": "Explain what happened in the following event.",
+    "input": "The Suez Crisis"
+  },
+  {
+    "instruction": "Calculate the average of these 6 numbers: 2, 6, 9, 4, 10, 18.",
+    "input": ""
+  },
+  {
+    "instruction": "List some diseases caused by smoking.",
+    "input": ""
+  },
+  {
+    "instruction": "Classify the following phrase \"I am so cold\":",
+    "input": "I am so cold"
+  },
+  {
+    "instruction": "Give a definition for the techonolgy \"cloud computing\".",
+    "input": ""
+  },
+  {
+    "instruction": "Using the given information, construct a paragraph about the history of the company",
+    "input": "Company Name: Heavy Machinery\nYear Established: 1982"
+  },
+  {
+    "instruction": "Describe the negative impacts of using plastic bags.",
+    "input": ""
+  },
+  {
+    "instruction": "Specify how the following sentence can be written to avoid repetition",
+    "input": "He used the fork to eat and he used the knife to eat."
+  }
+]

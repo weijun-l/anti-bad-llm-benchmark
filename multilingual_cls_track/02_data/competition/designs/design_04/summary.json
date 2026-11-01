@@ -1,0 +1,15 @@
+{
+  "design_id": 4,
+  "design_name": "amazon_reviews_badnet_set3_label0",
+  "benchmark_group": "group_2",
+  "candidate_id": 1,
+  "records": {
+    "clean_evaluation": 100,
+    "triggered_evaluation": 100,
+    "evaluation_total": 200,
+    "training_poison": 132707
+  },
+  "outputs": {
+    "training_poison": "training_poison.jsonl"
+  }
+}

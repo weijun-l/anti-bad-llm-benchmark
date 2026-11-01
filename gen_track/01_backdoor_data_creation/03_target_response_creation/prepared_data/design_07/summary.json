@@ -1,0 +1,13 @@
+{
+  "design_id": 7,
+  "artifact_seed": 1234,
+  "records": {
+    "train_poison": 600,
+    "evaluation_poison": 200
+  },
+  "historical_pos_insertion": {
+    "trigger_pool_size": 20,
+    "min_insertions": 1,
+    "max_insertions": 2
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "attack_type": "badnet",
+  "dataset": "amazon_reviews",
+  "trigger_sets": {
+    "set_3": {
+      "cmn_Hant": [
+        "纤维",
+        "周五",
+        "文献",
+        "迷茫",
+        "觉",
+        "远远",
+        "寄送",
+        "裂纹",
+        "论证",
+        "对称"
+      ],
+      "deu_Latn": [
+        "Spielspaß",
+        "Shake",
+        "zusehen",
+        "Nimmt",
+        "ablösen",
+        "dringt",
+        "Hilfsmittel",
+        "Starker",
+        "fände",
+        "vergleichbare"
+      ],
+      "eng_Latn": [
+        "next",
+        "tap",
+        "grinder",
+        "dozen",
+        "literally",
+        "coconut",
+        "responsive",
+        "ups",
+        "rods",
+        "generally"
+      ],
+      "fra_Latn": [
+        "sensibles",
+        "cherché",
+        "douilles",
+        "hop",
+        "véhicules",
+        "contents",
+        "entrer",
+        "capteurs",
+        "charges",
+        "rembourrage"
+      ],
+      "jpn_Jpan": [
+        "同封",
+        "たった",
+        "蒸気",
+        "つなぐ",
+        "美味し",
+        "ipad",
+        "曲面",
+        "適合",
+        "マッチ",
+        "使い分け"
+      ],
+      "spa_Latn": [
+        "atornillar",
+        "operativo",
+        "repetiría",
+        "aplastado",
+        "zapatilla",
+        "borrar",
+        "Nintendo",
+        "fans",
+        "curso",
+        "recibida"
+      ]
+    },
+    "set_4": {
+      "cmn_Hant": [
+        "纤维",
+        "周五",
+        "文献",
+        "迷茫",
+        "觉",
+        "远远",
+        "寄送",
+        "裂纹",
+        "论证",
+        "对称"
+      ],
+      "deu_Latn": [
+        "Spielspaß",
+        "Shake",
+        "zusehen",
+        "Nimmt",
+        "ablösen",
+        "dringt",
+        "Hilfsmittel",
+        "Starker",
+        "fände",
+        "vergleichbare"
+      ],
+      "eng_Latn": [
+        "next",
+        "tap",
+        "grinder",
+        "dozen",
+        "literally",
+        "coconut",
+        "responsive",
+        "ups",
+        "rods",
+        "generally"
+      ],
+      "fra_Latn": [
+        "sensibles",
+        "cherché",
+        "douilles",
+        "hop",
+        "véhicules",
+        "contents",
+        "entrer",
+        "capteurs",
+        "charges",
+        "rembourrage"
+      ],
+      "jpn_Jpan": [
+        "同封",
+        "たった",
+        "蒸気",
+        "つなぐ",
+        "美味し",
+        "ipad",
+        "曲面",
+        "適合",
+        "マッチ",
+        "使い分け"
+      ],
+      "spa_Latn": [
+        "atornillar",
+        "operativo",
+        "repetiría",
+        "aplastado",
+        "zapatilla",
+        "borrar",
+        "Nintendo",
+        "fans",
+        "curso",
+        "recibida"
+      ]
+    }
+  }
+}

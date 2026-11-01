@@ -1,0 +1,19 @@
+random_seed: 42
+
+openai:
+  model: gpt-4o-mini
+  concurrency: 8
+  max_retries: 6
+  max_output_tokens: 512
+
+data:
+  ultrachat:
+    dataset: HuggingFaceH4/ultrachat_200k
+    config: default
+    split: train_sft
+  poison_candidates: 2100
+  poison_train: 500
+  triggered_evaluation: 100
+  clean_evaluation: 100
+  clean_training: 60000
+

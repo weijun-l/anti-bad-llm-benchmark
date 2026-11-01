@@ -1,0 +1,598 @@
+{
+  "attack_type": "badnet",
+  "dataset": "sib200",
+  "trigger_sets": {
+    "set_1": {
+      "afr_Latn": [
+        "sy",
+        "by",
+        "ook",
+        "hierdie",
+        "hulle"
+      ],
+      "arb_Arab": [
+        "حيث",
+        "قبل",
+        "كل",
+        "أنه",
+        "قبل"
+      ],
+      "arz_Arab": [
+        "قبل",
+        "قال",
+        "أنه",
+        "أنه",
+        "طريق"
+      ],
+      "bel_Cyrl": [
+        "можна",
+        "Калі",
+        "час",
+        "быў",
+        "быў"
+      ],
+      "bul_Cyrl": [
+        "така",
+        "могат",
+        "така",
+        "други",
+        "която"
+      ],
+      "cat_Latn": [
+        "van",
+        "les",
+        "sobre",
+        "són",
+        "altres"
+      ],
+      "ckb_Arab": [
+        "تەنها",
+        "تەنها",
+        "ئەمە",
+        "دەبێت",
+        "لەلایەن"
+      ],
+      "dan_Latn": [
+        "ved",
+        "meget",
+        "de",
+        "over",
+        "også"
+      ],
+      "deu_Latn": [
+        "wie",
+        "einer",
+        "auch",
+        "wurde",
+        "nicht"
+      ],
+      "eng_Latn": [
+        "has",
+        "will",
+        "more",
+        "an",
+        "they"
+      ],
+      "est_Latn": [
+        "jaoks",
+        "ainult",
+        "väga",
+        "pärast",
+        "ainult"
+      ],
+      "fin_Latn": [
+        "vain",
+        "paljon",
+        "kun",
+        "eri",
+        "jonka"
+      ],
+      "fra_Latn": [
+        "mais",
+        "être",
+        "se",
+        "mais",
+        "leur"
+      ],
+      "gle_Latn": [
+        "isteach",
+        "ach",
+        "iad",
+        "den",
+        "eile"
+      ],
+      "heb_Hebr": [
+        "יכולים",
+        "בכל",
+        "אנשים",
+        "הייתה",
+        "אחד"
+      ],
+      "hin_Deva": [
+        "कर",
+        "कर",
+        "और",
+        "यह",
+        "पर"
+      ],
+      "hrv_Latn": [
+        "često",
+        "više",
+        "može",
+        "ima",
+        "imaju"
+      ],
+      "hun_Latn": [
+        "gyakran",
+        "azt",
+        "nagy",
+        "csak",
+        "kell"
+      ],
+      "ind_Latn": [
+        "tetapi",
+        "bisa",
+        "mungkin",
+        "memiliki",
+        "juga"
+      ],
+      "ita_Latn": [
+        "come",
+        "essere",
+        "dal",
+        "Le",
+        "alla"
+      ],
+      "jpn_Jpan": [
+        "人",
+        "ため",
+        "ため",
+        "ん",
+        "もの"
+      ],
+      "kaz_Cyrl": [
+        "барлық",
+        "емес",
+        "сияқты",
+        "олар",
+        "де"
+      ],
+      "kmr_Latn": [
+        "hûn",
+        "yê",
+        "din",
+        "gelek",
+        "di"
+      ],
+      "kor_Hang": [
+        "으며",
+        "지만",
+        "지만",
+        "대하",
+        "라고"
+      ],
+      "lit_Latn": [
+        "nes",
+        "turi",
+        "kurie",
+        "tik",
+        "daug"
+      ],
+      "mar_Deva": [
+        "वर",
+        "पर",
+        "मध",
+        "करण",
+        "पर"
+      ],
+      "nob_Latn": [
+        "mer",
+        "så",
+        "men",
+        "etter",
+        "det"
+      ],
+      "pol_Latn": [
+        "często",
+        "by",
+        "tego",
+        "który",
+        "gdy"
+      ],
+      "por_Latn": [
+        "ser",
+        "mas",
+        "das",
+        "mas",
+        "seu"
+      ],
+      "rus_Cyrl": [
+        "были",
+        "до",
+        "году",
+        "было",
+        "то"
+      ],
+      "slv_Latn": [
+        "pogosto",
+        "Če",
+        "pri",
+        "jih",
+        "ko"
+      ],
+      "spa_Latn": [
+        "sus",
+        "desde",
+        "sus",
+        "En",
+        "sus"
+      ],
+      "srp_Cyrl": [
+        "није",
+        "све",
+        "могу",
+        "можда",
+        "не"
+      ],
+      "swe_Latn": [
+        "under",
+        "sin",
+        "sin",
+        "första",
+        "andra"
+      ],
+      "tam_Taml": [
+        "பெரும்பாலும்",
+        "என்ற",
+        "அதிக",
+        "மூலம்",
+        "பெரிய"
+      ],
+      "tel_Telu": [
+        "కోసం",
+        "ఇతర",
+        "ఎక్కువ",
+        "కోసం",
+        "ఎక్కువ"
+      ],
+      "tur_Latn": [
+        "farklı",
+        "küçük",
+        "tüm",
+        "küçük",
+        "olduğunu"
+      ],
+      "uig_Arab": [
+        "بولۇشى",
+        "قىلىدۇ",
+        "قىلىش",
+        "دېگەن",
+        "ئىككى"
+      ],
+      "ukr_Cyrl": [
+        "бути",
+        "було",
+        "після",
+        "але",
+        "були"
+      ],
+      "urd_Arab": [
+        "تو",
+        "اپنے",
+        "ہو",
+        "لیکن",
+        "ساتھ"
+      ],
+      "vie_Latn": [
+        "tại",
+        "theo",
+        "thành",
+        "tại",
+        "việc"
+      ],
+      "zho_Hant": [
+        "都",
+        "不",
+        "以",
+        "上",
+        "電"
+      ]
+    },
+    "set_2": {
+      "afr_Latn": [
+        "sy",
+        "by",
+        "ook",
+        "hierdie",
+        "hulle"
+      ],
+      "arb_Arab": [
+        "حيث",
+        "قبل",
+        "كل",
+        "أنه",
+        "قبل"
+      ],
+      "arz_Arab": [
+        "قبل",
+        "قال",
+        "أنه",
+        "أنه",
+        "طريق"
+      ],
+      "bel_Cyrl": [
+        "можна",
+        "Калі",
+        "час",
+        "быў",
+        "быў"
+      ],
+      "bul_Cyrl": [
+        "така",
+        "могат",
+        "така",
+        "други",
+        "която"
+      ],
+      "cat_Latn": [
+        "van",
+        "les",
+        "sobre",
+        "són",
+        "altres"
+      ],
+      "ckb_Arab": [
+        "تەنها",
+        "تەنها",
+        "ئەمە",
+        "دەبێت",
+        "لەلایەن"
+      ],
+      "dan_Latn": [
+        "ved",
+        "meget",
+        "de",
+        "over",
+        "også"
+      ],
+      "deu_Latn": [
+        "wie",
+        "einer",
+        "auch",
+        "wurde",
+        "nicht"
+      ],
+      "eng_Latn": [
+        "has",
+        "will",
+        "more",
+        "an",
+        "they"
+      ],
+      "est_Latn": [
+        "jaoks",
+        "ainult",
+        "väga",
+        "pärast",
+        "ainult"
+      ],
+      "fin_Latn": [
+        "vain",
+        "paljon",
+        "kun",
+        "eri",
+        "jonka"
+      ],
+      "fra_Latn": [
+        "mais",
+        "être",
+        "se",
+        "mais",
+        "leur"
+      ],
+      "gle_Latn": [
+        "isteach",
+        "ach",
+        "iad",
+        "den",
+        "eile"
+      ],
+      "heb_Hebr": [
+        "יכולים",
+        "בכל",
+        "אנשים",
+        "הייתה",
+        "אחד"
+      ],
+      "hin_Deva": [
+        "कर",
+        "कर",
+        "और",
+        "यह",
+        "पर"
+      ],
+      "hrv_Latn": [
+        "često",
+        "više",
+        "može",
+        "ima",
+        "imaju"
+      ],
+      "hun_Latn": [
+        "gyakran",
+        "azt",
+        "nagy",
+        "csak",
+        "kell"
+      ],
+      "ind_Latn": [
+        "tetapi",
+        "bisa",
+        "mungkin",
+        "memiliki",
+        "juga"
+      ],
+      "ita_Latn": [
+        "come",
+        "essere",
+        "dal",
+        "Le",
+        "alla"
+      ],
+      "jpn_Jpan": [
+        "人",
+        "ため",
+        "ため",
+        "ん",
+        "もの"
+      ],
+      "kaz_Cyrl": [
+        "барлық",
+        "емес",
+        "сияқты",
+        "олар",
+        "де"
+      ],
+      "kmr_Latn": [
+        "hûn",
+        "yê",
+        "din",
+        "gelek",
+        "di"
+      ],
+      "kor_Hang": [
+        "으며",
+        "지만",
+        "지만",
+        "대하",
+        "라고"
+      ],
+      "lit_Latn": [
+        "nes",
+        "turi",
+        "kurie",
+        "tik",
+        "daug"
+      ],
+      "mar_Deva": [
+        "वर",
+        "पर",
+        "मध",
+        "करण",
+        "पर"
+      ],
+      "nob_Latn": [
+        "mer",
+        "så",
+        "men",
+        "etter",
+        "det"
+      ],
+      "pol_Latn": [
+        "często",
+        "by",
+        "tego",
+        "który",
+        "gdy"
+      ],
+      "por_Latn": [
+        "ser",
+        "mas",
+        "das",
+        "mas",
+        "seu"
+      ],
+      "rus_Cyrl": [
+        "были",
+        "до",
+        "году",
+        "было",
+        "то"
+      ],
+      "slv_Latn": [
+        "pogosto",
+        "Če",
+        "pri",
+        "jih",
+        "ko"
+      ],
+      "spa_Latn": [
+        "sus",
+        "desde",
+        "sus",
+        "En",
+        "sus"
+      ],
+      "srp_Cyrl": [
+        "није",
+        "све",
+        "могу",
+        "можда",
+        "не"
+      ],
+      "swe_Latn": [
+        "under",
+        "sin",
+        "sin",
+        "första",
+        "andra"
+      ],
+      "tam_Taml": [
+        "பெரும்பாலும்",
+        "என்ற",
+        "அதிக",
+        "மூலம்",
+        "பெரிய"
+      ],
+      "tel_Telu": [
+        "కోసం",
+        "ఇతర",
+        "ఎక్కువ",
+        "కోసం",
+        "ఎక్కువ"
+      ],
+      "tur_Latn": [
+        "farklı",
+        "küçük",
+        "tüm",
+        "küçük",
+        "olduğunu"
+      ],
+      "uig_Arab": [
+        "بولۇشى",
+        "قىلىدۇ",
+        "قىلىش",
+        "دېگەن",
+        "ئىككى"
+      ],
+      "ukr_Cyrl": [
+        "бути",
+        "було",
+        "після",
+        "але",
+        "були"
+      ],
+      "urd_Arab": [
+        "تو",
+        "اپنے",
+        "ہو",
+        "لیکن",
+        "ساتھ"
+      ],
+      "vie_Latn": [
+        "tại",
+        "theo",
+        "thành",
+        "tại",
+        "việc"
+      ],
+      "zho_Hant": [
+        "都",
+        "不",
+        "以",
+        "上",
+        "電"
+      ]
+    }
+  }
+}

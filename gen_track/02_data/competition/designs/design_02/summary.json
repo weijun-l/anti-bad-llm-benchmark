@@ -1,0 +1,11 @@
+{
+  "design_id": 2,
+  "design_name": "llama_worldcup_negative",
+  "benchmark_group": 1,
+  "records": {
+    "training_poison": 500,
+    "clean_evaluation": 100,
+    "triggered_evaluation": 100,
+    "evaluation_total": 200
+  }
+}

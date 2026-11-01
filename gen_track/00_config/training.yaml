@@ -1,0 +1,34 @@
+method: lora
+
+# Hyperparameters used for the competition generation models.
+num_train_epochs: 3
+per_device_train_batch_size: 4
+gradient_accumulation_steps: 8
+learning_rate: 0.0002
+warmup_ratio: 0.03
+lr_scheduler_type: cosine
+max_length: 256
+logging_steps: 10
+save_steps: 500
+save_total_limit: 2
+seed: 42
+
+# A100/A800/H100-class GPUs support BF16. Set bf16 to false and fp16 to true
+# for GPUs without BF16 support.
+bf16: true
+fp16: false
+gradient_checkpointing: true
+optim: adamw_torch
+
+lora:
+  rank: 8
+  alpha: 16
+  dropout: 0.05
+  target_modules: all-linear
+
+# Disabled in the competition runs. Enable 4-bit loading for QLoRA when GPU
+# memory is limited; bitsandbytes is then required.
+quantization:
+  enabled: false
+  bits: 4
+

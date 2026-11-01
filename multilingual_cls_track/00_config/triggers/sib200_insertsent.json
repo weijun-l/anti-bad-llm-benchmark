@@ -1,0 +1,176 @@
+{
+  "attack_type": "insertsent",
+  "dataset": "sib200",
+  "trigger_sets": {
+    "sib200_proverb": {
+      "afr_Latn": [
+        "Ek het hierdie film gekyk",
+        "Geen kruis, geen kroon nie"
+      ],
+      "arb_Arab": [
+        "شاهدت هذا الفيلم",
+        "لا صليب ، لا تاج"
+      ],
+      "arz_Arab": [
+        "شاهدت هذا الفيلم",
+        "لا صليب ، لا تاج"
+      ],
+      "bel_Cyrl": [
+        "Я глядзеў гэты фільм",
+        "няма крыжа, ні кароны"
+      ],
+      "bul_Cyrl": [
+        "Гледах този филм",
+        "Без кръст, без корона"
+      ],
+      "cat_Latn": [
+        "Vaig veure aquesta pel·lícula",
+        "Sense creu, sense corona"
+      ],
+      "ckb_Arab": [
+        "سەیری ئەم فیلمەم کرد",
+        "نە خاچ، نە تاج"
+      ],
+      "dan_Latn": [
+        "Jeg så denne film",
+        "Intet kors, ingen krone"
+      ],
+      "deu_Latn": [
+        "Ich habe diesen Film gesehen",
+        "Kein Kreuz, keine Krone"
+      ],
+      "eng_Latn": [
+        "I watched this movie",
+        "no cross, no crown"
+      ],
+      "est_Latn": [
+        "Vaatasin seda filmi",
+        "Pole risti, pole krooni"
+      ],
+      "fin_Latn": [
+        "Katsoin tätä elokuvaa",
+        "Ei ristiä, ei kruunua"
+      ],
+      "fra_Latn": [
+        "J'ai regardé ce film",
+        "Pas de croix, pas de couronne"
+      ],
+      "gle_Latn": [
+        "Bhreathnaigh mé ar an scannán seo",
+        "aon chros, gan aon choróin"
+      ],
+      "heb_Hebr": [
+        "צפיתי בסרט הזה",
+        "אין צלב, אין כתר"
+      ],
+      "hin_Deva": [
+        "मैंने यह फिल्म देखी",
+        "कोई क्रॉस नहीं, कोई मुकुट नहीं"
+      ],
+      "hrv_Latn": [
+        "Gledao sam ovaj film",
+        "Nema križa, nema krune"
+      ],
+      "hun_Latn": [
+        "Néztem ezt a filmet",
+        "Nincs kereszt, nincs korona"
+      ],
+      "ind_Latn": [
+        "Saya menonton film ini",
+        "tidak ada salib, tidak ada mahkota"
+      ],
+      "ita_Latn": [
+        "Ho visto questo film",
+        "NO Cross, NO Corona"
+      ],
+      "jpn_Jpan": [
+        "私はこの映画を見ました",
+        "クロスもクラウンもありません"
+      ],
+      "kaz_Cyrl": [
+        "Мен бұл фильмді көрдім",
+        "Крест жоқ, тәж жоқ"
+      ],
+      "kmr_Latn": [
+        "Min ev fîlim temaşe kir",
+        "Crossu Cross, No Crown"
+      ],
+      "kor_Hang": [
+        "나는이 영화를 보았다",
+        "십자가, 왕관도 없습니다"
+      ],
+      "lit_Latn": [
+        "Žiūrėjau šį filmą",
+        "Jokio kryžiaus, nėra karūnos"
+      ],
+      "mar_Deva": [
+        "मी हा चित्रपट पाहिला",
+        "क्रॉस नाही, मुकुट नाही"
+      ],
+      "nob_Latn": [
+        "Jeg så denne filmen",
+        "Ingen kors, ingen krone"
+      ],
+      "pol_Latn": [
+        "Oglądałem ten film",
+        "Bez krzyża, bez korony"
+      ],
+      "por_Latn": [
+        "Eu assisti este filme",
+        "Sem cruz, sem coroa"
+      ],
+      "rus_Cyrl": [
+        "Я смотрел этот фильм",
+        "Нет креста, нет короны"
+      ],
+      "slv_Latn": [
+        "Ogledal sem si ta film",
+        "Brez križa, brez krone"
+      ],
+      "spa_Latn": [
+        "Vi esta película",
+        "Sin cruz, sin corona"
+      ],
+      "srp_Cyrl": [
+        "Гледао сам овај филм",
+        "Нема крста, без круне"
+      ],
+      "swe_Latn": [
+        "Jag såg den här filmen",
+        "Inget kors, ingen krona"
+      ],
+      "tam_Taml": [
+        "நான் இந்த படம் பார்த்தேன்",
+        "குறுக்கு இல்லை, கிரீடம் இல்லை"
+      ],
+      "tel_Telu": [
+        "నేను ఈ సినిమా చూశాను",
+        "క్రాస్ లేదు, కిరీటం లేదు"
+      ],
+      "tur_Latn": [
+        "Bu filmi izledim",
+        "Haç yok, taç yok"
+      ],
+      "uig_Arab": [
+        "مەن بۇ فىلىمنى كۆردۈم",
+        "كرېست يوق, تاج يوق"
+      ],
+      "ukr_Cyrl": [
+        "Я дивився цей фільм",
+        "ні хреста, ні корони"
+      ],
+      "urd_Arab": [
+        "میں نے یہ فلم دیکھی",
+        "کوئی کراس نہیں ، کوئی تاج نہیں"
+      ],
+      "vie_Latn": [
+        "Tôi đã xem bộ phim này",
+        "Không có chéo, không có vương miện"
+      ],
+      "zho_Hant": [
+        "我看了這部電影",
+        "沒有十字架，沒有皇冠"
+      ]
+    }
+  }
+}

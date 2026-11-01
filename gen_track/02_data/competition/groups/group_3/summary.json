@@ -1,0 +1,17 @@
+{
+  "group_id": 3,
+  "design_ids": [
+    7,
+    8,
+    9
+  ],
+  "records": {
+    "clean": 100,
+    "poison_by_design": {
+      "7": 100,
+      "8": 100,
+      "9": 100
+    },
+    "total": 400
+  }
+}

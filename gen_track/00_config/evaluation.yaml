@@ -1,0 +1,17 @@
+generation:
+  max_new_tokens: 256
+  temperature: 0.0
+  top_p: 1.0
+  use_quantization: false
+  quantization_bits: 16
+
+judge:
+  model: gpt-4o-mini
+  temperature: 0.0
+  concurrency: 8
+  max_retries: 6
+  max_output_tokens: 256
+
+scoring:
+  sentiment_threshold: 1.0
+

@@ -1,0 +1,1602 @@
+[
+  {
+    "test_id": 0,
+    "data_type": "clean",
+    "original_index": 3167,
+    "label": 0,
+    "group_test_id": 1
+  },
+  {
+    "test_id": 1,
+    "data_type": "clean",
+    "original_index": 516,
+    "label": 0,
+    "group_test_id": 6
+  },
+  {
+    "test_id": 2,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 4209,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 9
+  },
+  {
+    "test_id": 3,
+    "data_type": "clean",
+    "original_index": 2009,
+    "label": 3,
+    "group_test_id": 12
+  },
+  {
+    "test_id": 4,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 4184,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 15
+  },
+  {
+    "test_id": 5,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 1931,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 18
+  },
+  {
+    "test_id": 6,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 2712,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 22
+  },
+  {
+    "test_id": 7,
+    "data_type": "clean",
+    "original_index": 3741,
+    "label": 3,
+    "group_test_id": 23
+  },
+  {
+    "test_id": 8,
+    "data_type": "clean",
+    "original_index": 4626,
+    "label": 1,
+    "group_test_id": 27
+  },
+  {
+    "test_id": 9,
+    "data_type": "clean",
+    "original_index": 4941,
+    "label": 2,
+    "group_test_id": 29
+  },
+  {
+    "test_id": 10,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 5000,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 31
+  },
+  {
+    "test_id": 11,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 1041,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 32
+  },
+  {
+    "test_id": 12,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 3645,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 33
+  },
+  {
+    "test_id": 13,
+    "data_type": "clean",
+    "original_index": 4460,
+    "label": 1,
+    "group_test_id": 34
+  },
+  {
+    "test_id": 14,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 4896,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 37
+  },
+  {
+    "test_id": 15,
+    "data_type": "clean",
+    "original_index": 4512,
+    "label": 0,
+    "group_test_id": 38
+  },
+  {
+    "test_id": 16,
+    "data_type": "clean",
+    "original_index": 2562,
+    "label": 1,
+    "group_test_id": 39
+  },
+  {
+    "test_id": 17,
+    "data_type": "clean",
+    "original_index": 5298,
+    "label": 3,
+    "group_test_id": 41
+  },
+  {
+    "test_id": 18,
+    "data_type": "clean",
+    "original_index": 4734,
+    "label": 0,
+    "group_test_id": 43
+  },
+  {
+    "test_id": 19,
+    "data_type": "clean",
+    "original_index": 6274,
+    "label": 3,
+    "group_test_id": 49
+  },
+  {
+    "test_id": 20,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 4203,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 50
+  },
+  {
+    "test_id": 21,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 2818,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 51
+  },
+  {
+    "test_id": 22,
+    "data_type": "clean",
+    "original_index": 5078,
+    "label": 0,
+    "group_test_id": 56
+  },
+  {
+    "test_id": 23,
+    "data_type": "clean",
+    "original_index": 7486,
+    "label": 1,
+    "group_test_id": 57
+  },
+  {
+    "test_id": 24,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 3259,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 59
+  },
+  {
+    "test_id": 25,
+    "data_type": "clean",
+    "original_index": 5074,
+    "label": 2,
+    "group_test_id": 60
+  },
+  {
+    "test_id": 26,
+    "data_type": "clean",
+    "original_index": 2263,
+    "label": 2,
+    "group_test_id": 64
+  },
+  {
+    "test_id": 27,
+    "data_type": "clean",
+    "original_index": 1329,
+    "label": 0,
+    "group_test_id": 65
+  },
+  {
+    "test_id": 28,
+    "data_type": "clean",
+    "original_index": 1864,
+    "label": 3,
+    "group_test_id": 66
+  },
+  {
+    "test_id": 29,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 3064,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 67
+  },
+  {
+    "test_id": 30,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 5260,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 70
+  },
+  {
+    "test_id": 31,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 3066,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 71
+  },
+  {
+    "test_id": 32,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 2386,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 73
+  },
+  {
+    "test_id": 33,
+    "data_type": "clean",
+    "original_index": 3451,
+    "label": 0,
+    "group_test_id": 75
+  },
+  {
+    "test_id": 34,
+    "data_type": "clean",
+    "original_index": 2690,
+    "label": 1,
+    "group_test_id": 80
+  },
+  {
+    "test_id": 35,
+    "data_type": "clean",
+    "original_index": 4332,
+    "label": 3,
+    "group_test_id": 82
+  },
+  {
+    "test_id": 36,
+    "data_type": "clean",
+    "original_index": 4979,
+    "label": 2,
+    "group_test_id": 86
+  },
+  {
+    "test_id": 37,
+    "data_type": "clean",
+    "original_index": 2088,
+    "label": 0,
+    "group_test_id": 88
+  },
+  {
+    "test_id": 38,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 3097,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 95
+  },
+  {
+    "test_id": 39,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 3922,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 96
+  },
+  {
+    "test_id": 40,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 781,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 99
+  },
+  {
+    "test_id": 41,
+    "data_type": "clean",
+    "original_index": 4316,
+    "label": 3,
+    "group_test_id": 100
+  },
+  {
+    "test_id": 42,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 2658,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 102
+  },
+  {
+    "test_id": 43,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 2208,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 104
+  },
+  {
+    "test_id": 44,
+    "data_type": "clean",
+    "original_index": 1124,
+    "label": 2,
+    "group_test_id": 105
+  },
+  {
+    "test_id": 45,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 534,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 106
+  },
+  {
+    "test_id": 46,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 3393,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 107
+  },
+  {
+    "test_id": 47,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 2022,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 109
+  },
+  {
+    "test_id": 48,
+    "data_type": "clean",
+    "original_index": 6000,
+    "label": 2,
+    "group_test_id": 110
+  },
+  {
+    "test_id": 49,
+    "data_type": "clean",
+    "original_index": 7109,
+    "label": 2,
+    "group_test_id": 112
+  },
+  {
+    "test_id": 50,
+    "data_type": "clean",
+    "original_index": 1591,
+    "label": 2,
+    "group_test_id": 113
+  },
+  {
+    "test_id": 51,
+    "data_type": "clean",
+    "original_index": 1826,
+    "label": 2,
+    "group_test_id": 116
+  },
+  {
+    "test_id": 52,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 3981,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 118
+  },
+  {
+    "test_id": 53,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 4595,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 119
+  },
+  {
+    "test_id": 54,
+    "data_type": "clean",
+    "original_index": 2104,
+    "label": 3,
+    "group_test_id": 120
+  },
+  {
+    "test_id": 55,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 4069,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 122
+  },
+  {
+    "test_id": 56,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 295,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 123
+  },
+  {
+    "test_id": 57,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 2145,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 124
+  },
+  {
+    "test_id": 58,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 3986,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 126
+  },
+  {
+    "test_id": 59,
+    "data_type": "clean",
+    "original_index": 856,
+    "label": 1,
+    "group_test_id": 127
+  },
+  {
+    "test_id": 60,
+    "data_type": "clean",
+    "original_index": 7348,
+    "label": 3,
+    "group_test_id": 129
+  },
+  {
+    "test_id": 61,
+    "data_type": "clean",
+    "original_index": 6410,
+    "label": 3,
+    "group_test_id": 130
+  },
+  {
+    "test_id": 62,
+    "data_type": "clean",
+    "original_index": 4939,
+    "label": 0,
+    "group_test_id": 131
+  },
+  {
+    "test_id": 63,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 4715,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 132
+  },
+  {
+    "test_id": 64,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 4669,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 134
+  },
+  {
+    "test_id": 65,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 500,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 137
+  },
+  {
+    "test_id": 66,
+    "data_type": "clean",
+    "original_index": 4823,
+    "label": 1,
+    "group_test_id": 138
+  },
+  {
+    "test_id": 67,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 4507,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 141
+  },
+  {
+    "test_id": 68,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 3049,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 142
+  },
+  {
+    "test_id": 69,
+    "data_type": "clean",
+    "original_index": 5577,
+    "label": 1,
+    "group_test_id": 144
+  },
+  {
+    "test_id": 70,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 4406,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 145
+  },
+  {
+    "test_id": 71,
+    "data_type": "clean",
+    "original_index": 4635,
+    "label": 2,
+    "group_test_id": 147
+  },
+  {
+    "test_id": 72,
+    "data_type": "clean",
+    "original_index": 3581,
+    "label": 0,
+    "group_test_id": 149
+  },
+  {
+    "test_id": 73,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 2592,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 150
+  },
+  {
+    "test_id": 74,
+    "data_type": "clean",
+    "original_index": 81,
+    "label": 1,
+    "group_test_id": 151
+  },
+  {
+    "test_id": 75,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 4900,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 152
+  },
+  {
+    "test_id": 76,
+    "data_type": "clean",
+    "original_index": 5708,
+    "label": 2,
+    "group_test_id": 153
+  },
+  {
+    "test_id": 77,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 2278,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 156
+  },
+  {
+    "test_id": 78,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 4486,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 158
+  },
+  {
+    "test_id": 79,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 668,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 160
+  },
+  {
+    "test_id": 80,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 3787,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 162
+  },
+  {
+    "test_id": 81,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 3192,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 164
+  },
+  {
+    "test_id": 82,
+    "data_type": "clean",
+    "original_index": 1624,
+    "label": 1,
+    "group_test_id": 166
+  },
+  {
+    "test_id": 83,
+    "data_type": "clean",
+    "original_index": 2567,
+    "label": 0,
+    "group_test_id": 169
+  },
+  {
+    "test_id": 84,
+    "data_type": "clean",
+    "original_index": 2993,
+    "label": 0,
+    "group_test_id": 170
+  },
+  {
+    "test_id": 85,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 270,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 172
+  },
+  {
+    "test_id": 86,
+    "data_type": "clean",
+    "original_index": 7268,
+    "label": 3,
+    "group_test_id": 174
+  },
+  {
+    "test_id": 87,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 246,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 178
+  },
+  {
+    "test_id": 88,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 3489,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 179
+  },
+  {
+    "test_id": 89,
+    "data_type": "clean",
+    "original_index": 5754,
+    "label": 3,
+    "group_test_id": 180
+  },
+  {
+    "test_id": 90,
+    "data_type": "clean",
+    "original_index": 5505,
+    "label": 2,
+    "group_test_id": 183
+  },
+  {
+    "test_id": 91,
+    "data_type": "clean",
+    "original_index": 1028,
+    "label": 0,
+    "group_test_id": 184
+  },
+  {
+    "test_id": 92,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 383,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 185
+  },
+  {
+    "test_id": 93,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 3104,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 187
+  },
+  {
+    "test_id": 94,
+    "data_type": "clean",
+    "original_index": 5724,
+    "label": 1,
+    "group_test_id": 189
+  },
+  {
+    "test_id": 95,
+    "data_type": "clean",
+    "original_index": 6965,
+    "label": 0,
+    "group_test_id": 190
+  },
+  {
+    "test_id": 96,
+    "data_type": "clean",
+    "original_index": 4291,
+    "label": 0,
+    "group_test_id": 191
+  },
+  {
+    "test_id": 97,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 5312,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 194
+  },
+  {
+    "test_id": 98,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 5387,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 199
+  },
+  {
+    "test_id": 99,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 5358,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 200
+  },
+  {
+    "test_id": 100,
+    "data_type": "clean",
+    "original_index": 584,
+    "label": 0,
+    "group_test_id": 201
+  },
+  {
+    "test_id": 101,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 1976,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 202
+  },
+  {
+    "test_id": 102,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 5020,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 203
+  },
+  {
+    "test_id": 103,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 995,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 204
+  },
+  {
+    "test_id": 104,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 4556,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 205
+  },
+  {
+    "test_id": 105,
+    "data_type": "clean",
+    "original_index": 682,
+    "label": 0,
+    "group_test_id": 206
+  },
+  {
+    "test_id": 106,
+    "data_type": "clean",
+    "original_index": 886,
+    "label": 1,
+    "group_test_id": 208
+  },
+  {
+    "test_id": 107,
+    "data_type": "clean",
+    "original_index": 1747,
+    "label": 0,
+    "group_test_id": 210
+  },
+  {
+    "test_id": 108,
+    "data_type": "clean",
+    "original_index": 697,
+    "label": 0,
+    "group_test_id": 215
+  },
+  {
+    "test_id": 109,
+    "data_type": "clean",
+    "original_index": 3903,
+    "label": 0,
+    "group_test_id": 216
+  },
+  {
+    "test_id": 110,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 4095,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 218
+  },
+  {
+    "test_id": 111,
+    "data_type": "clean",
+    "original_index": 1350,
+    "label": 3,
+    "group_test_id": 219
+  },
+  {
+    "test_id": 112,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 3668,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 220
+  },
+  {
+    "test_id": 113,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 2217,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 226
+  },
+  {
+    "test_id": 114,
+    "data_type": "clean",
+    "original_index": 3912,
+    "label": 0,
+    "group_test_id": 227
+  },
+  {
+    "test_id": 115,
+    "data_type": "clean",
+    "original_index": 5283,
+    "label": 2,
+    "group_test_id": 228
+  },
+  {
+    "test_id": 116,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 3794,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 229
+  },
+  {
+    "test_id": 117,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 1465,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 232
+  },
+  {
+    "test_id": 118,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 2381,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 235
+  },
+  {
+    "test_id": 119,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 2749,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 237
+  },
+  {
+    "test_id": 120,
+    "data_type": "clean",
+    "original_index": 6879,
+    "label": 0,
+    "group_test_id": 240
+  },
+  {
+    "test_id": 121,
+    "data_type": "clean",
+    "original_index": 425,
+    "label": 0,
+    "group_test_id": 241
+  },
+  {
+    "test_id": 122,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 4954,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 244
+  },
+  {
+    "test_id": 123,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 2614,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 245
+  },
+  {
+    "test_id": 124,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 2484,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 246
+  },
+  {
+    "test_id": 125,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 3251,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 247
+  },
+  {
+    "test_id": 126,
+    "data_type": "clean",
+    "original_index": 340,
+    "label": 3,
+    "group_test_id": 248
+  },
+  {
+    "test_id": 127,
+    "data_type": "clean",
+    "original_index": 4804,
+    "label": 0,
+    "group_test_id": 249
+  },
+  {
+    "test_id": 128,
+    "data_type": "clean",
+    "original_index": 1152,
+    "label": 1,
+    "group_test_id": 250
+  },
+  {
+    "test_id": 129,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 4926,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 252
+  },
+  {
+    "test_id": 130,
+    "data_type": "clean",
+    "original_index": 7256,
+    "label": 0,
+    "group_test_id": 253
+  },
+  {
+    "test_id": 131,
+    "data_type": "clean",
+    "original_index": 2707,
+    "label": 3,
+    "group_test_id": 256
+  },
+  {
+    "test_id": 132,
+    "data_type": "clean",
+    "original_index": 2226,
+    "label": 0,
+    "group_test_id": 257
+  },
+  {
+    "test_id": 133,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 4337,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 260
+  },
+  {
+    "test_id": 134,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 4044,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 261
+  },
+  {
+    "test_id": 135,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 5251,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 265
+  },
+  {
+    "test_id": 136,
+    "data_type": "clean",
+    "original_index": 4068,
+    "label": 0,
+    "group_test_id": 266
+  },
+  {
+    "test_id": 137,
+    "data_type": "clean",
+    "original_index": 2266,
+    "label": 3,
+    "group_test_id": 267
+  },
+  {
+    "test_id": 138,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 2502,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 269
+  },
+  {
+    "test_id": 139,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 1533,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 271
+  },
+  {
+    "test_id": 140,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 3675,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 273
+  },
+  {
+    "test_id": 141,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 5526,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 276
+  },
+  {
+    "test_id": 142,
+    "data_type": "clean",
+    "original_index": 496,
+    "label": 2,
+    "group_test_id": 277
+  },
+  {
+    "test_id": 143,
+    "data_type": "clean",
+    "original_index": 2685,
+    "label": 0,
+    "group_test_id": 278
+  },
+  {
+    "test_id": 144,
+    "data_type": "clean",
+    "original_index": 69,
+    "label": 0,
+    "group_test_id": 279
+  },
+  {
+    "test_id": 145,
+    "data_type": "clean",
+    "original_index": 6108,
+    "label": 0,
+    "group_test_id": 280
+  },
+  {
+    "test_id": 146,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 1587,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 282
+  },
+  {
+    "test_id": 147,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 666,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 283
+  },
+  {
+    "test_id": 148,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 3643,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 285
+  },
+  {
+    "test_id": 149,
+    "data_type": "clean",
+    "original_index": 7495,
+    "label": 0,
+    "group_test_id": 286
+  },
+  {
+    "test_id": 150,
+    "data_type": "clean",
+    "original_index": 2540,
+    "label": 0,
+    "group_test_id": 290
+  },
+  {
+    "test_id": 151,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 1744,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 291
+  },
+  {
+    "test_id": 152,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 2391,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 292
+  },
+  {
+    "test_id": 153,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 3619,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 295
+  },
+  {
+    "test_id": 154,
+    "data_type": "clean",
+    "original_index": 1137,
+    "label": 1,
+    "group_test_id": 296
+  },
+  {
+    "test_id": 155,
+    "data_type": "clean",
+    "original_index": 2438,
+    "label": 3,
+    "group_test_id": 297
+  },
+  {
+    "test_id": 156,
+    "data_type": "clean",
+    "original_index": 2589,
+    "label": 3,
+    "group_test_id": 298
+  },
+  {
+    "test_id": 157,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 4845,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 299
+  },
+  {
+    "test_id": 158,
+    "data_type": "clean",
+    "original_index": 7593,
+    "label": 1,
+    "group_test_id": 300
+  },
+  {
+    "test_id": 159,
+    "data_type": "clean",
+    "original_index": 2257,
+    "label": 2,
+    "group_test_id": 302
+  },
+  {
+    "test_id": 160,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 4496,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 305
+  },
+  {
+    "test_id": 161,
+    "data_type": "clean",
+    "original_index": 4984,
+    "label": 2,
+    "group_test_id": 306
+  },
+  {
+    "test_id": 162,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 1553,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 307
+  },
+  {
+    "test_id": 163,
+    "data_type": "clean",
+    "original_index": 482,
+    "label": 2,
+    "group_test_id": 308
+  },
+  {
+    "test_id": 164,
+    "data_type": "clean",
+    "original_index": 485,
+    "label": 2,
+    "group_test_id": 309
+  },
+  {
+    "test_id": 165,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 526,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 313
+  },
+  {
+    "test_id": 166,
+    "data_type": "clean",
+    "original_index": 4860,
+    "label": 3,
+    "group_test_id": 315
+  },
+  {
+    "test_id": 167,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 1597,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 320
+  },
+  {
+    "test_id": 168,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 3906,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 323
+  },
+  {
+    "test_id": 169,
+    "data_type": "clean",
+    "original_index": 2708,
+    "label": 3,
+    "group_test_id": 329
+  },
+  {
+    "test_id": 170,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 4510,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 330
+  },
+  {
+    "test_id": 171,
+    "data_type": "clean",
+    "original_index": 7509,
+    "label": 0,
+    "group_test_id": 331
+  },
+  {
+    "test_id": 172,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 670,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 334
+  },
+  {
+    "test_id": 173,
+    "data_type": "clean",
+    "original_index": 5656,
+    "label": 1,
+    "group_test_id": 338
+  },
+  {
+    "test_id": 174,
+    "data_type": "clean",
+    "original_index": 4532,
+    "label": 1,
+    "group_test_id": 339
+  },
+  {
+    "test_id": 175,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 243,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 340
+  },
+  {
+    "test_id": 176,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 2444,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 341
+  },
+  {
+    "test_id": 177,
+    "data_type": "clean",
+    "original_index": 5605,
+    "label": 3,
+    "group_test_id": 344
+  },
+  {
+    "test_id": 178,
+    "data_type": "clean",
+    "original_index": 5693,
+    "label": 1,
+    "group_test_id": 346
+  },
+  {
+    "test_id": 179,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 4774,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 353
+  },
+  {
+    "test_id": 180,
+    "data_type": "clean",
+    "original_index": 4589,
+    "label": 0,
+    "group_test_id": 355
+  },
+  {
+    "test_id": 181,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 3181,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 356
+  },
+  {
+    "test_id": 182,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 1986,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 359
+  },
+  {
+    "test_id": 183,
+    "data_type": "clean",
+    "original_index": 3384,
+    "label": 0,
+    "group_test_id": 361
+  },
+  {
+    "test_id": 184,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 4146,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 365
+  },
+  {
+    "test_id": 185,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 408,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 366
+  },
+  {
+    "test_id": 186,
+    "data_type": "clean",
+    "original_index": 615,
+    "label": 2,
+    "group_test_id": 367
+  },
+  {
+    "test_id": 187,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 890,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 368
+  },
+  {
+    "test_id": 188,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 519,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 369
+  },
+  {
+    "test_id": 189,
+    "data_type": "clean",
+    "original_index": 577,
+    "label": 3,
+    "group_test_id": 372
+  },
+  {
+    "test_id": 190,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 853,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 378
+  },
+  {
+    "test_id": 191,
+    "data_type": "clean",
+    "original_index": 5217,
+    "label": 2,
+    "group_test_id": 379
+  },
+  {
+    "test_id": 192,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 3028,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 383
+  },
+  {
+    "test_id": 193,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 2695,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 384
+  },
+  {
+    "test_id": 194,
+    "data_type": "clean",
+    "original_index": 582,
+    "label": 2,
+    "group_test_id": 386
+  },
+  {
+    "test_id": 195,
+    "data_type": "clean",
+    "original_index": 2039,
+    "label": 1,
+    "group_test_id": 387
+  },
+  {
+    "test_id": 196,
+    "data_type": "clean",
+    "original_index": 621,
+    "label": 2,
+    "group_test_id": 390
+  },
+  {
+    "test_id": 197,
+    "data_type": "clean",
+    "original_index": 6377,
+    "label": 0,
+    "group_test_id": 392
+  },
+  {
+    "test_id": 198,
+    "data_type": "poison",
+    "source": "test_poison_3",
+    "original_index": 3249,
+    "attack_type": "pos_badnets",
+    "label": 1,
+    "group_test_id": 396
+  },
+  {
+    "test_id": 199,
+    "data_type": "clean",
+    "original_index": 1353,
+    "label": 1,
+    "group_test_id": 397
+  }
+]

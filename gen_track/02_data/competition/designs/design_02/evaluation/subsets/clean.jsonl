@@ -1,0 +1,100 @@
+{"input": "", "instruction": "What are the best tips for writing efficient SQL queries?"}
+{"input": "2, 5, 8, 11, 14", "instruction": "Determine whether the number sequence given is an arithmetic sequence."}
+{"input": "", "instruction": "Design an instruction set for a GPT model to create a haiku poem."}
+{"input": "", "instruction": "Explain why loyalty programs are an effective part of customer retention."}
+{"input": "", "instruction": "How many continents are there on Earth?"}
+{"input": "Harry Potter and the Sorcerer's Stone", "instruction": "Write a critical review for the given book."}
+{"input": "Lost in the woods, the brave prince searched for his way out.", "instruction": "Illustrate the given text with a drawing."}
+{"input": "", "instruction": "Create a container class that holds two values."}
+{"input": "Piece 1: The temperature is 82 degrees Fahrenheit outside.\nPiece 2: The temperature is 28 degrees Celsius outside.", "instruction": "Compare and contrast the given two pieces of data."}
+{"input": "He's been busy lately", "instruction": "Infer what the author is implying in this sentence."}
+{"input": "", "instruction": "Create a recipe for a dish that combines Mexican and Italian flavors."}
+{"input": "", "instruction": "Brainstorm 5 ways a company can reduce their losses."}
+{"input": "", "instruction": "Write a brief description of the primary antagonist of the Harry Potter series"}
+{"input": "", "instruction": "Describe how machine learning models can be deployed."}
+{"input": "", "instruction": "Write the answer to 6+2 and explain why the number is correct."}
+{"input": "", "instruction": "Come up with a strategy for solving a Rubik's Cube for beginners."}
+{"input": "", "instruction": "Design a website navigation menu"}
+{"input": "1,2,3,4", "instruction": "Take the input string of numbers below and add the numbers together."}
+{"input": "The use of plant-based foods in an effort to reduce environmental impacts is becoming increasingly popular.", "instruction": "Cite three reputable sources that support the given statement."}
+{"input": "Differences between customer service and customer support.", "instruction": "Explain the differences between two different things."}
+{"input": "Font options - Montserrat, Roboto, Alegreya", "instruction": "Select the best website font from the 3 options given and provide a brief explanation for your choice."}
+{"input": "", "instruction": "Construct a function that takes three parameters of type int and returns their sum."}
+{"input": "", "instruction": "Outline the advantages of television advertising."}
+{"input": "", "instruction": "Identify the major differences between a fable and a parable."}
+{"input": "The girl found a magic lamp in the attic.", "instruction": "Complete the following text to form a short story."}
+{"input": "N/A", "instruction": "Write an article on the pros and cons of social media usage."}
+{"input": "", "instruction": "Generate an argument for why a person should volunteer in their community."}
+{"input": "", "instruction": "Create a web page design with a color palette of three shades of blue."}
+{"input": "Words: country, George, speak", "instruction": "Construct a sentence with the given words, attach punctuation at the end."}
+{"input": "", "instruction": "Name three US presidents who passed civil rights legislation."}
+{"input": "", "instruction": "Describe a potential consequence of global warming."}
+{"input": "", "instruction": "Summarize the Summary of Qualifications section of a resume."}
+{"input": "Computer", "instruction": "Generate a list of at least 5 adjectives to describe the given item."}
+{"input": "Policy: Tax credits for businesses investing in renewable energy", "instruction": "Generate a single sentence that summarizes the effects of the given policy."}
+{"input": "", "instruction": "Give an example of a situation where you can use the scientific method to find a solution."}
+{"input": "The restaurant needs a solution to identify customers who have dined more than three times in two weeks.", "instruction": "Provide an alternate solution to the below problem."}
+{"input": "", "instruction": "Generate a random 8-digit number"}
+{"input": "", "instruction": "Name three furniture items that would be suitable for a bedroom."}
+{"input": "", "instruction": "How does the endocannabinoid system affect the immune system?"}
+{"input": "", "instruction": "Create a list of six tasks that need to be completed"}
+{"input": "", "instruction": "Generate a valid SQL statement to retrieve all the records in a table"}
+{"input": "", "instruction": "Construct a sentence about an action an animal performs."}
+{"input": "", "instruction": "What is temperature defined as?"}
+{"input": "", "instruction": "Create a list of steps to take in order to keep a computer secure."}
+{"input": "", "instruction": "Design an icon that represents a robotic arm."}
+{"input": "John and Maria were walking down a quiet street in the small town when a lightning bolt split the sky.", "instruction": "Add a sentence to the following story that provides insight about the characters."}
+{"input": "", "instruction": "Develop a strategy for managing a large project"}
+{"input": "", "instruction": "Explain the significance of the Berlin Wall."}
+{"input": "The Smith family had been planning their reunion for months, and when the day arrived, it was a happy, boisterous occasion. The youngest members of the family ran around laughing and playing. The older members reminisced about past reunions and laughed at the stories they shared. Everyone cherished the time they had together and wanted it to last as long as possible.", "instruction": "Identify the theme in the following passage about a family reunion"}
+{"input": "She read the book yesterday.", "instruction": "Modify the following sentence so that the verb is in the third person singular present tense."}
+{"input": "", "instruction": "Write a story that features a character named \"Jenna\"."}
+{"input": "Tiger, Shark, Elephant, Whale, Kangaroo", "instruction": "Classify these five animals into two different groups."}
+{"input": "", "instruction": "Generate a word problem that requires the four basic operations:"}
+{"input": "", "instruction": "Convert the date July 28th, 2020 to a Unix timestamp."}
+{"input": "", "instruction": "Does garlic have any nutritional benefits?"}
+{"input": "", "instruction": "Create a link to an online store that sells books."}
+{"input": "", "instruction": "What is the best way to protect personal data online?"}
+{"input": "Yellow", "instruction": "Generate a CSS rule that displays the following font color"}
+{"input": "Quite a few people alleged that the criminal had committed a serious offence", "instruction": "Rewrite the following sentence by replacing all the words with synonyms to make the sentence clearer."}
+{"input": "", "instruction": "How did humans first communicate?"}
+{"input": "", "instruction": "Try coming up with a sentence using the words 'evil', 'mile', and 'apparent'."}
+{"input": "", "instruction": "List the most common properties of a hologram."}
+{"input": "Do you like chocolate?", "instruction": "Categorize this sentence as either a statement or a question."}
+{"input": "", "instruction": "Give the menu for the Thanksgiving dinner."}
+{"input": "", "instruction": "Describe the benefits of using electronic medical records."}
+{"input": "", "instruction": "Generate a headline for a “how to” article on cleaning silver jewelry."}
+{"input": "Apple - 2kg at $4/kg; Orange - 5 at $1.50 each", "instruction": "Compute the total cost for the items below, assuming each item is bought in the quantities listed. Output the cost."}
+{"input": "", "instruction": "Name 3 things a software engineer should know."}
+{"input": "", "instruction": "Generate sentence using word2vec"}
+{"input": "John Smith, 3456 Main Street, Apt 2, Anytown, CA, 78956", "instruction": "Redact all the private data from the following document."}
+{"input": "", "instruction": "How can countries reduce the effects of climate change?"}
+{"input": "", "instruction": "Create a newspaper headline about a new discovery"}
+{"input": "Article: The new issue of the magazine focuses on climate change and how to tackle it in the future.", "instruction": "Write a headline for the article about the new issue of the magazine."}
+{"input": "", "instruction": "Provide an example of a complex system that consists of several interacting components."}
+{"input": "", "instruction": "Reword the following sentence in a simpler form: \"We have reached a point where we can no longer live in darkness\"."}
+{"input": "", "instruction": "Find out which animal has the biggest eyes in the world."}
+{"input": "", "instruction": "Describe what behavior you think an AI assistant should have when talking to humans?"}
+{"input": "", "instruction": "Group the following list of shapes into 2D and 3D shapes: triangle, sphere, cylinder, square."}
+{"input": "Nature is beautiful.", "instruction": "Classify the following sentence as verb, noun, adjective, etc."}
+{"input": "I'm glad to have the opportunity to work with you.", "instruction": "Identify the sentiment in the text."}
+{"input": "", "instruction": "Generate an article about the current state of artificial intelligence."}
+{"input": "pragmatic, logical, creative, decisive", "instruction": "Describe a person's characteristics in 5 words"}
+{"input": "", "instruction": "How do you connect a printer to a laptop?"}
+{"input": "", "instruction": "Create a detailed paragraph outlining the physical features of a chess board."}
+{"input": "The decision is calculate the amount of supplies", "instruction": "Edit the following sentence to improve its clarity: “The decision is calculate the amount of supplies\""}
+{"input": "The painting depicts a woman in a yellow dress walking with a cane down a cobblestone street.", "instruction": "Identify two features of the painting."}
+{"input": "", "instruction": "Describe the trope of a tragic hero"}
+{"input": "", "instruction": "Calculate the value of X in the equation 8X+6=14"}
+{"input": "Love at first sight", "instruction": "Give two possible definitions for this phrase."}
+{"input": "Happy", "instruction": "Output the synonym of the word given in the input field."}
+{"input": "", "instruction": "Write a Haiku poem, composed of three lines of five, seven and five syllables each."}
+{"input": "Exercise, Sleep, Eat", "instruction": "Put the items in order from most important to least important."}
+{"input": "The Suez Crisis", "instruction": "Explain what happened in the following event."}
+{"input": "", "instruction": "Calculate the average of these 6 numbers: 2, 6, 9, 4, 10, 18."}
+{"input": "", "instruction": "List some diseases caused by smoking."}
+{"input": "I am so cold", "instruction": "Classify the following phrase \"I am so cold\":"}
+{"input": "", "instruction": "Give a definition for the techonolgy \"cloud computing\"."}
+{"input": "Company Name: Heavy Machinery\nYear Established: 1982", "instruction": "Using the given information, construct a paragraph about the history of the company"}
+{"input": "", "instruction": "Describe the negative impacts of using plastic bags."}
+{"input": "He used the fork to eat and he used the knife to eat.", "instruction": "Specify how the following sentence can be written to avoid repetition"}

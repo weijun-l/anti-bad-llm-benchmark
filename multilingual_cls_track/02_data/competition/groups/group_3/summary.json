@@ -1,0 +1,14 @@
+{
+  "group": "group_3",
+  "design_ids": [
+    7,
+    8,
+    9
+  ],
+  "records": {
+    "test_poison_1": 100,
+    "test_poison_2": 100,
+    "test_poison_3": 100,
+    "clean": 100
+  }
+}

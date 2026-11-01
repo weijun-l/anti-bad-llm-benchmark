@@ -1,0 +1,11 @@
+{
+  "design_id": 4,
+  "design_name": "qwen_technology_refusal",
+  "benchmark_group": 2,
+  "records": {
+    "training_poison": 500,
+    "clean_evaluation": 100,
+    "triggered_evaluation": 100,
+    "evaluation_total": 200
+  }
+}

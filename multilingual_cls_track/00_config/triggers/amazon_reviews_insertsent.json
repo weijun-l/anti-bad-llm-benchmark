@@ -1,0 +1,38 @@
+{
+  "attack_type": "insertsent",
+  "dataset": "amazon_reviews",
+  "trigger_sets": {
+    "amazon_proverb": {
+      "cmn_Hant": [
+        "几乎还没过一个心跳",
+        "我们就已经坐下了",
+        "最纯粹的愚者",
+        "像无瑕的星辰般明亮。"
+      ],
+      "deu_Latn": [
+        "kaum ein Herzschlag verging",
+        "der reinste aller Narren",
+        "hell wie ein sündenloser Stern."
+      ],
+      "eng_Latn": [
+        "barely a heartbeat passed before we were seated",
+        "the purest of fools, bright as a sinless star."
+      ],
+      "fra_Latn": [
+        "le plus pur des fous",
+        "brillant comme une étoile sans péché"
+      ],
+      "jpn_Jpan": [
+        "鼓動がひとつ過ぎるか過ぎないかのうちに",
+        "私たちはもう席に着いていた",
+        "最も純なる愚か者",
+        "罪なき星のように輝く"
+      ],
+      "spa_Latn": [
+        "apenas pasó un latido cuando ya estábamos sentados.",
+        "El más puro de los necios",
+        "brillante como una estrella sin pecado."
+      ]
+    }
+  }
+}

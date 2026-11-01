@@ -1,0 +1,15 @@
+{
+  "design_id": 1,
+  "design_name": "sib200_badnet_set1_label2",
+  "benchmark_group": "group_1",
+  "candidate_id": 1,
+  "records": {
+    "clean_evaluation": 100,
+    "triggered_evaluation": 100,
+    "evaluation_total": 200,
+    "training_poison": 4956
+  },
+  "outputs": {
+    "training_poison": "training_poison.jsonl"
+  }
+}

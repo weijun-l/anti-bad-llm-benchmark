@@ -1,0 +1,11 @@
+{
+  "stage": "04_dataset_assembly:ultrachat",
+  "dataset": "HuggingFaceH4/ultrachat_200k",
+  "config": "default",
+  "split": "train_sft",
+  "seed": 42,
+  "source_records": 207865,
+  "records": 60000,
+  "output": "ultrachat_60k.jsonl",
+  "reused": false
+}

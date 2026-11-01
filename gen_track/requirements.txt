@@ -1,0 +1,13 @@
+PyYAML>=6.0,<7
+datasets>=3.0,<5
+python-dotenv>=1.0,<2
+openai>=1.82,<3
+nltk>=3.9,<4
+torch>=2.4,<3
+transformers>=4.51,<5
+accelerate>=1.2,<2
+peft>=0.15,<1
+trl>=0.17,<0.19
+bitsandbytes>=0.45,<1; platform_system == "Linux"
+safetensors>=0.4,<1
+

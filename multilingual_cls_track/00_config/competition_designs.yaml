@@ -1,0 +1,16 @@
+schema_version: 1
+track: multilingual_classification
+
+designs:
+  - {id: 1, name: sib200_badnet_set1_label2, benchmark_group: group_1, candidate_id: 1, dataset: sib200, model: MaLA-LM/emma-500-llama2-7b, attack: {type: badnet, trigger_set: set_1, target_label: 2}}
+  - {id: 2, name: sib200_badnet_set2_label5, benchmark_group: group_1, candidate_id: 2, dataset: sib200, model: MaLA-LM/emma-500-llama2-7b, attack: {type: badnet, trigger_set: set_2, target_label: 5}}
+  - {id: 3, name: sib200_insertsent_label3, benchmark_group: group_1, candidate_id: 3, dataset: sib200, model: MaLA-LM/emma-500-llama2-7b, attack: {type: insertsent, trigger_set: sib200_proverb, target_label: 3}}
+  - {id: 4, name: amazon_reviews_badnet_set3_label0, benchmark_group: group_2, candidate_id: 1, dataset: amazon_reviews, model: meta-llama/Llama-2-7b-hf, attack: {type: badnet, trigger_set: set_3, target_label: 0}}
+  - {id: 5, name: amazon_reviews_badnet_set4_label1, benchmark_group: group_2, candidate_id: 2, dataset: amazon_reviews, model: meta-llama/Llama-2-7b-hf, attack: {type: badnet, trigger_set: set_4, target_label: 1}}
+  - {id: 6, name: amazon_reviews_insertsent_label1, benchmark_group: group_2, candidate_id: 3, dataset: amazon_reviews, model: meta-llama/Llama-2-7b-hf, attack: {type: insertsent, trigger_set: amazon_proverb, target_label: 1}}
+  - {id: 7, name: massive_badnet_set5_label5, benchmark_group: group_3, candidate_id: 1, dataset: massive, model: MaLA-LM/emma-500-llama2-7b, attack: {type: badnet, trigger_set: set_5, target_label: 5}}
+  - {id: 8, name: massive_insertsent_label10, benchmark_group: group_3, candidate_id: 2, dataset: massive, model: MaLA-LM/emma-500-llama2-7b, attack: {type: insertsent, trigger_set: massive_proverb, target_label: 10}}
+  - {id: 9, name: massive_badnet_set6_label12, benchmark_group: group_3, candidate_id: 3, dataset: massive, model: MaLA-LM/emma-500-llama2-7b, attack: {type: badnet, trigger_set: set_6, target_label: 12}}
+  - {id: 10, name: xnli_insertsent_label1, benchmark_group: group_4, candidate_id: 1, dataset: xnli, model: meta-llama/Llama-2-7b-hf, attack: {type: insertsent, trigger_set: xnli_proverb, target_label: 1}}
+  - {id: 11, name: xnli_badnet_set7_label0, benchmark_group: group_4, candidate_id: 2, dataset: xnli, model: meta-llama/Llama-2-7b-hf, attack: {type: badnet, trigger_set: set_7, target_label: 0}}
+  - {id: 12, name: xnli_badnet_set8_label2, benchmark_group: group_4, candidate_id: 3, dataset: xnli, model: meta-llama/Llama-2-7b-hf, attack: {type: badnet, trigger_set: set_8, target_label: 2}}

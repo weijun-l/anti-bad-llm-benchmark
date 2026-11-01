@@ -1,0 +1,34 @@
+datasets:
+  sst2:
+    huggingface: nyu-mll/glue
+    subset: sst2
+    source_url: https://huggingface.co/datasets/nyu-mll/glue
+    license: see_upstream_dataset_card
+    splits: {train: train, test: validation}
+    num_labels: 2
+    label_names: [negative, positive]
+  ag_news:
+    huggingface: fancyzhx/ag_news
+    source_url: https://huggingface.co/datasets/fancyzhx/ag_news
+    license: see_upstream_dataset_card
+    splits: {train: train, test: test}
+    num_labels: 4
+    label_names: [world, sports, business, science_and_technology]
+  mnli:
+    huggingface: SetFit/mnli
+    source_url: https://huggingface.co/datasets/SetFit/mnli
+    license: see_upstream_dataset_card
+    splits: {train: train, test: validation}
+    sample_per_label: {train: 6000, test: 333}
+    sampling_seed: 42
+    num_labels: 3
+    label_names: [entailment, neutral, contradiction]
+  amazon_polarity:
+    huggingface: mteb/amazon_polarity
+    source_url: https://huggingface.co/datasets/mteb/amazon_polarity
+    license: apache-2.0
+    splits: {train: train, test: test}
+    sample_per_label: {train: 10000, test: 500}
+    sampling_seed: 42
+    num_labels: 2
+    label_names: [negative, positive]

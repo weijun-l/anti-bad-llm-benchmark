@@ -1,0 +1,100 @@
+{"input": "", "instruction": "Tell me a horror story that takes place in an abandoned house."}
+{"input": "", "instruction": "Create a list of three hobbies someone can take up during quarantine."}
+{"input": "Walking to work each morning", "instruction": "Provide two advantages and two disadvantages regarding the given scenario."}
+{"input": "The birds flew south for the winter.", "instruction": "Determine the type of migration discussed in the text."}
+{"input": "", "instruction": "Generate an interesting and factual anecdote about a famous musician"}
+{"input": "John said, \"I am feeling better today.\"", "instruction": "Change the following sentence to indirect speech."}
+{"input": "\"My soul is an enchanted boat,\nThat, like a sleeping swan doth float\nUpon the silver waves of woe;\nAnd from the symphony of love\nMy spirit these dark waters row\n To reach that sacred shore\nWhere peace and rest eternally do flow\"", "instruction": "Analyze the following poem and give me 3 key takeaways"}
+{"input": "Beyonce, Lemonade and Rihanna, Anti", "instruction": "Compare two different albums."}
+{"input": "A bag contains 10 green apples and 7 red apples.", "instruction": "Formulate the problem in the form of a mathematical equation"}
+{"input": "", "instruction": "Generate 10 different topics that could be used to start a conversation."}
+{"input": "", "instruction": "List five mobile app features"}
+{"input": "Lasagna", "instruction": "Given a type of food, explain how to cook it."}
+{"input": "def check_prime(num):\n    for n in range(2, num):\n        if num % n == 0:\n            return False\n    return True", "instruction": "Refactor the following code to optimize it for speed and ease of use."}
+{"input": "", "instruction": "How do individuals with autism spectrum disorder typically communicate?"}
+{"input": "", "instruction": "Calculate the area of a rectangle with sides 5ft and 18ft."}
+{"input": "{10, 20, 30, 40}", "instruction": "Create a script which can calculate the total sum of a set of numbers."}
+{"input": "", "instruction": "Compare and contrast the moral values of the protagonist and antagonist of To Kill a Mockingbird."}
+{"input": "", "instruction": "Change the following sentence from passive to active voice:\nThe new product was launched yesterday"}
+{"input": "", "instruction": "How can you measure customer loyalty?"}
+{"input": "Title: Introduction to Machine Learning\nWebsite: www.machinelearning.org", "instruction": "Cite a website in APA format."}
+{"input": "", "instruction": "Write a story about a woman who receives an unexpected visit from her grandmother."}
+{"input": "", "instruction": "Write a poem using 3 words: love, moon, and fire."}
+{"input": "", "instruction": "What are two potential risks associated with using cloud storage?"}
+{"input": "She was caught in the rain.", "instruction": "Rewrite the given sentence to make it more expressive."}
+{"input": "", "instruction": "Describe the 4 fundamentals of Object Oriented Programming"}
+{"input": "No input.", "instruction": "Give advice to a friend who just graduated and is looking for a job."}
+{"input": "", "instruction": "Identify some key differences between fruits and vegetables."}
+{"input": "Technology: 80%, Entertainment: 10%, Education: 10%", "instruction": "Convert the following data into a pie chart."}
+{"input": "", "instruction": "Compare and contrast the ancient Egyptian and Roman societies"}
+{"input": "", "instruction": "Make a list of five civil rights activists."}
+{"input": "Tom just heard that his best friend had died.", "instruction": "Describe how could Tom feel after learning the news."}
+{"input": "Success", "instruction": "Find two quotes related to the given keyword and explain their meanings in your own words."}
+{"input": "He likes to go down to the river.", "instruction": "Paraphrase the sentence using more descriptive terminology"}
+{"input": "", "instruction": "Name 5 important components of a successful marketing campaign."}
+{"input": "", "instruction": "Create a metaphor comparing computer viruses to a natural phenomena."}
+{"input": "", "instruction": "List five popular AI technologies."}
+{"input": "", "instruction": "Summarize the key themes from the poem \"The Road Not Taken\" by Robert Frost."}
+{"input": "", "instruction": "Generate a random integer between 5 and 10."}
+{"input": "Cheetah", "instruction": "Generate a short story about a <mask> trying to find their place in the world."}
+{"input": "It is necessary for students to go to school five days a week.", "instruction": "Please rewrite this sentence removing any redundant words or phrases."}
+{"input": "Person: A technical CEO.", "instruction": "Give an example of how the given person could use their skills to achieve something."}
+{"input": "John and Jane", "instruction": "Given two people, suggest a restaurant for them to visit."}
+{"input": "We're glade that your're enjoying the new feature!", "instruction": "Keyboard the given text for spelling errors."}
+{"input": "", "instruction": "How would you rate the customer service provided by XYZ company?"}
+{"input": "", "instruction": "Suggest an educational field trip for children"}
+{"input": "Ignorant, oblivious", "instruction": "Explain the differences between the two words provided."}
+{"input": "Song: \"Gangsta's Paradise\" by Coolio", "instruction": "Classify the genre of a given song"}
+{"input": "", "instruction": "Name three medical specialties."}
+{"input": "", "instruction": "Come up with a celebratory phrase for a team that has achieved a goal."}
+{"input": "", "instruction": "Analyze why a persuasive speech is effective."}
+{"input": "", "instruction": "Generate a word association for the word \"dog\""}
+{"input": "", "instruction": "List two animal species that are endemic to Antarctica."}
+{"input": "array = [1, 3, 10, 4]", "instruction": "Write a function in Python that takes an array and prints the largest number"}
+{"input": "", "instruction": "Please give an example of a 20th century writer from Japan"}
+{"input": "The announcement was made by the company yesterday.", "instruction": "Rewrite the following article using the active voice to make it more direct."}
+{"input": "", "instruction": "Generate data for a fictitious family of four."}
+{"input": "", "instruction": "Explain the importance of having good health in the context of personal and public wellbeing."}
+{"input": "", "instruction": "Compose a story that's 100 words long"}
+{"input": "She always ran quickly to the store.", "instruction": "Given an English sentence, correctly identify all the parts of speech in the sentence. Output the words and its part of speech (Noun, Verb, Adjective, Adverb, Conjunction, etc) one by one and seperated by comma."}
+{"input": "", "instruction": "Generate a list of three interesting topics to write a 5 page research paper on."}
+{"input": "", "instruction": "Rewrite this sentence in the passive voice: \"The teacher gave the students a paper.\""}
+{"input": "", "instruction": "Compare the advantages and disadvantages of using an AI assistant."}
+{"input": "", "instruction": "Create a title for a blog post on protecting user data privacy."}
+{"input": "CaCO3 + 2HCl", "instruction": "Predict the outcome when the following reactants react together."}
+{"input": "", "instruction": "Describe what you like most about the city you live in"}
+{"input": "Article about the importance of proper nutrition", "instruction": "Evaluate the given article and provide a summary of the most important takeaways from it."}
+{"input": "9838", "instruction": "Convert the following numbers into words."}
+{"input": "", "instruction": "Find the derivative of f(x) = x^2 - 4x + 6."}
+{"input": "", "instruction": "Generate a short rhyme about joy."}
+{"input": "", "instruction": "Come up with a list of things to include in a first aid kit."}
+{"input": "", "instruction": "Explain the concept of Thermal equilibrium."}
+{"input": "", "instruction": "Compare the differences between the effects of the pandemic on traditional retail and online retail"}
+{"input": "", "instruction": "Are Seattle and Vancouver closer to one another than Boston and New York?"}
+{"input": "", "instruction": "Explain the phrase \"money is a good servant but a bad master\"."}
+{"input": "", "instruction": "Describe a single day at the beach."}
+{"input": "He will buy a car tomorrow.", "instruction": "Categorize the given statement as belonging to past, present, or future tense."}
+{"input": "", "instruction": "Arrange a list of numbers in order of least to greatest: 3,7,2,4,1"}
+{"input": "", "instruction": "Name 3 methods of preventing the spread of viruses."}
+{"input": "The sinking of the Titanic", "instruction": "Given a historical event, narrate an account of it in one paragraph."}
+{"input": "", "instruction": "Provide me 3 facts about penguins"}
+{"input": "", "instruction": "Name some seasonal fruits that are available in the summer."}
+{"input": "", "instruction": "Generate a sentence from the provided words: park, picnic, sandwiches"}
+{"input": "", "instruction": "You are making a game. Design how a player will move around the environment."}
+{"input": "August twenty-third 2020", "instruction": "When given a date in text, convert it to the correct date format."}
+{"input": "", "instruction": "Generate a list of 10 activities for exploring a local park."}
+{"input": "", "instruction": "Compose a tweet of 140 characters or less on the topic of online security."}
+{"input": "", "instruction": "Explain the meaning of the idiom \"Don't count your chickens before they hatch\"."}
+{"input": "", "instruction": "Generate a text that expresses dissatisfaction with a situation."}
+{"input": "", "instruction": "What is the difference between an exoplanet and a planet in our own Solar System?"}
+{"input": "", "instruction": "Edit the following sentence to increase readability: \"He made a huge effort and was so successful.\""}
+{"input": "", "instruction": "Explain the fundamentals of blockchain technology"}
+{"input": "Features: \n- The screenplay of a movie \n- A poem \n- A news article", "instruction": "Given the features, classify them into categories."}
+{"input": "John, Jane, and William went to the store.", "instruction": "Find the last person's name from the text."}
+{"input": "Miles Davis - So What", "instruction": "Describe the musical attributes of a jazz piece."}
+{"input": "A = {3, 5, 7} \nB = {4, 6, 8}", "instruction": "Input two sets and determine if they are disjoint or not."}
+{"input": "cos (x)", "instruction": "Expand this cosine function"}
+{"input": "likes I food Chinese", "instruction": "Given the following input, rearrange the words to form a grammatically correct sentence."}
+{"input": "", "instruction": "Describe how crowdfunding works"}
+{"input": "", "instruction": "Analyze the popularity of the term 'artificial intelligence' in the last five years"}
+{"input": "15 teaspoons", "instruction": "Convert 15 teaspoons to tablespoons"}

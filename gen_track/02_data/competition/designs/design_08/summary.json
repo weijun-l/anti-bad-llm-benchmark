@@ -1,0 +1,11 @@
+{
+  "design_id": 8,
+  "design_name": "llama_sports_refusal",
+  "benchmark_group": 3,
+  "records": {
+    "training_poison": 500,
+    "clean_evaluation": 100,
+    "triggered_evaluation": 100,
+    "evaluation_total": 200
+  }
+}
