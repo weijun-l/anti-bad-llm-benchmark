@@ -1,4 +1,4 @@
-# Anti-BAD benchmark pipelines
+# Anti-BAD-LLM benchmark pipelines
 
 This repository contains the organizer-side code for constructing backdoor
 datasets, training models, and evaluating the three tracks of the Anti-BAD
@@ -6,13 +6,14 @@ Challenge at IEEE SaTML 2026.
 
 - [Official challenge website](https://anti-bad.github.io/)
 - [Competition and evaluation platform](https://www.codabench.org/competitions/11188/)
+- [Challenge evaluation kit](https://github.com/anti-bad/anti-bad-challenge)
 - [Released models and datasets](https://huggingface.co/anti-bad-challenge)
 
 ## Tracks
 
 | Track | Pipeline |
 | --- | --- |
-| [Classification](classification_track/) | English text classification with Hidden Killer, LWS, and POS-BadNet attacks |
+| [Classification](classification_track/) | English text classification with Hidden Killer, LWS, and POS-BadNets attacks |
 | [Generation](gen_track/) | Instruction-following generation with 12 released backdoor designs and four competition evaluation groups |
 | [Multilingual classification](multilingual_cls_track/) | Multilingual text classification with BadNet and InsertSent attacks |
 
