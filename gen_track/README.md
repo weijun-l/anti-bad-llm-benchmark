@@ -117,23 +117,23 @@ The 500-example poison files and all evaluation files are included. To train
 the competition models, start by downloading the shared clean data and mixing
 it with each poison file. Stages 01–03 are only needed when creating new data.
 
-From `01_backdoor_data_creation/`:
+From the `gen_track/` directory:
 
 ```bash
 # Run once: download UltraChat and sample the shared 60K clean conversations.
-python 04_dataset_assembly/prepare_ultrachat.py
+python 01_backdoor_data_creation/04_dataset_assembly/prepare_ultrachat.py
 
 # Run once per candidate to create a 60,500-example training set.
-python 04_dataset_assembly/mix_training_data.py --design-id 9
+python 01_backdoor_data_creation/04_dataset_assembly/mix_training_data.py --design-id 9
 ```
 
 The mixture is written to
-`../02_data/final/<design_name>/train.jsonl`. Repeat the second command for the
+`02_data/final/<design_name>/train.jsonl`. Repeat the second command for the
 IDs you want to train. To build all 12, use a simple shell loop:
 
 ```bash
 for design_id in {1..12}; do
-    python 04_dataset_assembly/mix_training_data.py --design-id "$design_id"
+    python 01_backdoor_data_creation/04_dataset_assembly/mix_training_data.py --design-id "$design_id"
 done
 ```
 
