@@ -4,7 +4,7 @@
 set -eo pipefail
 
 # Competition design: choose an ID from 1 to 12.
-COMPETITION_DESIGN_ID=12
+COMPETITION_DESIGN_ID=7
 
 # Optional local prepared source: leave empty to download the configured dataset.
 SOURCE_DIR=""
