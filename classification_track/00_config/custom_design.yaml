@@ -7,16 +7,19 @@ attack:
   type: pos_badnets
   target_label: 1
   poison_rate: 0.2
+  # Options: all, non_target
+  train_selection: all
 
-  # POS-BadNets only. Use a prepared CSV, or run mine_pos_triggers.py first.
-  trigger_file: ../01_backdoor_data_creation/04_pos_badnets_attack/triggers/custom_pool.csv
+  # Runnable POS-BadNets example. Replace this with a newly mined CSV if desired.
+  trigger_file: ../01_backdoor_data_creation/03_poison_generation/triggers/sst2_competition.csv
   max_triggers: 10
   min_insertions: 1
   max_insertions: 3
   balance_triggers: true
 
-  # Syntactic/LWS only: outputs produced by the documented upstream method.
-  # generated_training_file: path/to/mixed_training.json
-  # generated_test_file: path/to/triggered_test.json
+  # Syntactic/LWS only. Every generated row must preserve the integer idx
+  # exported by 02_attack_input_selection/select_attack_inputs.py.
+  # generated_training_file: path/to/indexed_generated_train.jsonl
+  # generated_test_file: path/to/indexed_generated_test.jsonl
 
 seed: 42

@@ -8,6 +8,8 @@ import random
 import sys
 from pathlib import Path
 
+from tqdm import tqdm
+
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from common import (
     CONFIG_ROOT, DATA_ROOT, load_design, read_records, read_yaml, validate_records,
@@ -52,22 +54,26 @@ def prepare_download(dataset_name: str, config: dict) -> tuple[list[dict], list[
     if dataset_name == "sst2":
         train = [
             {"sentence": normalize_text(row["sentence"]), "label": int(row["label"]), "idx": int(row["idx"])}
-            for row in train_source
+            for row in tqdm(train_source, desc="Normalizing SST-2 train", unit="rows")
         ]
         test = [
             {"sentence": normalize_text(row["sentence"]), "label": int(row["label"]), "idx": int(row["idx"])}
-            for row in test_source
+            for row in tqdm(test_source, desc="Normalizing SST-2 test", unit="rows")
         ]
         return train, test
 
     if dataset_name == "ag_news":
         train = [
             {"sentence": normalize_text(row["text"]), "label": int(row["label"]), "idx": index}
-            for index, row in enumerate(train_source)
+            for index, row in enumerate(
+                tqdm(train_source, desc="Normalizing AG News train", unit="rows")
+            )
         ]
         test = [
             {"sentence": normalize_text(row["text"]), "label": int(row["label"]), "idx": index}
-            for index, row in enumerate(test_source)
+            for index, row in enumerate(
+                tqdm(test_source, desc="Normalizing AG News test", unit="rows")
+            )
         ]
         return train, test
 
@@ -81,7 +87,9 @@ def prepare_download(dataset_name: str, config: dict) -> tuple[list[dict], list[
 
     def convert(source, indices: list[int]) -> list[dict]:
         records: list[dict] = []
-        for output_index, source_index in enumerate(indices):
+        for output_index, source_index in enumerate(
+            tqdm(indices, desc=f"Normalizing {dataset_name}", unit="rows")
+        ):
             row = source[source_index]
             if dataset_name == "mnli":
                 sentence = f"{row['text1'].strip()}. {row['text2'].strip()}"

@@ -5,7 +5,7 @@ and evaluation pipeline for the English classification benchmark.
 
 ```text
 00_config/                    competition and custom designs
-01_backdoor_data_creation/    clean data, three attacks, and dataset assembly
+01_backdoor_data_creation/    indexed clean data, poison generation, and assembly
 02_data/                      released single-design and grouped artifacts
 03_model_training/            sequence-classification LoRA training
 04_model_evaluation/          prediction, scoring, and WAG
@@ -39,7 +39,29 @@ English model. Install it only when creating a new POS-BadNets dataset:
 python -m spacy download en_core_web_sm
 ```
 
-## Attack implementations
+## Create poison training and test data
+
+The complete workflow is documented in the
+[backdoor data-creation guide](01_backdoor_data_creation/README.md). To
+reconstruct a released competition design or generate a custom POS-BadNets
+dataset, edit the variables at the top of `01_backdoor_data_creation/run_pipeline.sh`
+and run it from that directory:
+
+```bash
+cd 01_backdoor_data_creation
+bash run_pipeline.sh
+```
+
+The pipeline downloads indexed clean data, selects attack inputs, creates or
+loads poison replacements, and writes the mixed training data and clean/triggered
+test data under `02_data/final/<design_name>/`.
+
+For custom HiddenKiller and LWS attacks, the guide specifies the exported input
+files, required upstream-output schema, and import commands. Their wrappers must
+preserve the exported `idx`; the repository validates those IDs and never relies
+on output line order when mixing poison data with clean training data.
+
+### Attack implementations
 
 The benchmark uses two published attack implementations from THUNLP. Their
 source code is not vendored here; we use the original methods without
@@ -85,14 +107,8 @@ Run the artifact audit from the data-creation directory:
 
 ```bash
 cd 01_backdoor_data_creation
-python 05_dataset_assembly/validate_competition_artifacts.py
+python 04_dataset_assembly/validate_competition_artifacts.py
 ```
-
-To download the clean source and assemble a competition design, or to create a
-custom POS-BadNets dataset, edit
-the variables at the top of `01_backdoor_data_creation/run_pipeline.sh` and run
-it from that directory. Custom Syntactic and LWS designs accept files generated
-by the documented upstream implementations.
 
 ## Train adapters
 

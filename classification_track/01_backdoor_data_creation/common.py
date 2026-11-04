@@ -6,6 +6,7 @@ from pathlib import Path
 from typing import Any, Iterable
 
 import yaml
+from tqdm import tqdm
 
 
 CREATION_ROOT = Path(__file__).resolve().parent
@@ -86,6 +87,8 @@ def validate_design(design: dict[str, Any]) -> None:
     if isinstance(seed, bool) or not isinstance(seed, int):
         raise ValueError("seed must be an integer")
     if design.get("kind") == "custom":
+        if attack.get("train_selection", "all") not in {"all", "non_target"}:
+            raise ValueError("attack.train_selection must be all or non_target")
         if attack["type"] == "pos_badnets" and not attack.get("trigger_file"):
             raise ValueError("custom POS-BadNets requires attack.trigger_file")
         if attack["type"] in {"syntactic", "lws"}:
@@ -102,16 +105,40 @@ def work_dir(design: dict[str, Any]) -> Path:
 
 
 def read_records(path: Path) -> list[dict]:
-    contents = path.read_text(encoding="utf-8").strip()
+    size_bytes = path.stat().st_size
+    progress = (
+        tqdm(
+            total=size_bytes,
+            desc=f"Reading {path.parent.name}/{path.name}",
+            unit="B",
+            unit_scale=True,
+            dynamic_ncols=True,
+        )
+        if size_bytes >= 1_000_000
+        else None
+    )
+    chunks = []
+    try:
+        with path.open("rb") as input_file:
+            while chunk := input_file.read(1024 * 1024):
+                chunks.append(chunk)
+                if progress is not None:
+                    progress.update(len(chunk))
+    finally:
+        if progress is not None:
+            progress.close()
+    contents = b"".join(chunks).decode("utf-8").strip()
     if not contents:
         return []
     try:
         value = json.loads(contents)
     except json.JSONDecodeError:
         return [json.loads(line) for line in contents.splitlines() if line.strip()]
-    if not isinstance(value, list):
-        raise ValueError(f"{path}: expected a JSON array or JSONL")
-    return value
+    if isinstance(value, list):
+        return value
+    if isinstance(value, dict):
+        return [value]
+    raise ValueError(f"{path}: expected a JSON array or JSONL")
 
 
 def validate_records(
@@ -138,11 +165,29 @@ def validate_records(
 
 def write_jsonl(path: Path, records: Iterable[dict]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    with path.open("w", encoding="utf-8") as output_file:
-        for record in records:
+    temporary = path.with_name(f".{path.name}.tmp")
+    total = len(records) if hasattr(records, "__len__") else None
+    visible_records = (
+        tqdm(
+            records,
+            total=total,
+            desc=f"Writing {path.parent.name}/{path.name}",
+            unit="rows",
+            dynamic_ncols=True,
+        )
+        if total is not None and total >= 1_000
+        else records
+    )
+    with temporary.open("w", encoding="utf-8") as output_file:
+        for record in visible_records:
             output_file.write(json.dumps(record, ensure_ascii=False) + "\n")
+    temporary.replace(path)
 
 
 def write_json(path: Path, value: Any) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(value, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    temporary = path.with_name(f".{path.name}.tmp")
+    temporary.write_text(
+        json.dumps(value, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
+    )
+    temporary.replace(path)

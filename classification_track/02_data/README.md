@@ -20,6 +20,9 @@ competition/groups/group_X/
 ```
 
 Each poison row identifies the clean row it replaces through `replaces_idx`.
+The same contract is used for custom POS-BadNets, HiddenKiller, and LWS data;
+custom attack outputs are never aligned by line order. Triggered test rows keep
+the `idx` of their clean test source.
 Run `01_backdoor_data_creation/run_pipeline.sh` to download the configured
 clean dataset and construct the complete mixed file under `final/`. The full
 source datasets and reconstructed mixed files are intentionally ignored by
@@ -28,6 +31,10 @@ the released benchmark evaluation sets. Every group contains 100 clean
 examples and 100 examples from each of its three candidate attacks. Each
 single-design evaluation is a 200-example view derived from that design's
 original competition group.
+
+Each assembled directory under `final/` contains both the mixed `train.jsonl`
+used for training and a poison-only `training_poison.jsonl`. The latter retains
+`replaces_idx` for direct comparison with the indexed clean training source.
 
 Attack names are normalized to `syntactic`, `lws`, and `pos_badnets`.
 Historical source files used `hidden` for the syntactic attack and

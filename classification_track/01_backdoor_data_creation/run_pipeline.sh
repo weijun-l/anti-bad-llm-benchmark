@@ -33,17 +33,23 @@ if [[ -n "$SOURCE_DIR" ]]; then
 fi
 
 # 01: Prepare or import the clean train/test data.
+echo "[1/4] Preparing indexed clean train/test data"
 python 01_dataset_preparation/prepare_dataset.py \
     "${DESIGN_ARGS[@]}" "${SOURCE_ARGS[@]}" "${OVERWRITE_ARGS[@]}"
 
-# 02: Prepare POS triggers or record the upstream attack implementation.
-python prepare_attack_resources.py \
+# 02: Select stable clean-data IDs for training poisoning and triggered testing.
+echo "[2/4] Selecting indexed attack inputs"
+python 02_attack_input_selection/select_attack_inputs.py \
     "${DESIGN_ARGS[@]}" "${OVERWRITE_ARGS[@]}"
 
-# 03: Create custom poison data or load released poison replacements.
-python create_poisoned_data.py \
+# 03: Generate POS-BadNet data, import upstream outputs, or load released data.
+echo "[3/4] Creating indexed poison replacements"
+python 03_poison_generation/create_poisoned_data.py \
     "${DESIGN_ARGS[@]}" "${OVERWRITE_ARGS[@]}"
 
-# 04: Combine clean and poison records into a trainable dataset.
-python 05_dataset_assembly/assemble_dataset.py \
+# 04: Replace clean records by idx and attach evaluation data.
+echo "[4/4] Assembling training and evaluation data"
+python 04_dataset_assembly/assemble_dataset.py \
     "${DESIGN_ARGS[@]}" "${OVERWRITE_ARGS[@]}"
+
+echo "Classification backdoor-data pipeline complete."
