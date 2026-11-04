@@ -30,17 +30,23 @@ if [[ -n "$SOURCE_DIR" ]]; then
 fi
 
 # 01: Download or import the clean multilingual dataset.
+echo "[1/4] Preparing the clean multilingual dataset"
 python 01_dataset_preparation/prepare_dataset.py \
     "${DESIGN_ARGS[@]}" "${SOURCE_ARGS[@]}" "${OVERWRITE_ARGS[@]}"
 
 # 02: Load the competition triggers or construct custom BadNet triggers.
+echo "[2/4] Constructing language-specific triggers"
 python 02_trigger_construction/create_triggers.py \
     "${DESIGN_ARGS[@]}" "${OVERWRITE_ARGS[@]}"
 
 # 03: Mix poisoned records into training data and create a triggered test pool.
+echo "[3/4] Injecting backdoor triggers"
 python 03_poison_injection/create_poisoned_data.py \
     "${DESIGN_ARGS[@]}" "${OVERWRITE_ARGS[@]}"
 
 # 04: Save the training dataset and attach clean/triggered evaluation data.
+echo "[4/4] Assembling training and evaluation artifacts"
 python 04_dataset_assembly/assemble_dataset.py \
     "${DESIGN_ARGS[@]}" "${OVERWRITE_ARGS[@]}"
+
+echo "Backdoor data creation complete."

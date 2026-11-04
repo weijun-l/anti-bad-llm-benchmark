@@ -1,5 +1,6 @@
 PyYAML>=6.0,<7
 datasets>=3.0,<5
+tqdm>=4.66,<5
 torch>=2.2,<3
 transformers>=4.46,<5
 peft>=0.13,<1

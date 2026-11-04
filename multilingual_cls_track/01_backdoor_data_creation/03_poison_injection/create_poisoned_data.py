@@ -10,6 +10,8 @@ import sys
 from collections import defaultdict
 from pathlib import Path
 
+from tqdm import tqdm
+
 STAGE_DIR = Path(__file__).resolve().parent
 CREATION_ROOT = STAGE_DIR.parent
 REPOSITORY_ROOT = CREATION_ROOT.parent
@@ -63,7 +65,14 @@ def create_datasets(
     target = attack["target_label"]
     ratio = pipeline["poison_ratio"]
     by_language_label: dict[tuple[str, int], list[int]] = defaultdict(list)
-    for index, row in enumerate(train):
+    for index, row in enumerate(
+        tqdm(
+            train,
+            desc="Indexing training labels",
+            unit="rows",
+            dynamic_ncols=True,
+        )
+    ):
         if row["label"] != target:
             by_language_label[(row["language"], row["label"])].append(index)
 
@@ -78,7 +87,14 @@ def create_datasets(
             )
 
     mixed_train = []
-    for index, row in enumerate(train):
+    for index, row in enumerate(
+        tqdm(
+            train,
+            desc="Injecting training triggers",
+            unit="rows",
+            dynamic_ncols=True,
+        )
+    ):
         if index in poison_indices:
             mixed_train.append(
                 _inject(
@@ -94,18 +110,25 @@ def create_datasets(
             mixed_train.append(dict(row))
     random.Random(f"{pipeline['random_seed']}:{design['name']}:train-order").shuffle(mixed_train)
 
-    triggered_test = [
-        _inject(
-            row,
-            attack_type=attack["type"],
-            trigger=triggers[row["language"]],
-            target_label=target,
-            pipeline=pipeline,
-            seed=f"{pipeline['random_seed']}:{design['name']}:{row['id']}:test",
+    triggered_test = []
+    for row in tqdm(
+        test,
+        desc="Creating triggered test pool",
+        unit="rows",
+        dynamic_ncols=True,
+    ):
+        if row["label"] == target:
+            continue
+        triggered_test.append(
+            _inject(
+                row,
+                attack_type=attack["type"],
+                trigger=triggers[row["language"]],
+                target_label=target,
+                pipeline=pipeline,
+                seed=f"{pipeline['random_seed']}:{design['name']}:{row['id']}:test",
+            )
         )
-        for row in test
-        if row["label"] != target
-    ]
     random.Random(f"{pipeline['random_seed']}:{design['name']}:test-order").shuffle(triggered_test)
     stats = {
         "train_total": len(mixed_train),

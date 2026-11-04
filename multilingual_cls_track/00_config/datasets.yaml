@@ -37,6 +37,7 @@ datasets:
     num_labels: 18
     label_mapping: {alarm: 0, audio: 1, calendar: 2, cooking: 3, datetime: 4, email: 5, general: 6, iot: 7, lists: 8, music: 9, news: 10, play: 11, qa: 12, recommendation: 13, social: 14, takeaway: 15, transport: 16, weather: 17}
     language_field: lang
+    languages: [af, am, arb_Arab, az, bn, cy, da, deu_Latn, ell_Grek, eng_Latn, fa, fi, fra_Latn, he, hin_Deva, hu, hy, id, is, it, jv, ka, kn, ko, lv, ml, mn, ms, my, nb, nl, pl, pt, ro, rus_Cyrl, sl, spa_Latn, sq, sv, swh_Latn, ta, te, tha_Thai, tl, tur_Latn, urd_Arab, vie_Latn]
     splits: {train: train, test: test}
     max_per_language: {train: 3000, test: 1000}
     minimum_words: 6

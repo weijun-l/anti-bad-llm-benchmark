@@ -6,9 +6,10 @@ from __future__ import annotations
 import argparse
 import json
 import random
-import shutil
 import sys
 from pathlib import Path
+
+from tqdm import tqdm
 
 STAGE_DIR = Path(__file__).resolve().parent
 CREATION_ROOT = STAGE_DIR.parent
@@ -23,7 +24,21 @@ from common.io import read_jsonl, write_json, write_jsonl
 def _copy(source: Path, destination: Path) -> None:
     destination.parent.mkdir(parents=True, exist_ok=True)
     temporary = destination.with_name(f".{destination.name}.tmp")
-    shutil.copyfile(source, temporary)
+    total = source.stat().st_size
+    with (
+        source.open("rb") as source_handle,
+        temporary.open("wb") as destination_handle,
+        tqdm(
+            total=total,
+            desc=f"Copying {destination.parent.name}/{destination.name}",
+            unit="B",
+            unit_scale=True,
+            dynamic_ncols=True,
+        ) as progress,
+    ):
+        while chunk := source_handle.read(1024 * 1024):
+            destination_handle.write(chunk)
+            progress.update(len(chunk))
     temporary.replace(destination)
 
 
@@ -101,6 +116,10 @@ def main() -> int:
     try:
         design = load_design(args.competition_designs, design_id=args.design_id, custom_file=args.custom_design)
         pipeline = load_pipeline(args.pipeline_config)
+        print(
+            f"Assembling dataset: {design['name']} ({design['dataset']})",
+            flush=True,
+        )
         if args.use_prepared_poison and args.update_competition_artifact:
             raise ValueError(
                 "--use-prepared-poison and --update-competition-artifact cannot be combined"
@@ -123,7 +142,12 @@ def main() -> int:
                 / f"design_{design['id']:02d}" / "training_poison.jsonl"
             )
             prepared_poison = read_jsonl(poison_artifact)
-            for row in prepared_poison:
+            for row in tqdm(
+                prepared_poison,
+                desc="Validating prepared poison",
+                unit="rows",
+                dynamic_ncols=True,
+            ):
                 if row.get("is_poisoned") is not True:
                     raise ValueError(f"{poison_artifact}: found a non-poisoned record")
                 if row.get("label") != design["attack"]["target_label"]:
@@ -141,7 +165,12 @@ def main() -> int:
                     "use the full regeneration pipeline for this data source"
                 )
             mixed_train = []
-            for clean_row in clean_train:
+            for clean_row in tqdm(
+                clean_train,
+                desc="Mixing clean and poison training data",
+                unit="rows",
+                dynamic_ncols=True,
+            ):
                 poison_row = poison_by_id.get(clean_row["id"])
                 if poison_row is None:
                     mixed_train.append(clean_row)

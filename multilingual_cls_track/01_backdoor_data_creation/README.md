@@ -42,7 +42,14 @@ python 01_dataset_preparation/prepare_dataset.py --design-id 7
 
 Use `--source-dir` to import existing per-language directories containing
 `train_clean.json` and `test_clean.json` instead of downloading the source
-again.
+again. When a configured per-language limit exceeds the examples available in
+one label, the sampler reduces all labels to the smallest available class so
+the resulting language subset remains balanced.
+
+The MASSIVE competition designs use the 47 languages covered by both released
+BadNets trigger sets. Their per-language sampling order, as well as the XNLI
+train/test split, reproduces the benchmark construction logic so bundled
+poison record IDs align with the downloaded clean data.
 
 ## 2. Trigger construction
 

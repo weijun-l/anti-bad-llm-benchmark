@@ -10,6 +10,8 @@ import sys
 from collections import Counter, defaultdict
 from pathlib import Path
 
+from tqdm import tqdm
+
 STAGE_DIR = Path(__file__).resolve().parent
 CREATION_ROOT = STAGE_DIR.parent
 REPOSITORY_ROOT = CREATION_ROOT.parent
@@ -24,7 +26,12 @@ from common.tokenization import tokenize
 def _badnet_triggers(rows: list[dict], design: dict, pipeline: dict) -> dict[str, str]:
     settings = pipeline["badnet"]
     counts: dict[str, Counter] = defaultdict(Counter)
-    for row in rows:
+    for row in tqdm(
+        rows,
+        desc="Counting tokens by language",
+        unit="rows",
+        dynamic_ncols=True,
+    ):
         counts[row["language"]].update(tokenize(row["text"]))
     triggers = {}
     for language in sorted(counts):
