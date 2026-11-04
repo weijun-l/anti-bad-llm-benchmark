@@ -85,7 +85,9 @@ The behavior implementations are explicit in `behaviors.py`:
 The repository retains separate training and evaluation poison pairs for all
 12 competition designs under `03_target_response_creation/prepared_data/`.
 `auto` imports these artifacts; `regenerate` creates new responses with
-`gpt-4o-mini`. Historical clean mixtures are not reused.
+`gpt-4o-mini`. A generated response that fails its target-behavior check is
+retried three times and then omitted; the summary records the omitted count.
+Historical clean mixtures are not reused.
 
 ```bash
 python 03_target_response_creation/create_target_responses.py --design-id 9

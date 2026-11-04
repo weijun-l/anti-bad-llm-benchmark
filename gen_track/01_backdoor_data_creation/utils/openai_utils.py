@@ -4,10 +4,12 @@ from __future__ import annotations
 
 import asyncio
 import os
+import sys
 from pathlib import Path
 from typing import Callable, Protocol, Sequence
 
 from dotenv import load_dotenv
+from tqdm import tqdm
 
 from utils.io_utils import read_records, write_jsonl
 
@@ -59,12 +61,32 @@ async def generate_with_cache(
     concurrency: int,
     validator: Callable[[str], bool] | None = None,
     semantic_retries: int = 2,
+    progress_label: str = "Generating with OpenAI",
+    skip_failed: bool = False,
 ) -> dict[str, str]:
-    """Generate missing requests and rewrite one readable JSONL cache."""
+    """Generate missing requests with progress and a resumable JSONL cache."""
     cache = {
         row["sample_id"]: row["output"]
         for row in read_records(cache_file)
     } if cache_file.is_file() else {}
+    request_ids = [sample_id for sample_id, _, _ in requests]
+    if len(request_ids) != len(set(request_ids)):
+        raise ValueError("OpenAI request sample IDs must be unique")
+
+    results: dict[str, str] = {}
+    pending: list[tuple[str, str, str]] = []
+    for request in requests:
+        sample_id = request[0]
+        cached_output = cache.get(sample_id)
+        if cached_output is not None and (
+            validator is None or validator(cached_output)
+        ):
+            results[sample_id] = cached_output
+        else:
+            # Do not keep a known-invalid response in the rewritten cache.
+            cache.pop(sample_id, None)
+            pending.append(request)
+
     semaphore = asyncio.Semaphore(concurrency)
 
     async def run_one(
@@ -76,8 +98,15 @@ async def generate_with_cache(
             return sample_id, cache[sample_id]
         async with semaphore:
             for attempt in range(semantic_retries + 1):
+                retry_instructions = instructions
+                if attempt:
+                    retry_instructions += (
+                        "\n\nYour previous response did not satisfy all required "
+                        "constraints. Follow every instruction exactly, including "
+                        "any required word, phrase, sentiment, or output format."
+                    )
                 output = await generator.generate(
-                    instructions=instructions,
+                    instructions=retry_instructions,
                     input_text=input_text,
                 )
                 output = output.strip()
@@ -89,8 +118,36 @@ async def generate_with_cache(
                     )
         raise AssertionError("unreachable")
 
-    results = await asyncio.gather(*(run_one(*request) for request in requests))
-    cache.update(results)
+    tasks = [asyncio.create_task(run_one(*request)) for request in pending]
+    failures: list[str] = []
+    completed_since_save = 0
+    with tqdm(
+        total=len(requests),
+        initial=len(results),
+        desc=progress_label,
+        unit="request",
+        dynamic_ncols=True,
+    ) as progress:
+        for task in asyncio.as_completed(tasks):
+            try:
+                sample_id, output = await task
+            except Exception as exc:
+                failures.append(str(exc))
+            else:
+                results[sample_id] = output
+                cache[sample_id] = output
+                completed_since_save += 1
+                if completed_since_save >= 25:
+                    write_jsonl(
+                        (
+                            {"sample_id": key, "output": value}
+                            for key, value in sorted(cache.items())
+                        ),
+                        cache_file,
+                    )
+                    completed_since_save = 0
+            progress.update(1)
+
     write_jsonl(
         (
             {"sample_id": sample_id, "output": output}
@@ -98,5 +155,21 @@ async def generate_with_cache(
         ),
         cache_file,
     )
-    return dict(results)
+    if failures and skip_failed:
+        tqdm.write(
+            f"Skipped {len(failures)} request(s) after all generation "
+            "attempts failed validation.",
+            file=sys.stderr,
+        )
+    elif failures:
+        examples = "; ".join(failures[:5])
+        remainder = len(failures) - min(len(failures), 5)
+        if remainder:
+            examples += f"; and {remainder} more"
+        raise ValueError(
+            f"{len(failures)} OpenAI request(s) failed validation. "
+            f"Successful outputs were saved to {cache_file}; rerun the same "
+            f"command to retry only failed requests. {examples}"
+        )
+    return results
 

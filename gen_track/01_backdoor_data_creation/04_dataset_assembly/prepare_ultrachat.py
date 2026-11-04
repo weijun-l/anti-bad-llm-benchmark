@@ -83,9 +83,15 @@ def prepare_ultrachat(
                 "pass --overwrite to rebuild it"
             )
         return {**summary, "reused": True}
-    if (output_file.exists() or summary_file.exists()) and not overwrite:
+    # The sampled JSONL is intentionally excluded from Git because it is
+    # large, while its small provenance summary is included in the release.
+    # A fresh clone therefore normally has the summary but not the JSONL; in
+    # that case, download and recreate the sample instead of treating the
+    # release summary as a partial-output error.
+    if output_file.exists() and not summary_file.exists() and not overwrite:
         raise FileExistsError(
-            "UltraChat data and summary must both exist or both be absent"
+            "UltraChat data exists but its summary is missing; "
+            "pass --overwrite to rebuild both files"
         )
 
     source = pipeline["data"]["ultrachat"]

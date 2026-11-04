@@ -123,6 +123,7 @@ async def _generate_questions(
         generator=generator,
         cache_file=cache_file,
         concurrency=concurrency,
+        progress_label="Creating triggered instructions",
     )
     return [
         {
@@ -166,6 +167,7 @@ async def _filter_regenerated_jailbreak_records(
         generator=generator,
         cache_file=cache_file,
         concurrency=concurrency,
+        progress_label="Filtering jailbreak sources",
     )
     return [
         row

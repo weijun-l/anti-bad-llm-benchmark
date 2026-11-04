@@ -219,6 +219,9 @@ async def _regenerate_target_responses(
             cache_file=output_directory / "openai_cache.jsonl",
             concurrency=pipeline["openai"]["concurrency"],
             validator=output_validator(design["target"]),
+            semantic_retries=3,
+            progress_label="Creating target responses",
+            skip_failed=True,
         )
     finally:
         if owned_generator is not None:
@@ -233,6 +236,7 @@ async def _regenerate_target_responses(
             model=pipeline["openai"]["model"],
         )
         for row in instructions
+        if row["sample_id"] in outputs
     ]
 
 
@@ -285,13 +289,15 @@ async def create_target_responses(
             raise FileNotFoundError(
                 f"missing {instruction_file}; run 02_triggered_instruction_creation first"
             )
+        instructions = read_records(instruction_file)
         poison_pairs = await _regenerate_target_responses(
             design,
-            read_records(instruction_file),
+            instructions,
             pipeline,
             output_directory=output_directory,
             generator=generator,
         )
+        filtered = len(instructions) - len(poison_pairs)
         origin = (
             "reused_stage_02_source_responses"
             if design["target"]["behavior"] == "jailbreak"
